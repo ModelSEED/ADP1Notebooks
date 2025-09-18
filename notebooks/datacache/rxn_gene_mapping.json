@@ -1,0 +1,621 @@
+{
+    "CARBOXYLESTERASE_DASH_RXN": {},
+    "C16_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
+        "ACIAD_RS09665": {
+            "association": "exact",
+            "explanation": "The reaction represents the activation of a long-chain fatty acid (hexadecanoate) by CoA in an ATP-dependent manner, which is consistent with the function of long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) as annotated in the RAST data. Therefore, the reaction exactly matches the gene's known function."
+        },
+        "ACIAD_RS01110": {
+            "association": "exact",
+            "explanation": "The reaction activates hexadecanoate (C16:0) to form hexadecanoyl-CoA using ATP, which is identical to the function of a long-chain fatty acid CoA ligase (EC 6.2.1.3) as annotated for the gene."
+        },
+        "ACIAD_RS08385": {
+            "association": "exact",
+            "explanation": "The reaction activates hexadecanoate to hexadecanoyl-CoA via ATP, which exactly matches the function of a long-chain-fatty-acid--CoA ligase (EC 6.2.1.3) as annotated in the gene."
+        },
+        "ACIAD_RS07210": {
+            "association": "exact",
+            "explanation": "The reaction is a fatty acid activation converting hexadecanoate to hexadecanoyl-CoA. The gene is annotated as a long-chain fatty acid--CoA ligase (EC 6.2.1.3), which matches the reaction exactly."
+        },
+        "ACIAD_RS08940": {
+            "association": "exact",
+            "explanation": "The reaction converts hexadecanoate (a long-chain fatty acid) into its CoA derivative via ATP consumption, which matches the gene's annotation as a long-chain-fatty-acid--CoA ligase (EC 6.2.1.3)."
+        },
+        "ACIAD_RS09660": {
+            "association": "different",
+            "explanation": "The reaction involves acyl coa transferase activity, while the gene is annotated with a transcriptional regulator domain. The functions do not match."
+        },
+        "ACIAD_RS07950": {
+            "association": "different",
+            "explanation": "The reaction involves activation of hexadecanoate (a saturated fatty acid) to hexadecanoyl-CoA, whereas the gene annotations indicate functions such as feruloyl-CoA synthase or o-succinylbenzoate--CoA ligase. These substrates and enzyme activities do not match."
+        }
+    },
+    "DEPHOSPHOCOAKIN_DASH_RXN": {
+        "ACIAD_RS01670": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the conversion of dephospho-CoA to coenzyme A, which exactly matches the gene annotations (EC 2.7.1.24) provided by RAST, Prokka, DRAM, and Snekmer."
+        }
+    },
+    "4_PERIOD_1_PERIOD_1_PERIOD_32_DASH_RXN": {
+        "ACIAD_RS12815": {
+            "association": "exact",
+            "explanation": "The gene annotations (RAST, Prokka, DRAM) directly indicate phosphoenolpyruvate carboxykinase (GTP) with the same EC number as the reaction, making it an exact match."
+        }
+    },
+    "GARTRANSFORMYL2_DASH_RXN": {
+        "ACIAD_RS09530": {
+            "association": "exact",
+            "explanation": "The reaction enzyme is phosphoribosylglycinamide formyltransferase 2, which exactly matches the gene annotations from DRAM and RAST. The reaction and gene are aligned in substrate, product, and EC number, supporting an exact association."
+        }
+    },
+    "DIHYDROXYISOVALDEHYDRAT_DASH_RXN": {
+        "ACIAD_RS05825": {
+            "association": "exact",
+            "explanation": "The gene annotations indicate that it encodes dihydroxy-acid dehydratase (EC 4.2.1.9), which catalyzes the conversion of 2,3-dihydroxy-isovalerate to 2-keto-isovalerate as described in the reaction."
+        },
+        "ACIAD_RS16430": {
+            "association": "exact",
+            "explanation": "The gene is annotated as dihydroxy-acid dehydratase with matching EC numbers and domain, which exactly corresponds to the reaction catalyzed by dihydroxy-acid dehydratase."
+        }
+    },
+    "ISOCITDEH_DASH_RXN": {
+        "ACIAD_RS05470": {
+            "association": "exact",
+            "explanation": "The reaction is isocitrate dehydrogenase (NADP+) with the expected substrates and products, and the gene annotations (EC 1.1.1.42) match this function exactly."
+        },
+        "ACIAD_RS05455": {
+            "association": "exact",
+            "explanation": "The gene is annotated as isocitrate dehydrogenase (NADP(+)) and matches the reaction catalyzed by this enzyme, making it an exact association."
+        }
+    },
+    "DGDPKIN_DASH_RXN": {
+        "ACIAD_RS02530": {
+            "association": "exact",
+            "explanation": "The gene is annotated as a nucleoside diphosphate kinase, which catalyzes the transfer of a phosphate from ATP to a nucleoside diphosphate. The reaction dgdp to dgtp fits this activity, making the association an exact match."
+        }
+    },
+    "GALACTARDEHYDRA_DASH_RXN": {
+        "ACIAD_RS00590": {
+            "association": "exact",
+            "explanation": "Both the reaction and the gene annotations indicate D-galactarate dehydratase activity with EC number 4.2.1.42, showing an exact match in function."
+        }
+    },
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": {},
+    "C12_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": {},
+    "L_DASH_ASPARTATE_DASH_OXID_DASH_RXN": {
+        "ACIAD_RS11765": {
+            "association": "exact",
+            "explanation": "The gene is annotated as L-aspartate oxidase with EC 1.4.3.16, which matches the reaction's function and equation exactly."
+        }
+    },
+    "C18_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {},
+    "DIAMINOPIMEPIM_DASH_RXN": {
+        "ACIAD_RS12090": {
+            "association": "exact",
+            "explanation": "The gene is annotated as encoding diaminopimelate epimerase (EC 5.1.1.7) which is responsible for catalyzing the conversion of ll-diaminopimelate to meso-diaminopimelate, directly matching the reaction."
+        }
+    },
+    "ACETOACETYL_DASH_COA_DASH_TRANSFER_DASH_RXN": {
+        "ACIAD_RS11415": {
+            "association": "exact",
+            "explanation": "The gene annotations from RAST, Prokka, and DRAM all indicate CoA-transferase activity that directly corresponds to the acetoacetyl-coa transferase reaction. The reaction's substrates and products match the enzyme function reported, suggesting an exact association."
+        },
+        "ACIAD_RS11410": {
+            "association": "similar",
+            "explanation": "The gene is annotated as a 3-oxoacid CoA-transferase (EC 2.8.3.5) which typically transfers a CoA molecule from succinyl-CoA to a 3-oxoacid. The reaction provided involves acetoacetate and acetyl-CoA rather than succinyl-CoA, indicating a similar reaction mechanism but with a different substrate specificity."
+        }
+    },
+    "ATP_DASH_DRAIN_DASH_RXN": {},
+    "DHHB_DASH_METHYLTRANSFER_DASH_RXN": {
+        "ACIAD_RS00225": {
+            "association": "exact",
+            "explanation": "The gene annotation matches the reaction function exactly. Both indicate a 3-demethylubiquinone-9 3-methyltransferase activity as evidenced by the common EC number 2.1.1.222."
+        }
+    },
+    "HISTIDINE_DASH_AMMONIA_DASH_LYASE_DASH_RXN": {
+        "ACIAD_RS02615": {
+            "association": "exact",
+            "explanation": "Both Prokka and DRAM annotations confirm the EC number 4.3.1.3 and identify the gene as a histidine ammonia-lyase, which exactly catalyzes the reaction converting L-histidine to NH4+ and urocanate."
+        }
+    },
+    "ALKANAL_DASH_MONOOXYGENASE_DASH__LPAREN_FMN_DASH_LINKED_RPAREN__DASH_RXN": {},
+    "INOSINE_DASH_NUCLEOSIDASE_DASH_RXN": {
+        "ACIAD_RS10910": {
+            "association": "exact",
+            "explanation": "The reaction involves the hydrolysis of inosine to hypoxanthine and ribose, which matches the gene's annotation as an inosine-uridine preferring nucleoside hydrolase (EC 3.2.2.1)."
+        }
+    },
+    "CYT_DASH_UBIQUINOL_DASH_OXID_DASH_O_DASH_RXN": {},
+    "UDP_DASH_NACMURALGLDAPLIG_DASH_RXN": {
+        "ACIAD_RS15220": {
+            "association": "exact",
+            "explanation": "The reaction and gene annotations both correspond to UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--2,6-diaminopimelate ligase (EC 6.3.2.13). The substrates and products in the reaction match the enzyme function, indicating an exact match."
+        }
+    },
+    "PYRROLINECARBREDUCT_DASH_RXN": {
+        "ACIAD_RS13705": {
+            "association": "exact",
+            "explanation": "The gene annotations match the EC number and enzymatic function described in the reaction. Both indicate pyrroline-5-carboxylate reductase activity, making this an exact match."
+        }
+    },
+    "UREIDOGLYCOLATE_DASH_HYDROLASE_DASH_RXN": {
+        "ACIAD_RS16020": {
+            "association": "exact",
+            "explanation": "The gene is annotated as ureidoglycolate lyase with EC 4.3.2.3, which exactly matches the reaction catalyzing the conversion of (s)-ureidoglycolate to NH4, CO2, and glyoxylate."
+        }
+    },
+    "HISTPRATPHYD_DASH_RXN": {
+        "ACIAD_RS01775": {
+            "association": "exact",
+            "explanation": "The gene is annotated as having phosphoribosyl-ATP pyrophosphohydrolase activity, which directly matches the reaction that converts phosphoribosyl-ATP to phosphoribosyl-AMP and pyrophosphate."
+        }
+    },
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {},
+    "TRANS_DASH_RXN_DASH_C6_COLON_0": {},
+    "C8_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+        "ACIAD_RS09640": {
+            "association": "related",
+            "explanation": "The reaction is a condensation reaction typical of 3-oxoacyl-ACP synthases. The gene is annotated as a KASIII (or beta-ketodecanoyl synthase) which performs similar chemistry, but the reaction's c8 chain specificity is not the canonical substrate for KASIII enzymes. Thus, the reaction is related to the gene's function, though it does not represent an exact match."
+        },
+        "ACIAD_RS02645": {
+            "association": "exact",
+            "explanation": "The reaction involves the condensation of hexanoyl-ACP and malonyl-ACP to form 3-oxooctanoyl-ACP, which is a hallmark reaction performed by beta-ketoacyl-[ACP] synthases. The gene annotations from RAST, Prokka, and DRAM all indicate a beta-ketoacyl synthase function, making the reaction an exact match for the gene's known function."
+        },
+        "ACIAD_RS04060": {
+            "association": "exact",
+            "explanation": "The reaction involves the condensation of hexanoyl-ACP with malonyl-ACP to form 3-oxooctanoyl-ACP, which is the exact function of a 3-oxoacyl-ACP synthase (EC 2.3.1.41) as annotated for the gene."
+        },
+        "ACIAD_RS02660": {
+            "association": "exact",
+            "explanation": "The gene is annotated as beta-ketoacyl synthase II, which is directly responsible for catalyzing the condensation reaction between hexanoyl-ACP and malonyl-ACP, resulting in 3-oxooctanoyl-ACP. This matches the reaction provided."
+        },
+        "ACIAD_RS02575": {
+            "association": "exact",
+            "explanation": "The gene is annotated as a 3-oxoacyl-[ACP] synthase (EC 2.3.1.41). The reaction provided matches this function by catalyzing the condensation of hexanoyl-ACP and malonyl-ACP to form 3-oxooctanoyl-ACP, which is consistent with the known activity."
+        }
+    },
+    "GLUTATHIONE_DASH_PEROXIDASE_DASH_RXN": {
+        "ACIAD_RS00895": {
+            "association": "exact",
+            "explanation": "Most annotations (RAST, DRAM, Snekmer) indicate the gene encodes glutathione peroxidase (EC 1.11.1.9), which exactly matches the reaction. Although Prokka suggests a peroxiredoxin (EC 1.11.1.15), the preponderance of evidence supports an exact association."
+        },
+        "ACIAD_RS09565": {
+            "association": "exact",
+            "explanation": "The gene is annotated by multiple sources as glutathione peroxidase (EC 1.11.1.9), matching the reaction's function of reducing hydrogen peroxide with reduced glutathione. Despite one alternative annotation, the overall evidence points to an exact match."
+        }
+    },
+    "R142_DASH_RXN": {
+        "ACIAD_RS13100": {
+            "association": "exact",
+            "explanation": "Both the reaction and the gene annotate the same enzyme function (EC 2.7.1.148). The gene is clearly annotated as 4-diphosphocytidyl-2-C-methyl-D-erythritol kinase, which directly matches the reaction's description."
+        }
+    },
+    "3PGAREARR_DASH_RXN": {
+        "ACIAD_RS01210": {
+            "association": "exact",
+            "explanation": "The gene encodes a 2,3-bisphosphoglycerate-independent phosphoglycerate mutase, which exactly catalyzes the conversion of 3-phosphoglycerate to 2-phosphoglycerate as described by the reaction."
+        },
+        "ACIAD_RS05020": {
+            "association": "exact",
+            "explanation": "The RAST annotation clearly identifies the gene as a phosphoglycerate mutase with EC 5.4.2.1, which exactly matches the reaction converting 3-phosphoglycerate to 2-phosphoglycerate."
+        }
+    },
+    "MALONYL_DASH_ACPDECARBOX_DASH_RXN": {},
+    "DHSHIKIMATE_DASH_DEHYDRO_DASH_RXN": {
+        "ACIAD_RS07900": {
+            "association": "exact",
+            "explanation": "The reaction corresponds to 3-dehydroshikimate dehydratase activity, which exactly matches the gene annotation from RAST, Prokka, and DRAM indicating EC 4.2.1.118. The enzyme catalyzes the conversion of 3-dehydro-shikimate to protocatechuate and water, confirming an exact association."
+        }
+    },
+    "AICARTRANSFORM_DASH_RXN": {
+        "ACIAD_RS11185": {
+            "association": "exact",
+            "explanation": "The reaction catalyzed is phosphoribosylaminoimidazolecarboxamide formyltransferase activity. The gene is annotated with this function as part of a dual-function enzyme (also including IMP cyclohydrolase), making the transformation exact."
+        }
+    },
+    "2_DASH_OCTAPRENYLPHENOL_DASH_HYDROX_DASH_RXN": {
+        "ACIAD_RS05175": {
+            "association": "exact",
+            "explanation": "The reaction is 2-octaprenylphenol hydroxylase and the gene annotation from RAST indicates 2-polyprenylphenol hydroxylase (EC 1.14.13.240), which are functionally equivalent. The FAD binding domain and monooxygenase activity further support that the gene performs the same reaction."
+        },
+        "ACIAD_RS01785": {
+            "association": "exact",
+            "explanation": "The gene is annotated as 2-octaprenylphenol hydroxylase, which directly matches the reaction converting 2-octaprenylphenol to 2-octaprenyl-6-hydroxyphenol. Additional annotations related to ubiquinone biosynthesis support this exact function."
+        }
+    },
+    "DALADEHYDROG_DASH_RXN": {
+        "ACIAD_RS00535": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the dehydrogenation of D-alanine to pyruvate with ammonia release, which is consistent with the gene annotations labeling it as a D-amino acid dehydrogenase. Although the EC numbers differ slightly between sources, the gene product functionally matches the reaction."
+        },
+        "ACIAD_RS04260": {
+            "association": "different",
+            "explanation": "The gene is annotated as a glycine oxidase (EC 1.4.3.19) while the reaction describes d-alanine dehydrogenase activity. The substrates and overall reaction differ, indicating that the reaction is not associated with the gene."
+        },
+        "ACIAD_RS09195": {
+            "association": "exact",
+            "explanation": "The reaction converts d-alanine to pyruvate with ammonia release using FAD, which matches the gene's annotation as a D-amino acid dehydrogenase. Although the EC numbers differ slightly between annotations, the enzyme function is consistent with the reaction."
+        }
+    },
+    "RXN_DASH_2881": {},
+    "PHOSPHAGLYPSYN_DASH_RXN": {},
+    "THREDEHYD_DASH_RXN": {
+        "ACIAD_RS06255": {
+            "association": "exact",
+            "explanation": "Both the reaction and gene annotations indicate threonine dehydratase activity (EC 4.3.1.19), which matches exactly the reaction's conversion of l-threonine to 2-oxobutanoate and ammonia."
+        }
+    },
+    "OCTAPRENYL_DASH_METHYL_DASH_METHOXY_DASH_BENZOQ_DASH_OH_DASH_RXN": {},
+    "CARDIOLIPSYN_DASH_RXN": {},
+    "RXNIM_DASH_6099": {},
+    "GLUTAMINESYN_DASH_RXN": {
+        "ACIAD_RS11235": {
+            "association": "exact",
+            "explanation": "The reaction represents the glutamine synthetase activity (EC 6.3.1.2), which directly matches the annotations provided by RAST and DRAM for the gene. Despite the conflicting Prokka annotation, the weight of evidence supports an exact association."
+        },
+        "ACIAD_RS11485": {
+            "association": "exact",
+            "explanation": "The reaction is the glutamine synthetase reaction (conversion of glutamate and ammonium to glutamine), which matches the gene annotations (RAST and DRAM) indicating glutamine synthetase (EC 6.3.1.2). Although Prokka has a different annotation, the evidence strongly supports an exact match."
+        }
+    },
+    "ACETYLORNDEACET_DASH_RXN": {
+        "ACIAD_RS15785": {
+            "association": "exact",
+            "explanation": "The gene is consistently annotated as acetylornithine deacetylase (EC 3.5.1.16) by multiple sources, which directly matches the reaction catalyzing the conversion of n-alpha-acetylornithine to l-ornithine and acetate."
+        }
+    },
+    "RXNIM_DASH_6092": {},
+    "RXN0_DASH_277": {
+        "ACIAD_RS09200": {
+            "association": "exact",
+            "explanation": "The reaction describes the enzyme 2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase, and the gene annotations from RAST, Prokka, and DRAM all indicate the same enzyme with EC 2.7.7.60. This is an exact match."
+        }
+    },
+    "RXNIM_DASH_6094": {},
+    "RXNIM_DASH_6095": {},
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_REDUCTASE_DASH_RXN": {},
+    "R221_DASH_RXN": {},
+    "DLACTDEHYDROGFAD_DASH_RXN": {
+        "ACIAD_RS00510": {
+            "association": "exact",
+            "explanation": "The reaction involves d-lactate dehydrogenase activity with FAD as cofactor. Although one annotation (RAST) indicates EC 1.1.1.28, both Prokka and DRAM annotate the gene as a quinone-dependent d-lactate dehydrogenase (EC 1.1.5.12), which uses a flavin cofactor. The reaction equation with FAD matches the gene function, leading to an exact association."
+        }
+    },
+    "C16_COLON_0_DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": {},
+    "TRANS_DASH_RXN_DASH_100": {},
+    "C10_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+        "ACIAD_RS09640": {
+            "association": "exact",
+            "explanation": "The reaction condenses octanoyl-ACP with malonyl-ACP to yield 3-oxodecanoyl-ACP, which is consistent with the activity of a 3-oxoacyl-ACP synthase (KASIII). The gene annotations, including references to beta-ketodecanoyl-ACP synthase and 3-oxoacyl-ACP synthase, directly match the reaction's chemistry."
+        },
+        "ACIAD_RS02645": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the condensation of an acyl-ACP with malonyl-ACP to form a 3-oxoacyl-ACP, a reaction typical of 3-oxoacyl-[acyl-carrier-protein] synthases. The gene annotations (e.g., EC 2.3.1.41) match this reaction, indicating an exact association."
+        },
+        "ACIAD_RS04060": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes a 3-oxoacyl-acp synthase reaction that involves substrates and products typical of beta-ketoacyl synthase I activity, which matches the EC 2.3.1.41 annotation provided for the gene."
+        },
+        "ACIAD_RS02575": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes a 3-oxoacyl-ACP synthesis, which exactly matches the gene annotation of 3-oxoacyl-[ACP] synthase (EC 2.3.1.41) provided in the RAST data. Hence, the reaction and gene are directly correlated."
+        },
+        "ACIAD_RS02660": {
+            "association": "exact",
+            "explanation": "The gene is annotated as Beta-ketoacyl-[acyl-carrier-protein] synthase II, which is consistent with the reaction catalyzing the condensation step in fatty acid elongation. The reaction (3oxoacyl-acp synthase for octanoyl-ACP) matches the enzyme function, resulting in an exact association."
+        }
+    },
+    "4_DASH_COUMARATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {},
+    "NAD_DASH_SYNTH_DASH_GLN_DASH_RXN": {
+        "ACIAD_RS13020": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the conversion of deamido-nad to nad using l-glutamine, which is identical to the NAD+ synthase (glutamine-hydrolysing) function described by the gene annotations from Prokka and DRAM."
+        }
+    },
+    "ORNDECARBOX_DASH_RXN": {
+        "ACIAD_RS12535": {
+            "association": "exact",
+            "explanation": "Both the gene annotations and the reaction specify ornithine decarboxylase activity with EC number 4.1.1.17. The reaction equation and gene description are in exact agreement."
+        },
+        "ACIAD_RS15115": {
+            "association": "exact",
+            "explanation": "The gene is annotated as ornithine decarboxylase from multiple sources and the reaction converts l-ornithine to putrescine, matching the enzyme's function."
+        }
+    },
+    "C18_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+        "ACIAD_RS02645": {
+            "association": "exact",
+            "explanation": "The reaction involves a condensation step between acyl-ACP and malonyl-ACP to form 3-oxoacyl-ACP, which aligns with the functions annotated in the gene (3-oxoacyl-[ACP] synthase/FabV like, beta-ketoacyl synthase). The enzyme activity in fatty acid elongation is directly matched, indicating an exact association."
+        },
+        "ACIAD_RS04060": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the formation of 3-oxooctadecanoyl-ACP from hexadecanoyl-ACP and malonyl-ACP, which directly corresponds to the beta-ketoacyl synthase I activity (EC 2.3.1.41) annotated for the gene. Thus, the reaction is an exact match with the gene's known function."
+        },
+        "ACIAD_RS02575": {
+            "association": "exact",
+            "explanation": "The gene is annotated as 3-oxoacyl-[ACP] synthase (EC 2.3.1.41), which directly matches the reaction's function of catalyzing a 3-oxoacyl-acp synthase reaction."
+        },
+        "ACIAD_RS09640": {
+            "association": "similar",
+            "explanation": "The gene encodes a 3-oxoacyl-acp synthase enzyme that catalyzes a similar condensation reaction; however, the gene annotations indicate beta-ketodecanoyl-ACP synthase activity (favoring C10 substrates), while the reaction involves a C18 (hexadecanoyl) substrate. This suggests the enzyme performs a similar type of reaction but with a different substrate specificity."
+        },
+        "ACIAD_RS02660": {
+            "association": "exact",
+            "explanation": "The reaction involves a 3-oxoacyl-ACP synthase step in fatty acid synthesis, and the gene is annotated as encoding Beta-ketoacyl-[acyl-carrier-protein] synthase II, which catalyzes the same reaction. Hence, the association is exact."
+        }
+    },
+    "SULFATE_DASH_ADENYLYLTRANS_DASH_RXN": {
+        "ACIAD_RS04940": {
+            "association": "exact",
+            "explanation": "The gene is annotated as sulfate adenylyltransferase subunit 2 with EC 2.7.7.4 in multiple databases, which exactly matches the reaction's function of transforming sulfate to APS via adenylylation."
+        },
+        "ACIAD_RS04945": {
+            "association": "exact",
+            "explanation": "The gene is annotated with EC:2.7.7.4 as sulfate adenylyltransferase, which directly corresponds to the reaction's described enzyme activity. Therefore, the gene's function is an exact match for the reaction."
+        }
+    },
+    "FGAMSYN_DASH_RXN": {
+        "ACIAD_RS11875": {
+            "association": "exact",
+            "explanation": "Both the reaction and the gene annotations indicate phosphoribosylformylglycinamidine synthase, with matching EC number 6.3.5.3. Therefore, the reaction matches the gene's known function exactly."
+        }
+    },
+    "TRANS_DASH_RXN_DASH_ADENOSINE": {},
+    "UROGENIIISYN_DASH_RXN": {
+        "ACIAD_RS01345": {
+            "association": "exact",
+            "explanation": "Both the reaction and the gene annotations clearly indicate uroporphyrinogen-III synthase with the same EC number (4.2.1.75), indicating an exact match."
+        }
+    },
+    "TRANS_DASH_RXN_DASH_DEOXYURIDINE": {},
+    "ARGSUCCINSYN_DASH_RXN": {
+        "ACIAD_RS05300": {
+            "association": "exact",
+            "explanation": "The gene is consistently annotated as coding for argininosuccinate synthase (EC 6.3.4.5) and the reaction equation matches the expected catalytic activity, indicating an exact association."
+        }
+    },
+    "C12_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
+        "ACIAD_RS14075": {
+            "association": "exact",
+            "explanation": "The gene annotations indicate enoyl-[acyl-carrier-protein] reductase activity (EC 1.3.1.9), which exactly matches the reaction's function of reducing 2-enoyl-ACP with NADH. Both the enzyme function and substrate are consistent with an exact match."
+        }
+    },
+    "DIHYDRODIPICSYN_DASH_RXN": {
+        "ACIAD_RS16220": {
+            "association": "different",
+            "explanation": "The reaction describes the dihydrodipicolinate synthase reaction (EC 4.2.1.52), but the gene annotations from RAST, Prokka, and DRAM assign an EC number (4.3.3.7) corresponding to 4-hydroxy-tetrahydrodipicolinate synthase, a distinct enzymatic step in lysine biosynthesis. Although the Snekmer output links the gene to the dihydrodipicolinate synthetase family, the majority of evidence points to a function different from the reaction given."
+        }
+    },
+    "DGTPTRIPHYDRO_DASH_RXN": {
+        "ACIAD_RS11880": {
+            "association": "exact",
+            "explanation": "The reaction shows conversion of dGTP to deoxyguanosine and triphosphate, which exactly matches the function of deoxyguanosinetriphosphate triphosphohydrolase annotated for the gene, including the EC number 3.1.5.1."
+        }
+    },
+    "TRIACYLGLYCEROL_DASH_LIPASE_DASH_RXN": {},
+    "TRANS_DASH_RXN_DASH_CAFFEATE_DASH_PERIP": {},
+    "TRANS_DASH_RXN_DASH_GLN": {},
+    "2_PERIOD_8_PERIOD_1_PERIOD_6_DASH_RXN": {
+        "ACIAD_RS09400": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the conversion of dethiobiotin to biotin, and the gene is clearly annotated as biotin synthase (EC 2.8.1.6), matching the reaction exactly."
+        }
+    },
+    "DIOHBUTANONEPSYN_DASH_RXN": {
+        "ACIAD_RS13150": {
+            "association": "exact",
+            "explanation": "The gene is annotated as coding for 3,4-dihydroxy-2-butanone-4-phosphate synthase (EC 4.1.99.12), which is the enzyme catalyzing the given reaction, so the reaction is an exact match for the gene's function."
+        },
+        "ACIAD_RS16150": {
+            "association": "exact",
+            "explanation": "The gene annotation explicitly describes the enzyme as 3,4-dihydroxy 2-butanone 4-phosphate synthase / GTP cyclohydrolase II, which directly matches the reaction catalyzed by 3,4-dihydroxy-2-butanone-4-phosphate synthase. Hence, the reaction is an exact match to the gene's function."
+        }
+    },
+    "METHIONINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {},
+    "C14_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+        "ACIAD_RS09100": {
+            "association": "exact",
+            "explanation": "The gene is annotated as an acetyl-CoA C-acetyltransferase (EC 2.3.1.9), a thiolase that catalyzes the breakdown of a 3-oxoacyl-CoA to acetyl-CoA and a longer acyl-CoA. This matches the reaction described."
+        },
+        "ACIAD_RS01565": {
+            "association": "exact",
+            "explanation": "The reaction description and equation match the annotated function of the gene as a 3-ketoacyl-CoA thiolase (EC 2.3.1.16), which confirms an exact association."
+        },
+        "ACIAD_RS13495": {
+            "association": "exact",
+            "explanation": "The reaction is catalyzed by a 3-oxoacyl-CoA thiolase and the gene is annotated as acetyl-CoA C-acetyltransferase (EC 2.3.1.9) with a thiolase domain. The enzyme activity and substrate specificity match, indicating an exact association."
+        },
+        "ACIAD_RS07195": {
+            "association": "exact",
+            "explanation": "The reaction is a typical thiolase reaction, cleaving 3-oxoacyl-CoA into acetyl-CoA and a longer acyl-CoA. The gene is annotated with a thiolase domain (PF00108) and is labeled as an acetyl-CoA C-acyltransferase. Although there is a slight discrepancy in EC numbers among the sources (with one annotation showing EC 2.3.1.16, which is the expected 3-ketoacyl-CoA thiolase activity, and others showing EC 2.3.1.9), the overall function indicated is consistent with catalyzing the reaction provided. Therefore, the reaction is an exact match for the gene's known function."
+        },
+        "ACIAD_RS03195": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the thiolytic cleavage of a 3-oxoacyl-CoA, a function that matches the gene annotations. RAST assigns EC 2.3.1.16, which corresponds to 3-oxoacyl-CoA thiolase, and the presence of a thiolase domain supports this, making the reaction an exact match for the gene's function."
+        },
+        "ACIAD_RS11425": {
+            "association": "similar",
+            "explanation": "The reaction is a thiolase reaction involving a long-chain 3-oxoacyl-CoA, while the gene is annotated as acetyl-CoA C-acetyltransferase in the thiolase family. Although both enzymes catalyze thiolase reactions, they differ in substrate specificity. Therefore, the functions are similar but not an exact match."
+        },
+        "ACIAD_RS07400": {
+            "association": "exact",
+            "explanation": "The reaction is catalyzed by a 3-oxoacyl-CoA thiolase, and one of the gene annotations (from RAST) explicitly identifies it as a 3-ketoacyl-CoA thiolase (EC 2.3.1.16), which is the same activity. Although Prokka and DRAM cite EC 2.3.1.9, the presence of the thiolase domain (PF00108) and the reversible nature of these reactions support that the enzyme can catalyze the thiolysis of a 3-oxoacyl-CoA. Thus, the reaction and the gene function are an exact match."
+        },
+        "ACIAD_RS07780": {
+            "association": "uncertain",
+            "explanation": "The gene has conflicting annotations. DRAM assigns the enzyme as acetyl-CoA acyltransferase (EC 2.3.1.16), which is consistent with a 3-oxoacyl-CoA thiolase reaction like the one provided. However, both RAST and Prokka annotate the gene as 3-oxoadipyl-CoA thiolase (EC 2.3.1.174), which acts on a different substrate. These inconsistent EC numbers create uncertainty about whether the gene's function exactly matches the reaction."
+        },
+        "ACIAD_RS07860": {
+            "association": "similar",
+            "explanation": "The gene is annotated as a thiolase, which suggests it catalyzes a similar type of reaction. However, the gene annotations from RAST and Prokka indicate 3-oxoadipyl-CoA thiolase (EC 2.3.1.174), while the reaction involves 3-oxoacyl-CoA thiolase activity (with a substrate of 3-oxotetradecanoyl-CoA), and DRAM annotates acetyl-CoA acyltransferase (EC 2.3.1.16). This implies that although the catalytic mechanism is similar (thiolase activity), the substrate specificity is different."
+        },
+        "ACIAD_RS06700": {
+            "association": "similar",
+            "explanation": "The gene is annotated as a thiolase acting on 3-oxoadipyl-CoA (or acetyl-CoA acyltransferase), while the reaction involves a thiolase reaction on a long-chain substrate (3-oxotetradecanoyl-CoA). Although the reaction mechanism is similar, the substrates differ."
+        }
+    },
+    "GSAAMINOTRANS_DASH_RXN": {
+        "ACIAD_RS05525": {
+            "association": "exact",
+            "explanation": "The gene annotations in RAST, Prokka, and DRAM all indicate that it encodes glutamate-1-semialdehyde 2,1-aminomutase (EC 5.4.3.8), which exactly matches the reaction's description and function."
+        }
+    },
+    "PHOSMANMUT_DASH_RXN": {
+        "ACIAD_RS04165": {
+            "association": "exact",
+            "explanation": "The gene is annotated to encode both phosphomannomutase and phosphoglucomutase activities, and the reaction involves the conversion of mannose-1-phosphate to mannose-6-phosphate, which is a phosphomannomutase reaction. This makes the association an exact match."
+        },
+        "ACIAD_RS00485": {
+            "association": "exact",
+            "explanation": "The gene has strong phosphomannomutase annotations from RAST and DRAM that directly match the reaction, which converts mannose-1-phosphate to mannose-6-phosphate."
+        }
+    },
+    "C4_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
+        "ACIAD_RS14075": {
+            "association": "exact",
+            "explanation": "The gene annotations from RAST, Prokka, and DRAM indicate that the gene encodes an enoyl-[acyl-carrier-protein] reductase (NADH) with EC number 1.3.1.9, which directly corresponds to the reaction 2enoyl-acp reductase (c4:0) catalyzing the reduction of trans-but-2-enoyl-acp to butanoyl-acp."
+        }
+    },
+    "RXN0_DASH_302": {
+        "ACIAD_RS09185": {
+            "association": "exact",
+            "explanation": "The gene annotations from RAST, Prokka, and DRAM all precisely match the reaction's enzyme activity, confirming that the reaction is an exact match for the gene's known function."
+        }
+    },
+    "DAMP_DASH_NUCLEOTIDASE_DASH_RXN": {
+        "ACIAD_RS00065": {
+            "association": "exact",
+            "explanation": "The gene is annotated as a 5'-nucleotidase (EC 3.1.3.5), which catalyzes the conversion of a nucleotide monophosphate to a nucleoside and phosphate. The reaction equation provided (damp + h2o <=> deoxyadenosine + phosphate) matches this activity, leading to an exact association."
+        },
+        "ACIAD_RS05650": {
+            "association": "exact",
+            "explanation": "The gene is annotated as a 5'-nucleotidase (EC 3.1.3.5), which directly catalyzes the conversion of damp (deoxyadenosine monophosphate) to deoxyadenosine and phosphate. This matches the provided reaction."
+        },
+        "ACIAD_RS13720": {
+            "association": "different",
+            "explanation": "The gene product is annotated as an exopolyphosphatase, which hydrolyzes polyphosphate chains, while the reaction involves a nucleotidase activity that hydrolyzes a nucleotide (damp) to produce deoxyadenosine and phosphate. These functions are distinct."
+        }
+    },
+    "RXN0_DASH_305": {
+        "ACIAD_RS13905": {
+            "association": "exact",
+            "explanation": "The gene is annotated by several databases as encoding hydroxypyruvate isomerase (EC 5.3.1.22), which exactly matches the reaction transformation of hydroxypyruvate to tartronate semialdehyde."
+        }
+    },
+    "HYDROXYBENZALDEHYDE_DASH_OXIDATION_DASH_NAD_DASH_RXN": {},
+    "6_DASH_CARBOXYHEXANOATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {},
+    "METHYLENETHFDEHYDROG_DASH_NADP_DASH_RXN": {
+        "ACIAD_RS12840": {
+            "association": "exact",
+            "explanation": "The gene is annotated as encoding methylenetetrahydrofolate dehydrogenase (NADP+) activity, which is exactly the function of the given reaction. The enzyme described also includes a cyclohydrolase domain, but the dehydrogenase activity matches the reaction presented."
+        },
+        "ACIAD_RS11600": {
+            "association": "exact",
+            "explanation": "The gene product is annotated as methylenetetrahydrofolate dehydrogenase (NADP+) and also displays a domain matching this function. The provided reaction involves the conversion of 5,10-methylene-THF to 5,10-methenyl-THF using NADP+, which is an exact match to the gene's known function."
+        },
+        "ACIAD_RS08225": {
+            "association": "different",
+            "explanation": "The reaction is a dehydrogenase reaction converting 5,10-methylene-THF to 5,10-methenyl-THF, whereas the gene is annotated as a 5,10-methylenetetrahydrofolate reductase (EC 1.5.1.20), which performs a distinct reduction reaction. Therefore, the reaction is not associated with the gene."
+        }
+    },
+    "SUCCORNTRANSAM_DASH_RXN": {
+        "ACIAD_RS05905": {
+            "association": "exact",
+            "explanation": "The gene annotations explicitly match the reaction function with identical enzyme name and EC number (2.6.1.81), indicating an exact match."
+        }
+    },
+    "NAG1P_DASH_URIDYLTRANS_DASH_RXN": {
+        "ACIAD_RS16175": {
+            "association": "exact",
+            "explanation": "The reaction performed (udp-n-acetylglucosamine pyrophosphorylase activity) exactly matches the gene annotation which includes this activity as one of its bifunctional roles."
+        }
+    },
+    "GLYOXI_DASH_RXN": {
+        "ACIAD_RS10140": {
+            "association": "exact",
+            "explanation": "The reaction is catalyzed by lactoylglutathione lyase (EC 4.4.1.5) as indicated in the gene annotations. The enzyme's known function precisely matches the reaction described."
+        },
+        "ACIAD_RS05630": {
+            "association": "different",
+            "explanation": "The reaction catalyzes the conversion of methylglyoxal and reduced glutathione to s-lactoyl-glutathione, which is performed by lactoylglutathione lyase (glyoxalase I). The gene, however, contains an adenylyl/guanylyl and SMODS C-terminal sensor domain, which is not characteristic of glyoxalase I. Thus, the gene does not match the reaction's function."
+        }
+    },
+    "R9_DASH_RXN": {
+        "ACIAD_RS07840": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the hydration of crotonyl-CoA to 3-hydroxybutyryl-CoA, which corresponds to the function of enoyl-CoA hydratase as annotated for the gene (EC 4.2.1.17)."
+        },
+        "ACIAD_RS01570": {
+            "association": "exact",
+            "explanation": "The gene annotation includes enoyl-CoA hydratase, which is the enzyme activity responsible for catalyzing the hydration of crotonyl-coa to 3-hydroxybutyryl-coa, exactly matching the reaction."
+        },
+        "ACIAD_RS13895": {
+            "association": "exact",
+            "explanation": "Both the RAST and Snekmer annotations indicate enoyl-CoA hydratase activity, which catalyzes the conversion of crotonyl-CoA to 3-hydroxybutyryl-CoA. This matches the reaction exactly."
+        },
+        "ACIAD_RS08435": {
+            "association": "exact",
+            "explanation": "The reaction catalyzes the hydration of crotonyl-CoA to 3-hydroxybutyryl-CoA, which is the known activity of enoyl-CoA hydratase (EC 4.2.1.17) as indicated in the gene annotations. Thus, the reaction exactly matches the gene's function."
+        },
+        "ACIAD_RS08395": {
+            "association": "exact",
+            "explanation": "The reaction is a crotonyl-CoA hydratase reaction, which exactly matches the gene annotations for enoyl-CoA hydratase activity. Multiple sources (Prokka, DRAM, RAST) indicate the gene encodes an enoyl-CoA hydratase, confirming the association."
+        },
+        "ACIAD_RS07380": {
+            "association": "exact",
+            "explanation": "The reaction involves hydration of crotonyl-CoA to form 3-hydroxybutyryl-CoA, which is the expected activity of an enoyl-CoA hydratase (EC 4.2.1.17). The gene is annotated with this function, confirming an exact match."
+        },
+        "ACIAD_RS07795": {
+            "association": "exact",
+            "explanation": "The reaction catalyzed converts crotonyl-CoA to 3-hydroxybutyryl-CoA, which matches the function of an enoyl-CoA hydratase as annotated in the gene."
+        },
+        "ACIAD_RS07205": {
+            "association": "exact",
+            "explanation": "The gene is annotated as enoyl-CoA hydratase (EC 4.2.1.17), which catalyzes the hydration of crotonyl-CoA to 3-hydroxybutyryl-CoA, exactly matching the reaction."
+        },
+        "ACIAD_RS07190": {
+            "association": "uncertain",
+            "explanation": "Although the reaction corresponds to crotonyl-CoA hydratase (EC 4.2.1.17) and the RAST and PFAM annotations support enoyl-CoA hydratase activity, the Prokka and DRAM annotations indicate a different isomerase activity (EC 5.3.3.18). The conflicting annotations make it uncertain whether the gene catalyzes the crotonyl-CoA hydratase reaction."
+        },
+        "ACIAD_RS11855": {
+            "association": "exact",
+            "explanation": "The gene is annotated as enoyl-CoA hydratase (EC 4.2.1.17), which directly catalyzes the hydration of crotonyl-CoA to 3-hydroxybutyryl-CoA, matching the reaction."
+        },
+        "ACIAD_RS13500": {
+            "association": "exact",
+            "explanation": "The gene annotations indicate enoyl-CoA hydratase activity, and the reaction involves hydration of crotonyl-CoA to form 3-hydroxybutyryl-CoA, which aligns with the gene's known function."
+        },
+        "ACIAD_RS10750": {
+            "association": "exact",
+            "explanation": "The gene annotations from RAST and PFAM indicate enoyl-CoA hydratase/isomerase activity, which corresponds to the crotonyl-coa hydratase reaction (conversion of crotonyl-coa to 3-hydroxybutyryl-coa). Although Prokka indicates an epimerase, the predominant hydratase/isomerase annotations support an exact association."
+        },
+        "ACIAD_RS07960": {
+            "association": "similar",
+            "explanation": "The gene is annotated as a trans-feruloyl-CoA hydratase which catalyzes hydration reactions similar to crotonyl-CoA hydratase, but the substrates differ. Thus, the functions are similar in mechanism but involve different substrates."
+        },
+        "ACIAD_RS07385": {
+            "association": "exact",
+            "explanation": "The gene has annotations indicating an enoyl-CoA hydratase/isomerase family protein. This activity is consistent with the reaction catalyzed by crotonyl-CoA hydratase, which converts crotonyl-CoA and water to 3-hydroxybutyryl-CoA."
+        }
+    },
+    "GLUCONOKIN_DASH_RXN": {
+        "ACIAD_RS02480": {
+            "association": "exact",
+            "explanation": "The gene annotations from RAST, Prokka, and DRAM indicate it encodes gluconokinase (EC 2.7.1.12), which exactly matches the reaction."
+        }
+    },
+    "TRANS_DASH_RXN_DASH_CPD_DASH_6501": {},
+    "TRANS_DASH_RXN_DASH_CPD_DASH_302": {},
+    "PSERTRANSAM_DASH_RXN": {
+        "ACIAD_RS12035": {
+            "association": "exact",
+            "explanation": "The reaction catalyzed by phosphoserine aminotransferase is exactly the function annotated for the gene, with matching enzyme commission numbers and consistent descriptions."
+        }
+    },
+    "RXN0_DASH_5107": {
+        "ACIAD_RS13860": {
+            "association": "exact",
+            "explanation": "The gene is annotated as a nucleoside triphosphate pyrophosphohydrolase (MazG), which catalyzes the hydrolysis of nucleotide triphosphates into nucleotide monophosphates and pyrophosphate. The reaction converting TTP to dTMP and pyrophosphate is consistent with this function."
+        }
+    }
+}
