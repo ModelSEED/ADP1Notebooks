@@ -15,7 +15,7 @@ print(base_dir+"/KBUtilLib/src")
 sys.path = [base_dir+"/KBUtilLib/src",base_dir+"/KBUtilLib/src",base_dir+"/KBUtilLib/src/kbutillib/dependencies/cobrakbase",base_dir+"/KBUtilLib/src/kbutillib/dependencies/ModelSEEDpy"] + sys.path
 
 # Import utilities with error handling
-from kbutillib import MSFBAUtils, AICurationUtils, NotebookUtils, KBGenomeUtils
+from kbutillib import MSFBAUtils, AICurationUtils, NotebookUtils, KBGenomeUtils, EscherUtils
 
 import hashlib
 import pandas as pd
@@ -34,7 +34,7 @@ from modelseedpy.community.mscommunity import MSCommunity
 from modelseedpy.helpers import get_template
 
 # Define the base classes based on what's available
-class NotebookUtil(MSFBAUtils, AICurationUtils, NotebookUtils, KBGenomeUtils):
+class NotebookUtil(MSFBAUtils, AICurationUtils, NotebookUtils, KBGenomeUtils, EscherUtils):
     def __init__(self,**kwargs):
         super().__init__(
             notebook_folder=script_dir,
@@ -108,9 +108,9 @@ class NotebookUtil(MSFBAUtils, AICurationUtils, NotebookUtils, KBGenomeUtils):
         rxn.upper_bound = 1000
         rxn.gene_reaction_rule = 'DgoA'
         # Get metabolites from the model by their IDs
-        cpd00236 = model.model.metabolites.get_by_id('cpd00236_c0')
-        cpd00020 = model.model.metabolites.get_by_id('cpd00020_c0')
-        cpd02857 = model.model.metabolites.get_by_id('cpd02857_c0')
+        cpd00236 = model.find_met('cpd00236')[0]
+        cpd00020 = model.find_met('cpd00020')[0]
+        cpd02857 = model.find_met('cpd02857')[0]
 
         # Add metabolites to the reaction (negative for reactants, positive for products)
         rxn.add_metabolites({
