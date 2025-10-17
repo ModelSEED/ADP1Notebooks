@@ -1,0 +1,8472 @@
+{
+    "CARBOXYLESTERASE_DASH_RXN": [
+        "rxn12357",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn00947",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DEPHOSPHOCOAKIN_DASH_RXN": [
+        "rxn00100",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_PERIOD_1_PERIOD_1_PERIOD_32_DASH_RXN": [
+        "rxn00305",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GARTRANSFORMYL2_DASH_RXN": [
+        "rxn04783",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROXYISOVALDEHYDRAT_DASH_RXN": [
+        "rxn15467",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {},
+            {
+                "cpd19030": -1
+            }
+        ]
+    ],
+    "ISOCITDEH_DASH_RXN": [
+        "rxn00199",
+        [
+            0.4,
+            2,
+            1,
+            {
+                "NADPH": 1.0
+            },
+            {
+                "cpd03187": -1
+            }
+        ]
+    ],
+    "DGDPKIN_DASH_RXN": [
+        "rxn01353",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GALACTARDEHYDRA_DASH_RXN": [
+        "rxn03887",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12353",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_OH": 1.0
+            },
+            {
+                "cpd16626": -1,
+                "cpd16628": 1
+            }
+        ]
+    ],
+    "C12_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn06556",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "L_DASH_ASPARTATE_DASH_OXID_DASH_RXN": [
+        "rxn00338",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn07577",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIAMINOPIMEPIM_DASH_RXN": [
+        "rxn01974",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETOACETYL_DASH_COA_DASH_TRANSFER_DASH_RXN": [
+        "rxn00990",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ATP_DASH_DRAIN_DASH_RXN": [
+        "rxn00062",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "PROTON": 1.0
+            },
+            {}
+        ]
+    ],
+    "DHHB_DASH_METHYLTRANSFER_DASH_RXN": [
+        "rxn08353",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "OCTAPRENYL_DASH_METHYL_DASH_OH_DASH_METHOXY_DASH_BENZQ": -1.0,
+                "UBIQUINONE_DASH_8": 1.0
+            },
+            {
+                "cpd15360": -1,
+                "cpd15561": 1
+            }
+        ]
+    ],
+    "HISTIDINE_DASH_AMMONIA_DASH_LYASE_DASH_RXN": [
+        "rxn00867",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ALKANAL_DASH_MONOOXYGENASE_DASH__LPAREN_FMN_DASH_LINKED_RPAREN__DASH_RXN": [
+        "rxn12232",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "INOSINE_DASH_NUCLEOSIDASE_DASH_RXN": [
+        "rxn01299",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CYT_DASH_UBIQUINOL_DASH_OXID_DASH_O_DASH_RXN": [
+        "rxn12494",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "PROTON": 0.0
+            },
+            {}
+        ]
+    ],
+    "UDP_DASH_NACMURALGLDAPLIG_DASH_RXN": [
+        "rxn02011",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRROLINECARBREDUCT_DASH_RXN": [
+        "rxn00929",
+        [
+            0.25,
+            1,
+            -1,
+            {
+                "NADP": -1.0
+            },
+            {
+                "cpd00003": -1,
+                "cpd00004": 1,
+                "cpd02431": 1
+            }
+        ]
+    ],
+    "UREIDOGLYCOLATE_DASH_HYDROLASE_DASH_RXN": [
+        "rxn00327",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HISTPRATPHYD_DASH_RXN": [
+        "rxn02834",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12280",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd16635": -1,
+                "cpd16627": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C6_COLON_0": [
+        "rxn12393",
+        {}
+    ],
+    "C8_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05350",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTATHIONE_DASH_PEROXIDASE_DASH_RXN": [
+        "rxn00205",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "R142_DASH_RXN": [
+        "rxn03908",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3PGAREARR_DASH_RXN": [
+        "rxn01106",
+        [
+            1.0,
+            2,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "MALONYL_DASH_ACPDECARBOX_DASH_RXN": [
+        "rxn08861",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DHSHIKIMATE_DASH_DEHYDRO_DASH_RXN": [
+        "rxn01188",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "3_COMMA_4_DASH_DIHYDROXYBENZOATE": 1.0
+            },
+            {
+                "cpd00197": 1
+            }
+        ]
+    ],
+    "AICARTRANSFORM_DASH_RXN": [
+        "rxn03137",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_OCTAPRENYLPHENOL_DASH_HYDROX_DASH_RXN": [
+        "rxn03394",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {
+                "2_DASH_OCTAPRENYLPHENOL": -2.0,
+                "2_DASH_OCTAPRENYL_DASH_6_DASH_HYDROXYPHENOL": 2.0
+            },
+            {
+                "cpd00005": -1,
+                "cpd03444": -1,
+                "cpd00001": 1,
+                "cpd00006": 1,
+                "cpd03445": 1
+            }
+        ]
+    ],
+    "DALADEHYDROG_DASH_RXN": [
+        "rxn08291",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_2881": [
+        "rxn12217",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSPHAGLYPSYN_DASH_RXN": [
+        "rxn20547",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THREDEHYD_DASH_RXN": [
+        "rxn00737",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "OCTAPRENYL_DASH_METHYL_DASH_METHOXY_DASH_BENZOQ_DASH_OH_DASH_RXN": [
+        "rxn20472",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {
+                "cpd26978": -1,
+                "cpd00001": 1,
+                "cpd22290": 1
+            }
+        ]
+    ],
+    "CARDIOLIPSYN_DASH_RXN": [
+        "rxn19256",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6099": [
+        "rxn12241",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTAMINESYN_DASH_RXN": [
+        "rxn00187",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETYLORNDEACET_DASH_RXN": [
+        "rxn00469",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6092": [
+        "rxn02302",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "L_DASH_CYSTATHIONINE": 1.0
+            },
+            {
+                "cpd00424": 1
+            }
+        ]
+    ],
+    "RXN0_DASH_277": [
+        "rxn03907",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6094": [
+        "rxn12240",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6095": [
+        "rxn12247",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12356",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ALDEHYDE": 1.0
+            },
+            {
+                "cpd16638": -1,
+                "cpd16637": 1
+            }
+        ]
+    ],
+    "R221_DASH_RXN": [
+        "rxn02066",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DLACTDEHYDROGFAD_DASH_RXN": [
+        "rxn08783",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "FAD": -1.0,
+                "FADH2": 1.0
+            },
+            {
+                "cpd15560": -1,
+                "cpd15561": 1
+            }
+        ]
+    ],
+    "C16_COLON_0_DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": [
+        "rxn01781",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_100": [
+        "rxn12364",
+        {}
+    ],
+    "C10_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05343",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_DASH_COUMARATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": [
+        "rxn01182",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "NAD_DASH_SYNTH_DASH_GLN_DASH_RXN": [
+        "rxn00190",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ORNDECARBOX_DASH_RXN": [
+        "rxn00470",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05460",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "C18_COLON_0_DASH_3OXOACP": 1.0
+            },
+            {
+                "cpd11570": 1
+            }
+        ]
+    ],
+    "SULFATE_DASH_ADENYLYLTRANS_DASH_RXN": [
+        "rxn00379",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "FGAMSYN_DASH_RXN": [
+        "rxn03084",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_ADENOSINE": [
+        "rxn12381",
+        {}
+    ],
+    "UROGENIIISYN_DASH_RXN": [
+        "rxn02264",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_DEOXYURIDINE": [
+        "rxn12418",
+        {}
+    ],
+    "ARGSUCCINSYN_DASH_RXN": [
+        "rxn01434",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05324",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDRODIPICSYN_DASH_RXN": [
+        "rxn01644",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "2_COMMA_3_DASH_DIHYDRODIPICOLINATE": 1.0
+            },
+            {
+                "cpd02120": 1
+            }
+        ]
+    ],
+    "DGTPTRIPHYDRO_DASH_RXN": [
+        "rxn01352",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRIACYLGLYCEROL_DASH_LIPASE_DASH_RXN": [
+        "rxn12348",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CAFFEATE_DASH_PERIP": [
+        "rxn12397",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_GLN": [
+        "rxn08625",
+        {}
+    ],
+    "2_PERIOD_8_PERIOD_1_PERIOD_6_DASH_RXN": [
+        "rxn17731",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {
+                "cpd00017": -2,
+                "cpd00060": 2,
+                "cpd03091": 2
+            }
+        ]
+    ],
+    "DIOHBUTANONEPSYN_DASH_RXN": [
+        "rxn05040",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "METHIONINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn06443",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn06510",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GSAAMINOTRANS_DASH_RXN": [
+        "rxn01629",
+        [
+            1.0,
+            2,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSMANMUT_DASH_RXN": [
+        "rxn01329",
+        [
+            1.0,
+            2,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C4_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05322",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_302": [
+        "rxn03910",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DAMP_DASH_NUCLEOTIDASE_DASH_RXN": [
+        "rxn01507",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_305": [
+        "rxn01015",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HYDROXYBENZALDEHYDE_DASH_OXIDATION_DASH_NAD_DASH_RXN": [
+        "rxn00957",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "6_DASH_CARBOXYHEXANOATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": [
+        "rxn02296",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "METHYLENETHFDEHYDROG_DASH_NADP_DASH_RXN": [
+        "rxn00907",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "5_COMMA_10_DASH_METHENYL_DASH_THF": 1.0
+            },
+            {
+                "cpd00347": 1
+            }
+        ]
+    ],
+    "SUCCORNTRANSAM_DASH_RXN": [
+        "rxn02944",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "NAG1P_DASH_URIDYLTRANS_DASH_RXN": [
+        "rxn00293",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYOXI_DASH_RXN": [
+        "rxn01834",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "R9_DASH_RXN": [
+        "rxn02167",
+        [
+            0.6666666666666666,
+            2,
+            -1,
+            {
+                "CPD_DASH_650": -1.0
+            },
+            {
+                "cpd00842": -1
+            }
+        ]
+    ],
+    "GLUCONOKIN_DASH_RXN": [
+        "rxn01275",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_6501": [
+        "rxn12408",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_302": [
+        "rxn12404",
+        {}
+    ],
+    "PSERTRANSAM_DASH_RXN": [
+        "rxn02914",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_5107": [
+        "rxn09014",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETYL_DASH_COA_DASH_ACETYLTRANSFER_DASH_RXN": [
+        "rxn00178",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05338",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTRNAREDUCT_DASH_RXN": [
+        "rxn19846",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "_LPAREN_R_COMMA_R_RPAREN__DASH_BUTANEDIOL_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn02112",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ENOYL_DASH_COA_DASH_DELTA_DASH_ISOM_DASH_RXN": [
+        "rxn02869",
+        [
+            0.5,
+            1,
+            1,
+            {},
+            {
+                "cpd01887": -1
+            }
+        ]
+    ],
+    "UDPGLUCEPIM_DASH_RXN": [
+        "rxn00214",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03244",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12288",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "N_DASH_ACETYLTRANSFER_DASH_RXN": [
+        "rxn00192",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CARBPSYN_DASH_RXN": [
+        "rxn00414",
+        [
+            0.8888888888888888,
+            8,
+            1,
+            {
+                "PROTON": -1.0
+            },
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6207": [
+        "rxn12298",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "OHMETHYLBILANESYN_DASH_RXN": [
+        "rxn00060",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTDPGLUCOSEPP_DASH_RXN": [
+        "rxn01675",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5812_DASH_BIS": [
+        "rxn09048",
+        {}
+    ],
+    "DGMP_DASH_NUCLEOTIDASE_DASH_RXN": [
+        "rxn01445",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_3886": [
+        "rxn12200",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THRESYN_DASH_RXN": [
+        "rxn01069",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6209": [
+        "rxn12238",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6208": [
+        "rxn12299",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "MUCONOLACTONE_DASH_DELTA_DASH_ISOMERASE_DASH_RXN": [
+        "rxn02971",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12260",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTCYSLIG_DASH_RXN": [
+        "rxn00646",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "KDO_DASH_8PSYNTH_DASH_RXN": [
+        "rxn02331",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "UREASE_DASH_RXN": [
+        "rxn00101",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CYCLOHEXADIENYL_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00525",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn12320",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN_": 1.0
+            },
+            {
+                "cpd16625": -1,
+                "cpd16618": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_BENZYL_DASH_ALCOHOL": [
+        "rxn12384",
+        {}
+    ],
+    "1TRANSKETO_DASH_RXN": [
+        "rxn01200",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_HYDROXYBUTYRATE_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00992",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PEPSYNTH_DASH_RXN": [
+        "rxn00147",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACYL_DASH_OH_WAX_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12350",
+        [
+            0.5,
+            2,
+            1,
+            {},
+            {
+                "cpd16628": -0.475,
+                "cpd16639": -0.473
+            }
+        ]
+    ],
+    "3_DASH_DEHYDROQUINATE_DASH_DEHYDRATASE_DASH_CATABOLIC_DASH_RXN": [
+        "rxn02213",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_ETHANESULFONATE": [
+        "rxn05552",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd11579": 0
+            }
+        ]
+    ],
+    "ACYLACYLTRAN_DASH_RXN": [
+        "rxn12332",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PNPOXI_DASH_RXN": [
+        "rxn00209",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SPONTPRO_DASH_RXN": [
+        "rxn02374",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "L_DASH_DELTA_LPAREN_1_RPAREN__DASH_PYRROLINE_5_DASH_CARBOXYLATE": 1.0
+            },
+            {
+                "cpd02431": 1
+            }
+        ]
+    ],
+    "CHORISMATEMUT_DASH_RXN": [
+        "rxn01256",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_OCTAPRENYL_DASH_6_DASH_OHPHENOL_DASH_METHY_DASH_RXN": [
+        "rxn03395",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_3_DASH_KETOBUTYRATE": [
+        "rxn08030",
+        {}
+    ],
+    "CDPKIN_DASH_RXN": [
+        "rxn00409",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_PERIOD_1_PERIOD_2_PERIOD_41_DASH_RXN": [
+        "rxn04025",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {},
+            {
+                "cpd04511": -1
+            }
+        ]
+    ],
+    "GLUTAMATESYN_DASH_RXN": [
+        "rxn00085",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C8_COLON_0": [
+        "rxn12395",
+        {}
+    ],
+    "CMPKI_DASH_RXN": [
+        "rxn00364",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRNUTRANSHYDROGEN_DASH_RXN": [
+        "rxn00083",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2TRANSKETO_DASH_RXN": [
+        "rxn00785",
+        [
+            0.75,
+            3,
+            -1,
+            {
+                "FRUCTOSE_DASH_6P": -1.0
+            },
+            {
+                "cpd00072": -1
+            }
+        ]
+    ],
+    "GLYCOLALD_DASH_DEHYDROG_DASH_RXN": [
+        "rxn00979",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIACYLGLYCEROL_DASH_O_DASH_ACYLTRANSFERASE_DASH_RXN": [
+        "rxn12345",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_3641": [
+        "rxn00598",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "NAD_DASH_KIN_DASH_RXN": [
+        "rxn00077",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5805": [
+        "rxn12435",
+        {}
+    ],
+    "CYTIDEAM2_DASH_RXN": [
+        "rxn01368",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DUDPKIN_DASH_RXN": [
+        "rxn01678",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_DEHYDROPANTOATE_DASH_REDUCT_DASH_RXN": [
+        "rxn01790",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "QUINOLINATE_DASH_SYNTHA_DASH_RXN": [
+        "rxn02988",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ACETOLACTREDUCTOISOM_DASH_RXN": [
+        "rxn02186",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "DIOH_DASH_ISOVALERATE": 1.0
+            },
+            {
+                "cpd02498": 1
+            }
+        ]
+    ],
+    "ARGSUCCINLYA_DASH_RXN": [
+        "rxn00802",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "LIPIDADISACCHARIDESYNTH_DASH_RXN": [
+        "rxn03159",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYOHMETRANS_DASH_RXN": [
+        "rxn00692",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDPNACETYLGLUCOSAMENOLPYRTRANS_DASH_RXN": [
+        "rxn00461",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "URACIL_DASH_PRIBOSYLTRANS_DASH_RXN": [
+        "rxn00711",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_OCTAPRENYL_DASH_4_DASH_OHBENZOATE_DASH_DECARBOX_DASH_RXN": [
+        "rxn03393",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTKIN_DASH_RXN": [
+        "rxn00179",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_681": [
+        "rxn07465",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_242A": [
+        "rxn12372",
+        {}
+    ],
+    "ADPREDUCT_DASH_RXN": [
+        "rxn05231",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "OX_DASH_THIOREDOXIN_DASH_MONOMER": 1.0
+            },
+            {
+                "cpd11420": 1
+            }
+        ]
+    ],
+    "PLSYN_DASH_RXN": [
+        "rxn12307",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "L_DASH_1_DASH_PHOSPHATIDYL_DASH_GLYCEROL": -0.116
+            },
+            {
+                "cpd11652": -0.116
+            }
+        ]
+    ],
+    "SUCC_DASH_FUM_DASH_OXRED_DASH_RXN": [
+        "rxn09272",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTDPDEHYRHAMREDUCT_DASH_RXN": [
+        "rxn02003",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "UDPACYLGLCNACDEACETYL_DASH_RXN": [
+        "rxn03146",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_3_PERIOD_1_PERIOD_62_DASH_RXN": [
+        "rxn12249",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_DASH_CARBOXYMUCONOLACTONE_DASH_DECARBOXYLASE_DASH_RXN": [
+        "rxn02483",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {},
+            {
+                "cpd00938": -1
+            }
+        ]
+    ],
+    "5_APOST__DASH_NUCLEOTID_DASH_RXN": [
+        "rxn00708",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00946",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08439",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_DEOXYADENOSINE": [
+        "rxn12414",
+        {}
+    ],
+    "1_DASH_ACYLGLYCEROL_DASH_3_DASH_P_DASH_ACYLTRANSFER_DASH_TAG_DASH_RXN": [
+        "rxn10204",
+        {}
+    ],
+    "TRYPTOPHAN_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn46484",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_TRP_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "ADOMET_DASH_DMK_DASH_METHYLTRANSFER_DASH_RXN": [
+        "rxn08130",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "DEMETHYLMENAQUINONE": -1.0,
+                "VITAMIN_K__LBRACE_2_RBRACE_": 1.0
+            },
+            {
+                "cpd15353": -1,
+                "cpd15499": 1
+            }
+        ]
+    ],
+    "DCDPKIN_DASH_RXN": [
+        "rxn01673",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_3878": [
+        "rxn09953",
+        [
+            0.8571428571428571,
+            6,
+            1,
+            {
+                "PROTON": 1.0
+            },
+            {}
+        ]
+    ],
+    "RXN0_DASH_299": [
+        "rxn03630",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "FABAUNSATDEHYDR_DASH_RXN": [
+        "rxn05333",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_DEOXYINOSINE": [
+        "rxn12417",
+        {}
+    ],
+    "ATP_DASH_PYROPHOSPHATASE_DASH_RXN": [
+        "rxn00063",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PSERTRANSAMPYR_DASH_RXN": [
+        "rxn03445",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_OCTAPRENYL_DASH_METHOXY_DASH_BENZOQ_DASH_METH_DASH_RXN": [
+        "rxn03397",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "OCTAPRENYL_DASH_METHYL_DASH_METHOXY_DASH_BENZQ": 1.0
+            },
+            {
+                "cpd03447": -1,
+                "cpd03448": 1
+            }
+        ]
+    ],
+    "ALLANTOICASE_DASH_RXN": [
+        "rxn01746",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ADENOSINE_DASH_NUCLEOSIDASE_DASH_RXN": [
+        "rxn19072",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_TAURINE": [
+        "rxn05172",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00210": 0
+            }
+        ]
+    ],
+    "DLACTDEHYDROGNAD_DASH_RXN": [
+        "rxn00500",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03253",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTAMIN_DASH_RXN": [
+        "rxn00189",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05340",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12262",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05341",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12259",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn08434",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETYLORNTRANSAM_DASH_RXN": [
+        "rxn01637",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "CHORPYRLY_DASH_RXN": [
+        "rxn00966",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "LIPIDXSYNTHESIS_DASH_RXN": [
+        "rxn03130",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROFOLATESYNTH_DASH_RXN": [
+        "rxn01603",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {},
+            {
+                "cpd00683": -1
+            }
+        ]
+    ],
+    "WAX_DASH_ESTERS_W_DASH_RXN": [
+        "rxn12358",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROXYMETVALDEHYDRAT_DASH_RXN": [
+        "rxn03437",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_TRP": [
+        "rxn12458",
+        {}
+    ],
+    "PDXA_DASH_RXN": [
+        "rxn12223",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "METHYLENETHFREDUCT_DASH_RXN": [
+        "rxn04954",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "AMIDASE_DASH_RXN": [
+        "rxn12230",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYCERATE_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01011",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C5_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12256",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROTOCATECHUATE_DASH_3_COMMA_4_DASH_DIOXYGENASE_DASH_RXN": [
+        "rxn01192",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "3_COMMA_4_DASH_DIHYDROXYBENZOATE": -1.0
+            },
+            {
+                "cpd00197": -1
+            }
+        ]
+    ],
+    "KDPGALDOL_DASH_RXN": [
+        "rxn03884",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_PERIOD_3_PERIOD_1_PERIOD_155_DASH_RXN": [
+        "rxn02804",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05344",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "S_DASH_ADENMETSYN_DASH_RXN": [
+        "rxn00126",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12313",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYACP": 1.0
+            },
+            {
+                "cpd16614": -1,
+                "cpd16612": 1
+            }
+        ]
+    ],
+    "C12_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn03243",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PI_DASH_ABC": [
+        "rxn05145",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TETHYDPICSUCC_DASH_RXN": [
+        "rxn03031",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "DELTA_LBRACE_1_RBRACE__DASH_PIPERIDEINE_DASH_2_DASH_6_DASH_DICARBOXYLATE": -1.0
+            },
+            {
+                "cpd02465": -1
+            }
+        ]
+    ],
+    "UDPNACETYLMURAMATEDEHYDROG_DASH_RXN": [
+        "rxn02285",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5855": [
+        "rxn12439",
+        {}
+    ],
+    "C16_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03240",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12354",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ALDEHYDE": 1.0
+            },
+            {
+                "cpd16627": -1,
+                "cpd16626": 1
+            }
+        ]
+    ],
+    "RXNIM_DASH_3902": [
+        "rxn12363",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "GLUCONATE": 0.0
+            },
+            {
+                "cpd00222": 0
+            }
+        ]
+    ],
+    "NITRITREDUCT_DASH_RXN": [
+        "rxn00568",
+        [
+            0.8333333333333334,
+            5,
+            -1,
+            {
+                "PROTON": 5.0
+            },
+            {}
+        ]
+    ],
+    "PROTOHEMEFERROCHELAT_DASH_RXN": [
+        "rxn00224",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "FE_PLUS_2": -1.0,
+                "PROTON": 2.0
+            },
+            {
+                "cpd10515": -1
+            }
+        ]
+    ],
+    "DCMP_DASH_NUCLEOTIDASE_DASH_RXN": [
+        "rxn01218",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ISOCHORMAT_DASH_RXN": [
+        "rxn02177",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5812": [
+        "rxn12437",
+        {}
+    ],
+    "MANNPGUANYLTRANGDP_DASH_RXN": [
+        "rxn00640",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BRANCHED_DASH_CHAINAMINOTRANSFERVAL_DASH_RXN": [
+        "rxn00903",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_DEOXYGUANOSINE": [
+        "rxn12416",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_C18_COLON_0": [
+        "rxn12390",
+        {}
+    ],
+    "DETHIOBIOTIN_DASH_SYN_DASH_RXN": [
+        "rxn02277",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C16_COLON_0": [
+        "rxn12388",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_ETHANOL_DASH_AMINE": [
+        "rxn12419",
+        {}
+    ],
+    "TETRAACYLDISACC4KIN_DASH_RXN": [
+        "rxn03181",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHEAMINOTRANS_DASH_RXN": [
+        "rxn00493",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "HISTIDPHOS_DASH_RXN": [
+        "rxn02160",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_363": [
+        "rxn01545",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROOROTOX_DASH_RXN": [
+        "rxn01360",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "MALIC_DASH_NAD_DASH_RXN": [
+        "rxn00159",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROOROT_DASH_RXN": [
+        "rxn01465",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "IMP_DASH_DEHYDROG_DASH_RXN": [
+        "rxn00834",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_62B": [
+        "rxn05582",
+        {}
+    ],
+    "3_DASH_OXOADIPATE_DASH_COA_DASH_TRANSFERASE_DASH_RXN": [
+        "rxn02143",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_NA_DASH_CPA1": [
+        "rxn12448",
+        {}
+    ],
+    "HOMOSERDEHYDROG_DASH_RXN": [
+        "rxn01301",
+        [
+            0.5,
+            2,
+            -1,
+            {
+                "NADPH": 1.0,
+                "NADP": -1.0
+            },
+            {
+                "cpd00003": -1,
+                "cpd00004": 1
+            }
+        ]
+    ],
+    "1_PERIOD_2_PERIOD_1_PERIOD_65_DASH_RXN": [
+        "rxn02107",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12315",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA": -1.0,
+                "C14_COLON_1_LPAREN_C5_RPAREN_": 1.0
+            },
+            {
+                "cpd16617": -1,
+                "cpd16609": 1
+            }
+        ]
+    ],
+    "RNA_DASH_SYNTH_DASH_RXN": [
+        "rxn12361",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PREPHENATEDEHYDROG_DASH_RXN": [
+        "rxn01268",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RIBOPHOSPHAT_DASH_RXN": [
+        "rxn05039",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05342",
+        [
+            0.75,
+            3,
+            -1,
+            {
+                "3_DASH_OHMYRISTOYL_DASH_ACP": -1.0
+            },
+            {
+                "cpd11484": -1
+            }
+        ]
+    ],
+    "METHENYLTHFCYCLOHYDRO_DASH_RXN": [
+        "rxn01211",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "5_COMMA_10_DASH_METHENYL_DASH_THF": -1.0
+            },
+            {
+                "cpd00347": -1
+            }
+        ]
+    ],
+    "L_DASH_ASPARTATE_DASH_OXIDASE_DASH_RXN": [
+        "rxn00262",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CARBON_DASH_DIOXIDE": [
+        "rxn05467",
+        {}
+    ],
+    "7KAPSYN_DASH_RXN": [
+        "rxn02297",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn00874",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "PDXJ_DASH_RXN": [
+        "rxn04070",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TYRAMINOTRANS_DASH_RXN": [
+        "rxn00527",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "POLYSACCH_FREESYN_DASH_RXN": [
+        "rxn12340",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "F16BDEPHOS_DASH_RXN": [
+        "rxn00549",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "FRUCTOSE_DASH_6P": 1.0
+            },
+            {
+                "cpd00290": -1,
+                "cpd00072": 1
+            }
+        ]
+    ],
+    "GLUTAMATE_DASH_N_DASH_ACETYLTRANSFERASE_DASH_RXN": [
+        "rxn01636",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PI": [
+        "rxn12450",
+        {}
+    ],
+    "TREHALOSE6PSYN_DASH_RXN": [
+        "rxn00605",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd00079": -1
+            }
+        ]
+    ],
+    "DNA_DASH_SYNTH_DASH_RXN": [
+        "rxn12360",
+        [
+            1.0,
+            9,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDP_DASH_NACMUR_DASH_ALA_DASH_LIG_DASH_RXN": [
+        "rxn02286",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "UDP_DASH_ACETYLMURAMOYL_DASH_ALA": 1.0
+            },
+            {
+                "cpd00890": 1
+            }
+        ]
+    ],
+    "PMPOXI_DASH_RXN": [
+        "rxn00208",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BRANCHED_DASH_CHAINAMINOTRANSFERLEU_DASH_RXN": [
+        "rxn00806",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "MALIC_DASH_NADP_DASH_RXN": [
+        "rxn00161",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UTP_DASH_PYROPHOSPHATASE_DASH_RXN": [
+        "rxn00463",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5788": [
+        "rxn12433",
+        {}
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12268",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOCOA": 1.0
+            },
+            {
+                "cpd16613": -1,
+                "cpd16615": 1
+            }
+        ]
+    ],
+    "BADH_DASH_RXN": [
+        "rxn01867",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARAGHYD_DASH_RXN": [
+        "rxn00342",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5786": [
+        "rxn12432",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_SUC": [
+        "rxn12455",
+        {}
+    ],
+    "ALARACECAT_DASH_RXN": [
+        "rxn00283",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_ASN": [
+        "rxn05220",
+        {}
+    ],
+    "ALDOXIME_DASH_DEHYDRAT_DASH_RXN": [
+        "rxn12229",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SUPEROX_DASH_DISMUT_DASH_RXN": [
+        "rxn00206",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ATPSYN_DASH_RXN": [
+        "rxn08173",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "PROTON": -1.0
+            },
+            {}
+        ]
+    ],
+    "ACYL_DASH_COA_TAG_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12343",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA": -0.052,
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA": -0.149
+            },
+            {
+                "cpd16627": -0.052,
+                "cpd16638": -0.149
+            }
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12326",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYACP": 1.0
+            },
+            {
+                "cpd16634": -1,
+                "cpd16632": 1
+            }
+        ]
+    ],
+    "PANTEPADENYLYLTRAN_DASH_RXN": [
+        "rxn02175",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5773": [
+        "rxn12431",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_110": [
+        "rxn12401",
+        {}
+    ],
+    "FOLYLPOLYGLUTAMATESYNTH_DASH_RXN": [
+        "rxn00689",
+        [
+            0.16666666666666666,
+            1,
+            1,
+            {
+                "PI": 2.0,
+                "CPD_DASH_1301": 1.0,
+                "ADP": 2.0
+            },
+            {
+                "cpd00002": -1,
+                "cpd00023": -1,
+                "cpd00008": 1,
+                "cpd00009": 1,
+                "cpd06227": 1
+            }
+        ]
+    ],
+    "SUCCARGDIHYDRO_DASH_RXN": [
+        "rxn02927",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ANTHRANSYN_DASH_RXN": [
+        "rxn00727",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "INORGPYROPHOSPHAT_DASH_RXN": [
+        "rxn00001",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BUTYRYL_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00872",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTAMINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn41902",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_GLN_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "SIROHEME_DASH_FERROCHELAT_DASH_RXN": [
+        "rxn02056",
+        [
+            0.5,
+            2,
+            -1,
+            {
+                "FE_PLUS_2": 1.0,
+                "PROTON": -2.0
+            },
+            {
+                "cpd10515": 1
+            }
+        ]
+    ],
+    "C5_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn00676",
+        [
+            0.75,
+            3,
+            -1,
+            {
+                "C5_COLON_0_DASH_3OXOCOA": 1.0
+            },
+            {
+                "cpd02124": 1
+            }
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12321",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN_": 1.0
+            },
+            {
+                "cpd16627": -1,
+                "cpd16618": 1
+            }
+        ]
+    ],
+    "P_DASH_PANTOCYSLIG_DASH_RXN": [
+        "rxn09177",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRUVOXID_DASH_RXN": [
+        "rxn09167",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CHORISMATE_DASH_SYNTHASE_DASH_RXN": [
+        "rxn01255",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05327",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTARATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": [
+        "rxn12263",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROLINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn41196",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_PRO_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_335": [
+        "rxn12405",
+        {}
+    ],
+    "GLUCOSAMINE1PACETYL_DASH_RXN": [
+        "rxn03638",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROPIONATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": [
+        "rxn00674",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACYL_DASH_ACP_TAG_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12342",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ACP": -0.052,
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ACP": -0.149
+            },
+            {
+                "cpd16625": -0.052,
+                "cpd16636": -0.149
+            }
+        ]
+    ],
+    "ISOCHORSYN_DASH_RXN": [
+        "rxn01258",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12289",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {
+                "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3HYDROXYCOA": 1.0
+            },
+            {
+                "cpd16645": -1,
+                "cpd16646": 1
+            }
+        ]
+    ],
+    "NICOTINATEPRIBOSYLTRANS_DASH_RXN": [
+        "rxn08981",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROLDEHYDROG_DASH_RXN": [
+        "rxn09188",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "L_DASH_DELTA_LPAREN_1_RPAREN__DASH_PYRROLINE_5_DASH_CARBOXYLATE": 1.0
+            },
+            {
+                "cpd02431": 1
+            }
+        ]
+    ],
+    "GLYRIBONUCSYN_DASH_RXN": [
+        "rxn02895",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUCARDEHYDRA_DASH_RXN": [
+        "rxn01989",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_104": [
+        "rxn05602",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_132": [
+        "rxn05197",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_ETOH": [
+        "rxn08428",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_105": [
+        "rxn05470",
+        {}
+    ],
+    "C5_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12284",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_1_DASH_BIS": [
+        "rxn08999",
+        {}
+    ],
+    "URIDINE_DASH_NUCLEOSIDASE_DASH_RXN": [
+        "rxn01226",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "URIDINE": -1.0,
+                "URACIL": 1.0
+            },
+            {
+                "cpd00311": -1,
+                "cpd00207": 1
+            }
+        ]
+    ],
+    "UNDECAPRENOL_DASH_KINASE_DASH_RXN": [
+        "rxn03900",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd01352": -1
+            }
+        ]
+    ],
+    "DADPKIN_DASH_RXN": [
+        "rxn00839",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_884": [
+        "rxn04996",
+        [
+            0.5,
+            3,
+            -1,
+            {
+                "NAD": -1.0
+            },
+            {
+                "cpd00006": -1,
+                "cpd00005": 1
+            }
+        ]
+    ],
+    "KDOTRANS2_DASH_RXN": [
+        "rxn03439",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn12317",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {},
+            {
+                "cpd16621": -1,
+                "cpd16619": 1
+            }
+        ]
+    ],
+    "LPSSYN_DASH_RXN": [
+        "rxn12305",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DARAB5PISOM_DASH_RXN": [
+        "rxn01117",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_2425": [
+        "rxn23789",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_COMMA_5_DASH_DIOXOVALERATE_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00196",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_MAL": [
+        "rxn12446",
+        {}
+    ],
+    "CITSYN_DASH_RXN": [
+        "rxn00256",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "CATECHOL_DASH_1_COMMA_2_DASH_DIOXYGENASE_DASH_RXN": [
+        "rxn00588",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CIT_DASH_MFS": [
+        "rxn12371",
+        {}
+    ],
+    "UDP_DASH_NACMURALGLDAPAALIG_DASH_RXN": [
+        "rxn03164",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "C1": 1.0
+            },
+            {
+                "cpd02968": 1
+            }
+        ]
+    ],
+    "4OHBENZOATE_DASH_OCTAPRENYLTRANSFER_DASH_RXN": [
+        "rxn03893",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PSERPHOSPHA_DASH_RXN": [
+        "rxn00420",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PHE": [
+        "rxn12449",
+        {}
+    ],
+    "GLUC1PURIDYLTRANS_DASH_RXN": [
+        "rxn00213",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_311": [
+        "rxn03061",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GPPSYN_DASH_RXN": [
+        "rxn01213",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd00113": -1
+            }
+        ]
+    ],
+    "CHLOROGENATE_DASH_HYDROLASE_DASH_RXN": [
+        "rxn02149",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C4_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05347",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "ACETOACETYL_DASH_S_DASH_ACP": 1.0
+            },
+            {
+                "cpd11488": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_TYR": [
+        "rxn12459",
+        {}
+    ],
+    "C14_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03241",
+        [
+            0.6666666666666666,
+            2,
+            -1,
+            {},
+            {
+                "cpd03127": 1
+            }
+        ]
+    ],
+    "CATAL_DASH_RXN": [
+        "rxn00006",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "QUINOPRIBOTRANS_DASH_RXN": [
+        "rxn02402",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "SUCCDIAMINOPIMDESUCC_DASH_RXN": [
+        "rxn01973",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd02698": -1
+            }
+        ]
+    ],
+    "PGLUCISOM_DASH_RXN": [
+        "rxn00558",
+        {}
+    ],
+    "RXN0_DASH_882": [
+        "rxn10092",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROPICRED_DASH_RXN": [
+        "rxn02929",
+        [
+            0.5,
+            2,
+            -1,
+            {
+                "2_COMMA_3_DASH_DIHYDRODIPICOLINATE": 1.0,
+                "DELTA_LBRACE_1_RBRACE__DASH_PIPERIDEINE_DASH_2_DASH_6_DASH_DICARBOXYLATE": -1.0
+            },
+            {
+                "cpd02465": -1,
+                "cpd02120": 1
+            }
+        ]
+    ],
+    "HISTOLDEHYD_DASH_RXN": [
+        "rxn02159",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PRIBFAICARPISOM_DASH_RXN": [
+        "rxn03175",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "FPPSYN_DASH_RXN": [
+        "rxn01466",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "DELTA_LPAREN_3_RPAREN__DASH_ISOPENTENYL_DASH_PP": -1.0
+            },
+            {
+                "cpd00113": -1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C5_COLON_0": [
+        "rxn12392",
+        {}
+    ],
+    "C18_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn09449",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANSALDOL_DASH_RXN": [
+        "rxn01333",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "FRUCTOSE_DASH_6P": 1.0
+            },
+            {
+                "cpd00072": 1
+            }
+        ]
+    ],
+    "CYTDEAM_DASH_RXN": [
+        "rxn00717",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_L_DASH_LACTATE": [
+        "rxn08795",
+        {}
+    ],
+    "RIBOFLAVINSYNREDUC_DASH_RXN": [
+        "rxn02474",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GLY3KIN_DASH_RXN": [
+        "rxn01102",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_ISOPROPYLMALISOM_DASH_RXN": [
+        "rxn02789",
+        [
+            0.5,
+            1,
+            1,
+            {
+                "2_DASH_D_DASH_THREO_DASH_HYDROXY_DASH_3_DASH_CARBOXY_DASH_ISOCAPROATE": 1.0
+            },
+            {
+                "cpd00001": 1,
+                "cpd01710": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_FE_PLUS_2": [
+        "rxn12420",
+        {}
+    ],
+    "C14_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn06777",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12324",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ACP": 1.0
+            },
+            {
+                "cpd16630": -1,
+                "cpd16636": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_OXYGEN_DASH_MOLECULE": [
+        "rxn05468",
+        {}
+    ],
+    "ASPCARBTRANS_DASH_RXN": [
+        "rxn01018",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12329",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN_": 1.0
+            },
+            {
+                "cpd16638": -1,
+                "cpd00536": 1
+            }
+        ]
+    ],
+    "ACETYLHOMOSER_DASH_CYS_DASH_RXN": [
+        "rxn00952",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SUCCCOASYN_DASH_RXN": [
+        "rxn00285",
+        [
+            1.0,
+            6,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "PRPPAMIDOTRANS_DASH_RXN": [
+        "rxn00790",
+        [
+            1.0,
+            6,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_ACET": [
+        "rxn08063",
+        {}
+    ],
+    "DIACYLGLYKIN_DASH_RXN": [
+        "rxn06139",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_THR_DASH_EFLX": [
+        "rxn12456",
+        {}
+    ],
+    "C6_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn04752",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "TRANS_DASH_23_DASH_DEHYDROADIPYL_DASH_COA": 1.0
+            },
+            {
+                "cpd09843": 1
+            }
+        ]
+    ],
+    "RIBOFLAVIN_DASH_SYN_DASH_RXN": [
+        "rxn00048",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "5_PERIOD_5_PERIOD_1_PERIOD_2_DASH_RXN": [
+        "rxn02369",
+        [
+            0.5,
+            1,
+            1,
+            {},
+            {
+                "cpd00938": -1
+            }
+        ]
+    ],
+    "IGPSYN_DASH_RXN": [
+        "rxn02507",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "AFATTYACID_FREE_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12304",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN_": -0.574,
+                "C18_COLON_1_LPAREN_C9_RPAREN_": -0.09
+            },
+            {
+                "cpd00536": -0.09,
+                "cpd16618": -0.574
+            }
+        ]
+    ],
+    "ASPAMINOTRANS_DASH_RXN": [
+        "rxn00260",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "H2PTEROATESYNTH_DASH_RXN": [
+        "rxn02201",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "7_COMMA_8_DASH_DIHYDROPTEROATE": 1.0
+            },
+            {
+                "cpd00683": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5747_DASH_BIS": [
+        "rxn09193",
+        {}
+    ],
+    "RIBOKIN_DASH_RXN": [
+        "rxn00772",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_GLYCEROL_DASH_OUT": [
+        "rxn05581",
+        {}
+    ],
+    "ACYL_DASH_COA_WAX_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12349",
+        [
+            0.5,
+            2,
+            1,
+            {},
+            {
+                "cpd16627": -0.315,
+                "cpd16638": -0.445
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5736": [
+        "rxn12428",
+        {}
+    ],
+    "TRANS_DASH_RXNIM_DASH_5731": [
+        "rxn08373",
+        {}
+    ],
+    "TRANS_DASH_RXNIM_DASH_5733": [
+        "rxn08302",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_ANTHRANILATE": [
+        "rxn12383",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_BUTANEDIOL": [
+        "rxn11322",
+        {}
+    ],
+    "MALONYL_DASH_COA_DASH_ACP_DASH_TRANSACYL_DASH_RXN": [
+        "rxn05465",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08444",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PEPTIDOSYN_DASH_RXN": [
+        "rxn12306",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd03495": -1
+            }
+        ]
+    ],
+    "ADENYLOSUCCINATE_DASH_SYNTHASE_DASH_RXN": [
+        "rxn00838",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn05331",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "F16ALDOLASE_DASH_RXN": [
+        "rxn00786",
+        [
+            0.6666666666666666,
+            2,
+            -1,
+            {
+                "FRUCTOSE_DASH_16_DASH_DIPHOSPHATE": -1.0
+            },
+            {
+                "cpd00290": -1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_GLYCOLLATE_DASH_OUT": [
+        "rxn08653",
+        {}
+    ],
+    "GDPKIN_DASH_RXN": [
+        "rxn00237",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DXS_DASH_RXN": [
+        "rxn03909",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CDPREDUCT_DASH_RXN": [
+        "rxn06076",
+        [
+            0.8,
+            4,
+            -1,
+            {
+                "OX_DASH_THIOREDOXIN_DASH_MONOMER": -1.0
+            },
+            {
+                "cpd11420": -1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C12_COLON_0": [
+        "rxn12386",
+        {}
+    ],
+    "TRANS_DASH_RXNIM_DASH_5747": [
+        "rxn08639",
+        {}
+    ],
+    "GART_DASH_RXN": [
+        "rxn03004",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn46689",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_GLY_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "ALKANE_DASH_1_DASH_MONOOXYGENASE_DASH_RXN": [
+        "rxn12233",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GUANINE_DASH_DEAMINASE_DASH_RXN": [
+        "rxn01225",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ALLOPHANATE_DASH_HYDROLASE_DASH_RXN": [
+        "rxn00002",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDP_DASH_POLYSACCH_LPS_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12335",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12269",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C12_COLON_1_LPAREN_C3_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd16615": -1,
+                "cpd01887": 1
+            }
+        ]
+    ],
+    "ASPARTATE_DASH_RACEMASE_DASH_RXN": [
+        "rxn00348",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSPHOGLUCMUT_DASH_RXN": [
+        "rxn20583",
+        [
+            0.5,
+            1,
+            1,
+            {
+                "GLC_DASH_6_DASH_P": 1.0
+            },
+            {
+                "cpd19006": 1
+            }
+        ]
+    ],
+    "ADENOSYLHOMOCYSTEINASE_DASH_RXN": [
+        "rxn00141",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HYPOXANPRIBOSYLTRAN_DASH_RXN": [
+        "rxn00836",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PROPIONATE": [
+        "rxn09172",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_GUANOSINE": [
+        "rxn12427",
+        {}
+    ],
+    "R11_DASH_RXN": [
+        "rxn00875",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTARYL_DASH_COA_DASH_DEHYDROG_DASH_RXN": [
+        "rxn12264",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ASPDECARBOX_DASH_RXN": [
+        "rxn00346",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PYRUVATE": [
+        "rxn09218",
+        {}
+    ],
+    "THIAZOLSYN2_DASH_RXN": [
+        "rxn09310",
+        [
+            1.0,
+            11,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HISTIDINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn40608",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_HIS_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C6_COLON_2_LPAREN_c2_COMMA_c4_RPAREN_": [
+        "rxn12394",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_205": [
+        "rxn12403",
+        {}
+    ],
+    "GMKALT_DASH_RXN": [
+        "rxn01509",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDROFOLATEREDUCT_DASH_RXN": [
+        "rxn00686",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_FE_DASH_NRAMP": [
+        "rxn12504",
+        {}
+    ],
+    "TRYPSYN_DASH_RXN": [
+        "rxn01964",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLURS_DASH_RXN": [
+        "rxn47732",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_GLT_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "ERYTHRON4PDEHYDROG_DASH_RXN": [
+        "rxn02939",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GUANPRIBOSYLTRAN_DASH_RXN": [
+        "rxn00915",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "BRANCHED_DASH_CHAINAMINOTRANSFERILEU_DASH_RXN": [
+        "rxn01575",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "DCYSDESULF_DASH_RXN": [
+        "rxn01365",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_7607": [
+        "rxn00831",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn02680",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "AIRS_DASH_RXN": [
+        "rxn02937",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn03248",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn09453",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ARGININE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn41927",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_ARG_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "LYSINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn06442",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THIOREDOXIN_DASH_REDUCT_DASH_NADPH_DASH_RXN": [
+        "rxn05289",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd11420": -1
+            }
+        ]
+    ],
+    "C7_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03880",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08447",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_1_PERIOD_1_PERIOD_259_DASH_RXN": [
+        "rxn03617",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "METHYLISOCITRATE_DASH_LYASE_DASH_RXN": [
+        "rxn00289",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn06033",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12291",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd16647": -1
+            }
+        ]
+    ],
+    "ACONITATEHYDR_DASH_RXN": [
+        "rxn01388",
+        [
+            0.6666666666666666,
+            2,
+            -1,
+            {
+                "THREO_DASH_D_LPAREN_S_RPAREN__DASH_ISO_DASH_CITRATE": -1.0
+            },
+            {
+                "cpd00260": -1
+            }
+        ]
+    ],
+    "ATPPHOSPHORIBOSYLTRANS_DASH_RXN": [
+        "rxn00789",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_1_PERIOD_1_PERIOD_215_DASH_RXN": [
+        "rxn01277",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C5_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12287",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UROPORIIIMETHYLTRANSA_DASH_RXN": [
+        "rxn05005",
+        [
+            0.25,
+            1,
+            1,
+            {
+                "S_DASH_ADENOSYLMETHIONINE": -2.0,
+                "ADENOSYL_DASH_HOMO_DASH_CYS": 2.0,
+                "DIHYDROSIROHYDROCHLORIN": 1.0
+            },
+            {
+                "cpd00017": -1,
+                "cpd00019": 1,
+                "cpd11206": 1
+            }
+        ]
+    ],
+    "ADENODEAMIN_DASH_RXN": [
+        "rxn01137",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12311",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_ACP": 1.0
+            },
+            {
+                "cpd16610": -1,
+                "cpd16616": 1
+            }
+        ]
+    ],
+    "FORMYLTHFDEFORMYL_DASH_RXN": [
+        "rxn00691",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ISPH2_DASH_RXN": [
+        "rxn04113",
+        [
+            0.4,
+            2,
+            1,
+            {
+                "NAD": 1.0,
+                "DELTA_LPAREN_3_RPAREN__DASH_ISOPENTENYL_DASH_PP": 1.0
+            },
+            {
+                "cpd00005": -1,
+                "cpd00006": 1,
+                "cpd00113": 1
+            }
+        ]
+    ],
+    "RXNIM_DASH_3991": [
+        "rxn12206",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DCTP_DASH_PYROPHOSPHATASE_DASH_RXN": [
+        "rxn01222",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARTATE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn47838",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_ASP_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "MANNPISOM_DASH_RXN": [
+        "rxn00559",
+        [
+            0.5,
+            1,
+            1,
+            {
+                "FRUCTOSE_DASH_6P": 1.0
+            },
+            {
+                "cpd00072": 1
+            }
+        ]
+    ],
+    "DCTP_DASH_DEAM_DASH_RXN": [
+        "rxn01672",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12281",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA": -1.0,
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_2ENOYLCOA": 1.0
+            },
+            {
+                "cpd16638": -1,
+                "cpd16631": 1
+            }
+        ]
+    ],
+    "RIB5PISOM_DASH_RXN": [
+        "rxn00777",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "XANPRIBOSYLTRAN_DASH_RXN": [
+        "rxn01544",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GUANYL_DASH_KIN_DASH_RXN": [
+        "rxn00239",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_OXOADIPATE_DASH_ENOL_DASH_LACTONASE_DASH_RXN": [
+        "rxn02144",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_PERIOD_7_PERIOD_7_PERIOD_1_DASH_RXN": [
+        "rxn00105",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "IMPCYCLOHYDROLASE_DASH_RXN": [
+        "rxn00832",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_29A": [
+        "rxn05579",
+        {}
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn12325",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {},
+            {
+                "cpd16632": -1,
+                "cpd16630": 1
+            }
+        ]
+    ],
+    "NACGLCTRANS_DASH_RXN": [
+        "rxn03408",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "C6": 1.0
+            },
+            {
+                "cpd03495": 1
+            }
+        ]
+    ],
+    "UMPKI_DASH_RXN": [
+        "rxn00119",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_SUBERATE": [
+        "rxn12454",
+        {}
+    ],
+    "ADENYL_DASH_KIN_DASH_RXN": [
+        "rxn00097",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn02803",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "C14_COLON_0_DASH_2ENOYLCOA": 1.0
+            },
+            {
+                "cpd03127": 1
+            }
+        ]
+    ],
+    "AMPSYN_DASH_RXN": [
+        "rxn00800",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CO2_DASH_DISS_DASH_RXN": [
+        "rxn00102",
+        [
+            0.75,
+            3,
+            -1,
+            {
+                "PROTON": -1.0
+            },
+            {}
+        ]
+    ],
+    "GLUTSEMIALDEHYDROG_DASH_RXN": [
+        "rxn02373",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "UNDECAPRENYL_DASH_DIPHOSPHATASE_DASH_RXN": [
+        "rxn03901",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "N_DASH_ACETYLGLUTPREDUCT_DASH_RXN": [
+        "rxn02465",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ACONITATEDEHYDR_DASH_RXN": [
+        "rxn00974",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_3_COMMA_4_DASH_DIHYDROXYBENZOATE_DASH_PERIP": [
+        "rxn12246",
+        {}
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12267",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYCOA": 1.0
+            },
+            {
+                "cpd16611": -1,
+                "cpd16613": 1
+            }
+        ]
+    ],
+    "GDP_DASH_MANNOSE_DASH_6_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00638",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "R222_DASH_RXN": [
+        "rxn12234",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTMPKI_DASH_RXN": [
+        "rxn01513",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSGLYPHOS_DASH_RXN": [
+        "rxn01100",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTATHIONE_DASH_SYN_DASH_RXN": [
+        "rxn00351",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C16_COLON_1_LPAREN_C7_RPAREN_": [
+        "rxn12389",
+        {}
+    ],
+    "ACETYL_DASH_COA_DASH_CARBOXYLTRANSFER_DASH_RXN": [
+        "rxn00533",
+        [
+            0.8571428571428571,
+            6,
+            1,
+            {
+                "PROTON": -1.0
+            },
+            {}
+        ]
+    ],
+    "L_DASH_LACTDEHYDROGFMN_DASH_RXN": [
+        "rxn08792",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HISTCYCLOHYD_DASH_RXN": [
+        "rxn02835",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C7_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn03866",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05337",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "VALINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn44277",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_VAL_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "P_DASH_PANTOCYSDECARB_DASH_RXN": [
+        "rxn02341",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03247",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12318",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYACP": 1.0
+            },
+            {
+                "cpd16623": -1,
+                "cpd16621": 1
+            }
+        ]
+    ],
+    "PREPHENATEDEHYDRAT_DASH_RXN": [
+        "rxn01000",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5794": [
+        "rxn08096",
+        {}
+    ],
+    "TRANS_DASH_RXNIM_DASH_5792": [
+        "rxn12434",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_WATER": [
+        "rxn05319",
+        {}
+    ],
+    "DAHPSYN_DASH_RXN": [
+        "rxn01332",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn02679",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5923": [
+        "rxn12444",
+        {}
+    ],
+    "CTPSYN_DASH_RXN": [
+        "rxn00412",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05325",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_THYMIDINE": [
+        "rxn12457",
+        {}
+    ],
+    "C12_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05348",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_PRO": [
+        "rxn12451",
+        {}
+    ],
+    "2_DASH_ISOPROPYLMALATESYN_DASH_RXN": [
+        "rxn00902",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ISOCIT_DASH_CLEAV_DASH_RXN": [
+        "rxn00336",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {},
+            {
+                "cpd00260": -1
+            }
+        ]
+    ],
+    "MALATE_DASH_DEH_DASH_RXN": [
+        "rxn00248",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BENZOATE_DASH_CIS_DASH_DIOL_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn00584",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_FUM": [
+        "rxn12423",
+        {}
+    ],
+    "ALCOHOL_DASH_DEHYDROG_DASH_RXN": [
+        "rxn00543",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_COUMARATE": [
+        "rxn12400",
+        {}
+    ],
+    "ABC_DASH_13_DASH_RXN": [
+        "rxn05146",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00023": 0
+            }
+        ]
+    ],
+    "ALANINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn48506",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_ALA_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "C18_COLON_1_DASH__LPAREN_C9_RPAREN_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn12328",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN_": 1.0
+            },
+            {
+                "cpd16636": -1,
+                "cpd00536": 1
+            }
+        ]
+    ],
+    "GDPREDUCT_DASH_RXN": [
+        "rxn05233",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "OX_DASH_THIOREDOXIN_DASH_MONOMER": 1.0
+            },
+            {
+                "cpd11420": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5876_DASH_BIS": [
+        "rxn08614",
+        {}
+    ],
+    "3_DASH_ISOPROPYLMALDEHYDROG_DASH_RXN": [
+        "rxn03062",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "2K_DASH_4CH3_DASH_PENTANOATE": 1.0,
+                "CARBON_DASH_DIOXIDE": 1.0
+            },
+            {
+                "cpd02605": 1
+            }
+        ]
+    ],
+    "HISTALDEHYD_DASH_RXN": [
+        "rxn00863",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn05332",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PRTRANS_DASH_RXN": [
+        "rxn00791",
+        [
+            0.75,
+            3,
+            -1,
+            {
+                "N_DASH__LPAREN_5_DASH_PHOSPHORIBOSYL_RPAREN__DASH_ANTHRANILATE": -1.0
+            },
+            {
+                "cpd02642": -1
+            }
+        ]
+    ],
+    "SAICARSYN_DASH_RXN": [
+        "rxn03147",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DHBDEHYD_DASH_RXN": [
+        "rxn01094",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "AFATTYACID_WAX_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12351",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN_": -0.315,
+                "C18_COLON_1_LPAREN_C9_RPAREN_": -0.445
+            },
+            {
+                "cpd00536": -0.445,
+                "cpd16618": -0.315
+            }
+        ]
+    ],
+    "2_DASH_OCTAPRENYL_DASH_6_DASH_METHOXYPHENOL_DASH_HYDROX_DASH_RXN": [
+        "rxn09042",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "WATER": 1.0
+            },
+            {
+                "cpd00007": -0.5
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_1": [
+        "rxn08525",
+        {}
+    ],
+    "PROPKIN_DASH_RXN": [
+        "rxn00985",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ALDHDEHYDROG_DASH_RXN": [
+        "rxn05735",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn02720",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_122": [
+        "rxn05298",
+        {}
+    ],
+    "DUMP_DASH_NUCLEOTIDASE_DASH_RXN": [
+        "rxn01521",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "MUCONATE_DASH_CYCLOISOMERASE_DASH_RXN": [
+        "rxn02782",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSPHATIDATE_DASH_PHOSPHATASE_DASH_RXN": [
+        "rxn06138",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SULFITE_DASH_REDUCT_DASH_RXN": [
+        "rxn00623",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "NICOTINAMID_DASH_RXN": [
+        "rxn00938",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12250",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYC3PDEHYDROG_DASH_RXN": [
+        "rxn08556",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "FADH2": 1.0
+            },
+            {
+                "cpd15560": -1,
+                "cpd15561": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_GLUTARATE": [
+        "rxn12425",
+        {}
+    ],
+    "C12_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn09452",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PSEUDOURIDYLATE_DASH_SYNTHASE_DASH_RXN": [
+        "rxn00776",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SHIKIMATE_DASH_5_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01740",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "XMPXAN_DASH_RXN": [
+        "rxn01961",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12276",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd16618": -1,
+                "cpd16627": 1
+            }
+        ]
+    ],
+    "CPM_DASH_KDOSYNTH_DASH_RXN": [
+        "rxn02405",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn12319",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOACP": 1.0
+            },
+            {
+                "cpd16616": -1,
+                "cpd16623": 1
+            }
+        ]
+    ],
+    "ACETATEKIN_DASH_RXN": [
+        "rxn00225",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTDPKIN_DASH_RXN": [
+        "rxn01512",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PGPPHOSPHA_DASH_RXN": [
+        "rxn20526",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6173": [
+        "rxn12248",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03242",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSACETYLTRANS_DASH_RXN": [
+        "rxn00173",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARTATEKIN_DASH_RXN": [
+        "rxn00337",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08441",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_743": [
+        "rxn05115",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "FUMARYLACETOACETASE_DASH_RXN": [
+        "rxn00993",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03239",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "H2NEOPTERINP3PYROPHOSPHOHYDRO_DASH_RXN": [
+        "rxn03173",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05336",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "AFATTYACID_TAG_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12344",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN_": -0.052,
+                "C18_COLON_1_LPAREN_C9_RPAREN_": -0.149
+            },
+            {
+                "cpd00536": -0.149,
+                "cpd16618": -0.052
+            }
+        ]
+    ],
+    "THIAZOLSYN3_DASH_RXN": [
+        "rxn03075",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CYTIDINE": [
+        "rxn12413",
+        {}
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn12327",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOACP": 1.0
+            },
+            {
+                "cpd16625": -1,
+                "cpd16634": 1
+            }
+        ]
+    ],
+    "KDO_DASH_8PPHOSPHAT_DASH_RXN": [
+        "rxn02404",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03251",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_GLUCONATE": [
+        "rxn08610",
+        {}
+    ],
+    "HOMOCYSMETB12_DASH_RXN": [
+        "rxn00693",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUCONOLACT_DASH_RXN": [
+        "rxn01107",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5847": [
+        "rxn05215",
+        {}
+    ],
+    "2PGADEHYDRAT_DASH_RXN": [
+        "rxn00459",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6188": [
+        "rxn12242",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "3_COMMA_4_DASH_DIHYDROXYBENZOATE": 1.0
+            },
+            {
+                "cpd00197": 1
+            }
+        ]
+    ],
+    "GUANIDINOBUTYRASE_DASH_RXN": [
+        "rxn01462",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6205": [
+        "rxn12237",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12273",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOCOA": 1.0
+            },
+            {
+                "cpd16622": -1,
+                "cpd16624": 1
+            }
+        ]
+    ],
+    "GLUTATHIONE_DASH_REDUCT_DASH_NADPH_DASH_RXN": [
+        "rxn00086",
+        [
+            0.8,
+            4,
+            -1,
+            {
+                "PROTON": 1.0
+            },
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_27_DASH_BIS": [
+        "rxn12374",
+        {}
+    ],
+    "RXNIM_DASH_6204": [
+        "rxn12500",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C10_COLON_0": [
+        "rxn12385",
+        {}
+    ],
+    "C18_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08767",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ABC_DASH_70_DASH_RXN": [
+        "rxn05153",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00048": 0
+            }
+        ]
+    ],
+    "RXNIM_DASH_6206": [
+        "rxn12297",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GAPOXNPHOSPHN_DASH_RXN": [
+        "rxn00781",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "R223_DASH_RXN": [
+        "rxn09444",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ADENYLYLSULFATE_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05256",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "OX_DASH_THIOREDOXIN_DASH_MONOMER": 1.0
+            },
+            {
+                "cpd11420": 1
+            }
+        ]
+    ],
+    "3_DASH_CH3_DASH_2_DASH_OXOBUTANOATE_DASH_OH_DASH_CH3_DASH_XFER_DASH_RXN": [
+        "rxn00912",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UPPSYN_DASH_RXN": [
+        "rxn04308",
+        [
+            0.25,
+            1,
+            1,
+            {
+                "PPI": 8.0
+            },
+            {
+                "cpd00113": -7,
+                "cpd08211": -1,
+                "cpd00012": 7
+            }
+        ]
+    ],
+    "2_PERIOD_4_PERIOD_2_PERIOD_12_DASH_RXN": [
+        "rxn00941",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYCERALDEHYDE_DASH_DEHYDRO_DASH_RXN": [
+        "rxn01286",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_2_PERIOD_1_PERIOD_27_DASH_RXN": [
+        "rxn00671",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {},
+            {
+                "cpd00287": -1
+            }
+        ]
+    ],
+    "ACETOOHBUTSYN_DASH_RXN": [
+        "rxn08043",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SUCCINYLDIAMINOPIMTRANS_DASH_RXN": [
+        "rxn03087",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "N_DASH_SUCCINYLLL_DASH_2_COMMA_6_DASH_DIAMINOPIMELATE": -1.0
+            },
+            {
+                "cpd02698": -1
+            }
+        ]
+    ],
+    "GABATRANSAM_DASH_RXN": [
+        "rxn01204",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PANTOATE_DASH_BETA_DASH_ALANINE_DASH_LIG_DASH_RXN": [
+        "rxn01791",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "AICARSYN_DASH_RXN": [
+        "rxn03136",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "MALATE_DASH_DEHYDROGENASE_DASH__LPAREN_ACCEPTOR_RPAREN__DASH_RXN": [
+        "rxn08900",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_742": [
+        "rxn05114",
+        [
+            0.7142857142857143,
+            5,
+            1,
+            {
+                "CARBON_DASH_DIOXIDE": -1.0,
+                "WATER": -1.0
+            },
+            {
+                "cpd00242": -1
+            }
+        ]
+    ],
+    "ACETALD_DASH_DEHYDROG_DASH_RXN": [
+        "rxn00171",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "FUMHYDR_DASH_RXN": [
+        "rxn00799",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "GPH_DASH_RXN": [
+        "rxn00980",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn05330",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05328",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn12312",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {},
+            {
+                "cpd16612": -1,
+                "cpd16610": 1
+            }
+        ]
+    ],
+    "PHOSPHASERDECARB_DASH_RXN": [
+        "rxn06090",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "H2NEOPTERINALDOL_DASH_RXN": [
+        "rxn02504",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SERINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn43380",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_SER_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "TYROSINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn41935",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_TYR_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "ADCLY_DASH_RXN": [
+        "rxn03841",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_2044": [
+        "rxn04750",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RIBOFLAVINKIN_DASH_RXN": [
+        "rxn00392",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BENZALDEHYDE_DASH_DEHYDROGENASE_DASH__LPAREN_NAD_PLUS__RPAREN__DASH_RXN": [
+        "rxn01032",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_118": [
+        "rxn05221",
+        {}
+    ],
+    "_LPAREN_DEOXY_RPAREN_ADENYLATE_DASH_KINASE_DASH_RXN": [
+        "rxn01127",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_3623": [
+        "rxn12406",
+        {}
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12271",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd16609": -1,
+                "cpd16617": 1
+            }
+        ]
+    ],
+    "ADENPRIBOSYLTRAN_DASH_RXN": [
+        "rxn00139",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "PHOSNACMURPENTATRANS_DASH_RXN": [
+        "rxn03904",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "C1": -1.0
+            },
+            {
+                "cpd02968": -1
+            }
+        ]
+    ],
+    "OROTPDECARB_DASH_RXN": [
+        "rxn00710",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_7609": [
+        "rxn00913",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "LEUCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn44809",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_LEU_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "PHENYLALANINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn47831",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_PHE_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "C6_COLON_2_LPAREN_c2_COMMA_c4_RPAREN__DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12292",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C6_COLON_1_LPAREN_C4_RPAREN__DASH_2ENOYLCOA": 1.0
+            },
+            {
+                "cpd16648": -1,
+                "cpd16645": 1
+            }
+        ]
+    ],
+    "C8_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn05334",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CYSTEINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn43736",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_CYS_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05326",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARTASE_DASH_RXN": [
+        "rxn00347",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5899": [
+        "rxn05152",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00041": 0
+            }
+        ]
+    ],
+    "SUCCSEMIALDDEHYDROG_DASH_RXN": [
+        "rxn00509",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DAPASYN_DASH_RXN": [
+        "rxn02312",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ISOLEUCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn48235",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_ILE_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "LUMAZINESYN_DASH_RXN": [
+        "rxn03080",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_148": [
+        "rxn12402",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_242A_DASH_BIS": [
+        "rxn12373",
+        {}
+    ],
+    "CYSTATHIONINE_DASH_BETA_DASH_LYASE_DASH_RXN": [
+        "rxn00950",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "L_DASH_CYSTATHIONINE": -1.0
+            },
+            {
+                "cpd00424": -1
+            }
+        ]
+    ],
+    "RXN_DASH_2": [
+        "rxn03586",
+        [
+            0.8571428571428571,
+            6,
+            1,
+            {
+                "3_COMMA_4_DASH_DIHYDROXYBENZOATE": 1.0
+            },
+            {
+                "cpd00197": 1
+            }
+        ]
+    ],
+    "C10_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12252",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05345",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C10_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12251",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_METHYLCITRATE_DASH_SYNTHASE_DASH_RXN": [
+        "rxn00679",
+        [
+            0.8,
+            4,
+            -1,
+            {
+                "CPD_DASH_622": -1.0
+            },
+            {
+                "cpd01501": -1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_162": [
+        "rxn12370",
+        {}
+    ],
+    "4_PERIOD_2_PERIOD_1_PERIOD_101_DASH_RXN": [
+        "rxn04024",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "4_DASH_HYDROXY_DASH_ETCETERA_DASH_HYDROXYPROPIONYL_DASH_COA": 1.0
+            },
+            {
+                "cpd04511": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5753": [
+        "rxn05183",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00637": 0
+            }
+        ]
+    ],
+    "HISTAMINOTRANS_DASH_RXN": [
+        "rxn02320",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_4_DASH_HYDROXY_DASH_BENZYL_DASH_ALCOHOL": [
+        "rxn12376",
+        {}
+    ],
+    "SARCOX_DASH_RXN": [
+        "rxn00433",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn07574",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12282",
+        [
+            0.6666666666666666,
+            4,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd00536": -1,
+                "cpd16638": 1
+            }
+        ]
+    ],
+    "DALADALALIG_DASH_RXN": [
+        "rxn00851",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTDPDEHYDRHAMEPIM_DASH_RXN": [
+        "rxn02000",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_DASH_NITROPROPANE_DASH_DIOXYGENASE_DASH_RXN": [
+        "rxn12295",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SUCCGLUALDDEHYD_DASH_RXN": [
+        "rxn03422",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "PROTON": 1.0
+            },
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12322",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5742": [
+        "rxn05219",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {
+                "cpd00060": 0
+            }
+        ]
+    ],
+    "ADDALT_DASH_RXN": [
+        "rxn01858",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_7913": [
+        "rxn01219",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PRAISOM_DASH_RXN": [
+        "rxn02508",
+        [
+            0.5,
+            1,
+            1,
+            {},
+            {
+                "cpd02642": -1
+            }
+        ]
+    ],
+    "BHBDCLOS_DASH_RXN": [
+        "rxn01451",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd00842": -1
+            }
+        ]
+    ],
+    "GMP_DASH_SYN_DASH_GLUT_DASH_RXN": [
+        "rxn00917",
+        [
+            1.0,
+            8,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn07578",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BENZYL_DASH_ALC_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01293",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_1461": [
+        "rxn02303",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "HYDROGEN_DASH_PEROXIDE": 2.0
+            },
+            {
+                "cpd00007": -1,
+                "cpd00001": 2
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6115": [
+        "rxn12411",
+        {}
+    ],
+    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6116": [
+        "rxn12412",
+        {}
+    ],
+    "C16_COLON_0_DASH_COA_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12352",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12261",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6112": [
+        "rxn12409",
+        {}
+    ],
+    "MALSYN_DASH_RXN": [
+        "rxn00330",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "FAD_DASH_UBIQUINONE_DASH_RXN": [
+        "rxn10126",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PQQ_DASH_OXID_DASH_RXN": [
+        "rxn12199",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "COFACTORSYN_DASH_RXN": [
+        "rxn12496",
+        [
+            1.0,
+            14,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTDEHYD_DASH_RXN": [
+        "rxn00184",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12279",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOCOA": 1.0
+            },
+            {
+                "cpd16633": -1,
+                "cpd16635": 1
+            }
+        ]
+    ],
+    "C6_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08446",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": [
+        "rxn00175",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_361": [
+        "rxn26065",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12274",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOCOA": -1.0,
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA": 1.0
+            },
+            {
+                "cpd16624": -1,
+                "cpd16617": 1
+            }
+        ]
+    ],
+    "ACETOINDEHYDROG_DASH_RXN": [
+        "rxn01685",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12290",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3OXOCOA": 1.0
+            },
+            {
+                "cpd16646": -1,
+                "cpd16647": 1
+            }
+        ]
+    ],
+    "ARYLSULFAT_DASH_RXN": [
+        "rxn00925",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDPNACETYLGLUCOSAMACYLTRANS_DASH_RXN": [
+        "rxn06729",
+        [
+            0.75,
+            3,
+            1,
+            {},
+            {
+                "cpd11484": -1
+            }
+        ]
+    ],
+    "ERYTH4PDEHYDROG_DASH_RXN": [
+        "rxn01331",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C5_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12255",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROTEINSYN_DASH_RXN": [
+        "rxn12192",
+        [
+            1.0,
+            44,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_58": [
+        "rxn08854",
+        {}
+    ],
+    "GTP_DASH_CYCLOHYDRO_DASH_I_DASH_RXN": [
+        "rxn00299",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "WATER": -2.0
+            },
+            {
+                "cpd00001": -1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_FORMATE": [
+        "rxn12422",
+        {}
+    ],
+    "UROGENDECARBOX_DASH_RXN": [
+        "rxn02288",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_NMN": [
+        "rxn08995",
+        {}
+    ],
+    "UDP_DASH_NACMURALA_DASH_GLU_DASH_LIG_DASH_RXN": [
+        "rxn02008",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "UDP_DASH_ACETYLMURAMOYL_DASH_ALA": -1.0
+            },
+            {
+                "cpd00890": -1
+            }
+        ]
+    ],
+    "RXN0_DASH_383": [
+        "rxn00367",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_384": [
+        "rxn09013",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_385": [
+        "rxn01351",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_57": [
+        "rxn05564",
+        {}
+    ],
+    "GLUTAMIDOTRANS_DASH_RXN": [
+        "rxn03135",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "HOMOSERKIN_DASH_RXN": [
+        "rxn01300",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DTDPGLUCDEHYDRAT_DASH_RXN": [
+        "rxn01997",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_5_PERIOD_1_PERIOD_29_DASH_RXN": [
+        "rxn03974",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1PFRUCTPHOSN_DASH_RXN": [
+        "rxn01492",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "FRUCTOSE_DASH_16_DASH_DIPHOSPHATE": 1.0
+            },
+            {
+                "cpd00290": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPD_DASH_592": [
+        "rxn12407",
+        {}
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12355",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_OH": 1.0
+            },
+            {
+                "cpd16637": -1,
+                "cpd16639": 1
+            }
+        ]
+    ],
+    "2_PERIOD_6_PERIOD_1_PERIOD_76_DASH_RXN": [
+        "rxn04786",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_OHACYL_DASH_ACP_LPS_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12330",
+        [
+            0.6666666666666666,
+            2,
+            1,
+            {
+                "3_DASH_OHMYRISTOYL_DASH_ACP": -0.44
+            },
+            {
+                "cpd11484": -0.44
+            }
+        ]
+    ],
+    "PORPHOBILSYNTH_DASH_RXN": [
+        "rxn00029",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_HYDROXYISOBUTYRATE_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01480",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "CH3_DASH_MALONATE_DASH_S_DASH_ALD": 1.0
+            },
+            {
+                "cpd00287": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C18_COLON_1_LPAREN_C9_RPAREN_": [
+        "rxn12391",
+        {}
+    ],
+    "ACYL_DASH_ACP_PL_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12338",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ACP": -0.6
+            },
+            {
+                "cpd16625": -0.2,
+                "cpd16636": -0.6
+            }
+        ]
+    ],
+    "ADENOSYLHOMOCYSTEINE_DASH_NUCLEOSIDASE_DASH_RXN": [
+        "rxn00143",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "WAX_DASH_ESTER_DASH_SYNTHASE_DASH_RXN": [
+        "rxn12359",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRIMSYN1_DASH_RXN": [
+        "rxn20643",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "WATER": -1.0,
+                "FORMATE": 2.0
+            },
+            {
+                "cpd00017": -1,
+                "cpd00047": 1,
+                "cpd00060": 1,
+                "cpd00204": 1,
+                "cpd03091": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5839": [
+        "rxn08856",
+        {}
+    ],
+    "C18_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn08053",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "NADH_DASH_DEHYDROG_DASH_A_DASH_RXN": [
+        "rxn08975",
+        [
+            0.8,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACSERLY_DASH_RXN": [
+        "rxn00649",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_280": [
+        "rxn08469",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5839_DASH_BIS": [
+        "rxn08155",
+        {}
+    ],
+    "RXNIM_DASH_6211": [
+        "rxn12228",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "OPPSYN_DASH_RXN": [
+        "rxn03891",
+        {}
+    ],
+    "C8_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03246",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SHIKIMATE_DASH_KINASE_DASH_RXN": [
+        "rxn01739",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12270",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA": -1.0,
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_2ENOYLCOA": 1.0
+            },
+            {
+                "cpd16617": -1,
+                "cpd16611": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6114": [
+        "rxn12410",
+        {}
+    ],
+    "RXN0_DASH_949": [
+        "rxn12336",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_27": [
+        "rxn09256",
+        {}
+    ],
+    "ARGININE_DASH_N_DASH_SUCCINYLTRANSFERASE_DASH_RXN": [
+        "rxn00601",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RIBULP3EPIM_DASH_RXN": [
+        "rxn01116",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_ADIPATE": [
+        "rxn12382",
+        {}
+    ],
+    "THREONINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": [
+        "rxn44292",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "CHARGED_DASH_THR_DASH_TRNAS": 1.0
+            },
+            {}
+        ]
+    ],
+    "TREHALOSEPHOSPHA_DASH_RXN": [
+        "rxn02004",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6212": [
+        "rxn12239",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_PERIOD_2_PERIOD_1_PERIOD_41_DASH_RXN": [
+        "rxn01634",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXNIM_DASH_6210": [
+        "rxn12227",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5837": [
+        "rxn12438",
+        {}
+    ],
+    "C10_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn12254",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ALANINE_DASH_AMINOTRANSFERASE_DASH_RXN": [
+        "rxn00191",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "DXPREDISOM_DASH_RXN": [
+        "rxn03958",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "4_DASH_HYDROXYBENZOATE_DASH_3_DASH_MONOOXYGENASE_DASH_RXN": [
+        "rxn00962",
+        [
+            0.8333333333333334,
+            5,
+            1,
+            {
+                "3_COMMA_4_DASH_DIHYDROXYBENZOATE": 1.0
+            },
+            {
+                "cpd00197": 1
+            }
+        ]
+    ],
+    "ACETYLGLUTKIN_DASH_RXN": [
+        "rxn01917",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_PERIOD_6_PERIOD_1_PERIOD_41_DASH_RXN": [
+        "rxn00095",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_14_PERIOD_12_PERIOD_1_DASH_RXN": [
+        "rxn00595",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_DEOXYCYTIDINE": [
+        "rxn12415",
+        {}
+    ],
+    "C10_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03245",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "NICONUCADENYLYLTRAN_DASH_RXN": [
+        "rxn02155",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "L_DASH_GLN_DASH_FRUCT_DASH_6_DASH_P_DASH_AMINOTRANS_DASH_RXN": [
+        "rxn00555",
+        [
+            0.75,
+            3,
+            1,
+            {
+                "FRUCTOSE_DASH_6P": -1.0
+            },
+            {
+                "cpd00072": -1
+            }
+        ]
+    ],
+    "FADSYN_DASH_RXN": [
+        "rxn00122",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDPHYDROXYMYRGLUCOSAMNACETYLTRANS_DASH_RXN": [
+        "rxn06723",
+        [
+            0.75,
+            3,
+            -1,
+            {},
+            {
+                "cpd11484": 1
+            }
+        ]
+    ],
+    "C4_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": [
+        "rxn05329",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SUCCGLUDESUCC_DASH_RXN": [
+        "rxn00291",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UDPREDUCT_DASH_RXN": [
+        "rxn06075",
+        [
+            0.8,
+            4,
+            -1,
+            {
+                "OX_DASH_THIOREDOXIN_DASH_MONOMER": -1.0
+            },
+            {
+                "cpd11420": -1
+            }
+        ]
+    ],
+    "SHIKIMATE_DASH_PQQ_DASH_RXN": [
+        "rxn01742",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ACETOLACTSYN_DASH_RXN": [
+        "rxn15021",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ACYL_DASH_ACP_LPS_DASH_ASSEMBLY_DASH_RXN": [
+        "rxn12331",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ACP": -0.1
+            },
+            {
+                "cpd16636": -0.1
+            }
+        ]
+    ],
+    "C12_COLON_0_DASH_2ENOYLACP_DASH_ISOMERASE_DASH_RXN": [
+        "rxn12308",
+        [
+            0.5,
+            1,
+            1,
+            {
+                "C12_COLON_1_LPAREN_C3_RPAREN__DASH_ACP": 1.0
+            },
+            {
+                "cpd16608": 1
+            }
+        ]
+    ],
+    "PHOSPHASERSYN_DASH_RXN": [
+        "rxn06044",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "3_DASH_DEHYDROQUINATE_DASH_SYNTHASE_DASH_RXN": [
+        "rxn02212",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PEPCARBOX_DASH_RXN": [
+        "rxn00251",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "DSERDEAM_DASH_RXN": [
+        "rxn00166",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn08440",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "6_PERIOD_3_PERIOD_5_PERIOD_6_DASH_RXN": [
+        "rxn06619",
+        [
+            1.0,
+            7,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "CHD_DASH_RXN": [
+        "rxn10770",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "FADH2": 1.0
+            },
+            {
+                "cpd00003": -1,
+                "cpd00004": 1
+            }
+        ]
+    ],
+    "NITRATREDUCT_DASH_RXN": [
+        "rxn12498",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THYMIDYLATE_DASH_5_APOST__DASH_PHOSPHATASE_DASH_RXN": [
+        "rxn01145",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLUTARYL_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01802",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_104_DASH_BIS": [
+        "rxn12366",
+        {}
+    ],
+    "SERINE_DASH_O_DASH_ACETTRAN_DASH_RXN": [
+        "rxn00423",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C5_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12283",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn03249",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn12314",
+        [
+            0.6,
+            3,
+            1,
+            {
+                "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOACP": 1.0
+            },
+            {
+                "cpd16608": -1,
+                "cpd16614": 1
+            }
+        ]
+    ],
+    "1_PERIOD_6_PERIOD_1_PERIOD_2_DASH_RXN": [
+        "rxn09295",
+        [
+            0.8,
+            4,
+            1,
+            {
+                "PROTON": 0.0
+            },
+            {}
+        ]
+    ],
+    "RXN_DASH_1126": [
+        "rxn01427",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_CONIFERYL_DASH_ALDEHYDE": [
+        "rxn12399",
+        {}
+    ],
+    "C6_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn03250",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "4OH2OXOGLUTARALDOL_DASH_RXN": [
+        "rxn00328",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HOMOCYSMET_DASH_RXN": [
+        "rxn03052",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PREPHENATE_DASH_TRANSAMINE_DASH_RXN": [
+        "rxn05036",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "PYRIMSYN3_DASH_RXN": [
+        "rxn03108",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HOMOSERINE_DASH_O_DASH_ACETYLTRANSFERASE_DASH_RXN": [
+        "rxn01303",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THI_DASH_P_DASH_SYN_DASH_RXN": [
+        "rxn02305",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "IMIDPHOSDEHYD_DASH_RXN": [
+        "rxn02473",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_151": [
+        "rxn12369",
+        {}
+    ],
+    "THI_DASH_P_DASH_KIN_DASH_RXN": [
+        "rxn00438",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12309",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRUVDEH_DASH_RXN": [
+        "rxn00154",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRIOSEPISOMERIZATION_DASH_RXN": [
+        "rxn00747",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C14_COLON_0_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn05736",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": [
+        "rxn00943",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIHYDRONEOPTERIN_DASH_MONO_DASH_P_DASH_DEPHOS_DASH_RXN": [
+        "rxn03168",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12277",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "NITRILE_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12231",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_BUTYRIC_ACID": [
+        "rxn08184",
+        {}
+    ],
+    "2OXOGLUTARATEDEH_DASH_RXN": [
+        "rxn08094",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_SO3_DASH_OUT": [
+        "rxn09260",
+        {}
+    ],
+    "UDPKIN_DASH_RXN": [
+        "rxn00117",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "UGD_DASH_RXN": [
+        "rxn00211",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn12316",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLACP": -1.0,
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ACP": 1.0
+            },
+            {
+                "cpd16619": -1,
+                "cpd16625": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5876": [
+        "rxn08581",
+        {}
+    ],
+    "TRANS_DASH_RXNIM_DASH_5874": [
+        "rxn12440",
+        {}
+    ],
+    "PANTOTHENATE_DASH_KIN_DASH_RXN": [
+        "rxn12510",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYOXII_DASH_RXN": [
+        "rxn01274",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARTATE_DASH_SEMIALDEHYDE_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn01643",
+        [
+            1.0,
+            5,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "KDOTRANS_DASH_RXN": [
+        "rxn03182",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5720": [
+        "rxn05466",
+        {}
+    ],
+    "GTP_DASH_CYCLOHYDRO_DASH_II_DASH_RXN": [
+        "rxn00300",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C18_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": [
+        "rxn12323",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "AMP_DASH_DEPHOSPHORYLATION_DASH_RXN": [
+        "rxn00132",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "BENZOATE_DASH_DIOXYGENASE_DASH_NON_DASH_DECARBOX_DASH_RXN": [
+        "rxn03897",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": [
+        "rxn04753",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C12_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn02911",
+        [
+            1.0,
+            3,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "ORNCARBAMTRANSFER_DASH_RXN": [
+        "rxn01019",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_URIDINE": [
+        "rxn12460",
+        {}
+    ],
+    "6_PERIOD_2_PERIOD_1_PERIOD_34_DASH_RXN": [
+        "rxn01571",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "THYMIDYLATESYN_DASH_RXN": [
+        "rxn01520",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYC3PDEHYDROGBIOSYN_DASH_RXN": [
+        "rxn00611",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "NADPH": 1.0
+            },
+            {
+                "cpd00003": -1,
+                "cpd00004": 1
+            }
+        ]
+    ],
+    "C10_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12253",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_902": [
+        "rxn01297",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN0_DASH_901": [
+        "rxn01522",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PRPPSYN_DASH_RXN": [
+        "rxn00770",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CPD_DASH_1301_DASH_ACTIVATION_DASH_RXN": [
+        "rxn12215",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PROTOPORGENOXI_DASH_RXN": [
+        "rxn12219",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_C14_COLON_0": [
+        "rxn12387",
+        {}
+    ],
+    "GLUTRACE_DASH_RXN": [
+        "rxn00193",
+        [
+            1.0,
+            2,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIAMINOPIMDECARB_DASH_RXN": [
+        "rxn00313",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C5_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12286",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "HEMEOSYN_DASH_RXN": [
+        "rxn05120",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C4_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": [
+        "rxn05339",
+        [
+            0.75,
+            3,
+            -1,
+            {},
+            {
+                "cpd11488": 1
+            }
+        ]
+    ],
+    "PHOSGLUCOSAMINEMUT_DASH_RXN": [
+        "rxn01485",
+        [
+            1.0,
+            2,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "1_PERIOD_2_PERIOD_1_PERIOD_9_DASH_RXN": [
+        "rxn00779",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GLYCEROL_DASH_KIN_DASH_RXN": [
+        "rxn00615",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "2_PERIOD_5_PERIOD_1_PERIOD_19_DASH_RXN": [
+        "rxn02476",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "OROPRIBTRANS_DASH_RXN": [
+        "rxn01362",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C6_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": [
+        "rxn05346",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": [
+        "rxn12275",
+        [
+            0.5,
+            2,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA": -1.0,
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLCOA": 1.0
+            },
+            {
+                "cpd16627": -1,
+                "cpd16620": 1
+            }
+        ]
+    ],
+    "C5_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": [
+        "rxn12257",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PYRROLINECARBDEHYDROG_DASH_RXN": [
+        "rxn00504",
+        [
+            0.4,
+            2,
+            1,
+            {
+                "NADH": 1.0
+            },
+            {
+                "cpd00006": -1,
+                "cpd02431": -1,
+                "cpd00005": 1
+            }
+        ]
+    ],
+    "PTAALT_DASH_RXN": [
+        "rxn00670",
+        [
+            1.0,
+            4,
+            -1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_99": [
+        "rxn08213",
+        {}
+    ],
+    "1_PERIOD_2_PERIOD_1_PERIOD_67_DASH_RXN": [
+        "rxn03969",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "CDPDIGLYSYN_DASH_RXN": [
+        "rxn06043",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DIMETHUROPORDEHYDROG_DASH_RXN": [
+        "rxn02774",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "ASPARTATE_DASH__DASH_TRNAASN_DASH_LIGASE_DASH_RXN": [
+        "rxn06433",
+        [
+            1.0,
+            6,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5901": [
+        "rxn05560",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RIBOFLAVINSYNDEAM_DASH_RXN": [
+        "rxn02475",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PABASYN_DASH_RXN": [
+        "rxn01257",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12272",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLCOA": -1.0,
+                "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYCOA": 1.0
+            },
+            {
+                "cpd16620": -1,
+                "cpd16622": 1
+            }
+        ]
+    ],
+    "TRANS_DASH_RXNIM_DASH_5736_DASH_BIS": [
+        "rxn12429",
+        {}
+    ],
+    "1_PERIOD_1_PERIOD_99_PERIOD_25_DASH_RXN": [
+        "rxn01364",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "C8_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12258",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "H2PTERIDINEPYROPHOSPHOKIN_DASH_RXN": [
+        "rxn02503",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_INOSINE": [
+        "rxn12445",
+        {}
+    ],
+    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": [
+        "rxn12278",
+        [
+            0.3333333333333333,
+            1,
+            1,
+            {
+                "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYCOA": 1.0
+            },
+            {
+                "cpd16631": -1,
+                "cpd16633": 1
+            }
+        ]
+    ],
+    "PGLYCDEHYDROG_DASH_RXN": [
+        "rxn01101",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "RXN_DASH_1241": [
+        "rxn03970",
+        [
+            1.0,
+            5,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "SALICYLATE_DASH_1_DASH_MONOOXYGENASE_DASH_RXN": [
+        "rxn00589",
+        [
+            1.0,
+            7,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "GTP_DASH_PYROPHOSPHATASE_DASH_RXN": [
+        "rxn00301",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "PGLUCONDEHYDRAT_DASH_RXN": [
+        "rxn01477",
+        [
+            1.0,
+            3,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "DUTP_DASH_PYROP_DASH_RXN": [
+        "rxn01519",
+        [
+            1.0,
+            4,
+            1,
+            {},
+            {}
+        ]
+    ],
+    "TRANS_DASH_RXN_DASH_UREA": [
+        "rxn05667",
+        {}
+    ]
+}

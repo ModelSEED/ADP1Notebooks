@@ -1,2129 +1,2129 @@
 {
-    "CARBOXYLESTERASE_DASH_RXN": {
-        "MAX": 999.9951863838545,
+    "rxn12357_c0": {
+        "MAX": 999.9951863838487,
         "MIN": 1000.0
     },
-    "C16_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "DEPHOSPHOCOAKIN_DASH_RXN": {
-        "MAX": 0.001875363807026296,
-        "MIN": -0.0016878274262968126
-    },
-    "4_PERIOD_1_PERIOD_1_PERIOD_32_DASH_RXN": {
+    "rxn00947_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GARTRANSFORMYL2_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.8518817976685
+    "rxn00100_c0": {
+        "MAX": 0.0018753638071127025,
+        "MIN": -0.001687827426397145
     },
-    "DIHYDROXYISOVALDEHYDRAT_DASH_RXN": {
-        "MAX": 0.4313261720432297,
-        "MIN": -0.38819355483894324
-    },
-    "ISOCITDEH_DASH_RXN": {
+    "rxn00305_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DGDPKIN_DASH_RXN": {
+    "rxn04783_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9915786323504
+        "MIN": 999.851881797667
     },
-    "GALACTARDEHYDRA_DASH_RXN": {
+    "rxn15467_c0": {
+        "MAX": 0.43132617204196366,
+        "MIN": -0.38819355483887397
+    },
+    "rxn00199_c0": {
+        "MAX": 999.4883643486428,
+        "MIN": 1000.0
+    },
+    "rxn01353_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9915786323498
+    },
+    "rxn03887_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880116617
+        "MIN": 16.36708088012128
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.0025405196321459525,
-        "MIN": -0.002286467668968513
+    "rxn12353_c0": {
+        "MAX": 0.002540519632149696,
+        "MIN": -0.002286467668967931
     },
     "EXF_DASH_CPD_DASH_592_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.1666666666663665,
+        "MAX": 0.16666666666713742,
         "MIN": 0.0
     },
-    "C12_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": {
+    "rxn06556_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_GUANOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.09999999999921991,
+        "MAX": 0.10000000000062637,
         "MIN": 0.0
     },
-    "L_DASH_ASPARTATE_DASH_OXID_DASH_RXN": {
-        "MAX": 0.25464152541636925,
-        "MIN": -0.004641525422311299
+    "rxn00338_c0": {
+        "MAX": 0.2546415254135818,
+        "MIN": -0.004641525421251997
     },
     "EXF_DASH_GLY_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.499999999992696,
+        "MAX": 0.5000000000059116,
         "MIN": 0.0
     },
-    "C18_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.9999999999995,
-        "MIN": 999.9952101175078
+    "rxn07577_c0": {
+        "MAX": 999.9999999999999,
+        "MIN": 999.9952101175069
     },
-    "DIAMINOPIMEPIM_DASH_RXN": {
-        "MAX": 0.39106479678331385,
-        "MIN": -0.14106479678286202
+    "rxn01974_c0": {
+        "MAX": 0.3910647967843342,
+        "MIN": -0.14106479678277906
     },
-    "ACETOACETYL_DASH_COA_DASH_TRANSFER_DASH_RXN": {
+    "rxn00990_c0": {
         "MAX": 0.0,
-        "MIN": 24.55062132017718
+        "MIN": 24.550621320175406
     },
-    "ATP_DASH_DRAIN_DASH_RXN": {
+    "rxn00062_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DHHB_DASH_METHYLTRANSFER_DASH_RXN": {
-        "MAX": 0.001875363807102138,
-        "MIN": -0.0016878274263939707
+    "rxn08353_c0": {
+        "MAX": 0.0018753638071115695,
+        "MIN": -0.0016878274263936372
     },
-    "HISTIDINE_DASH_AMMONIA_DASH_LYASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "ALKANAL_DASH_MONOOXYGENASE_DASH__LPAREN_FMN_DASH_LINKED_RPAREN__DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "INOSINE_DASH_NUCLEOSIDASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "CYT_DASH_UBIQUINOL_DASH_OXID_DASH_O_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "UDP_DASH_NACMURALGLDAPLIG_DASH_RXN": {
-        "MAX": 0.013588393679967623,
-        "MIN": -0.012229554311982152
-    },
-    "PYRROLINECARBREDUCT_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.8969318060216
-    },
-    "UREIDOGLYCOLATE_DASH_HYDROLASE_DASH_RXN": {
+    "rxn00867_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "HISTPRATPHYD_DASH_RXN": {
-        "MAX": 0.028630053882391402,
-        "MIN": -0.025767048494176388
+    "rxn12232_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 999.9675806348745,
-        "MIN": 1000.0000000000002
+    "rxn01299_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn12494_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn02011_c0": {
+        "MAX": 0.013588393679947472,
+        "MIN": -0.012229554311978029
+    },
+    "rxn00929_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.8969318060192
+    },
+    "rxn00327_c0": {
+        "MAX": 0.0,
+        "MIN": 0.0
+    },
+    "rxn02834_c0": {
+        "MAX": 0.028630053882349862,
+        "MIN": -0.025767048494171104
+    },
+    "rxn12280_c0": {
+        "MAX": 999.9675806348744,
+        "MIN": 999.9999999999995
     },
     "EXF_DASH_CPD_DASH_335_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.550621320191727,
+        "MAX": 24.550621320178454,
         "MIN": 0.0
     },
     "EXF_DASH_HOMO_DASH_SER_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.49999999999832795,
+        "MAX": 0.4999999999957301,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_C6_COLON_0": {
+    "rxn12393_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880116987
+        "MIN": 16.367080880115157
     },
-    "C8_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 749.9939030551153,
-        "MIN": 749.9977993721402
+    "rxn05350_c0": {
+        "MAX": 749.9939030551164,
+        "MIN": 749.997799372143
     },
-    "GLUTATHIONE_DASH_PEROXIDASE_DASH_RXN": {
-        "MAX": 999.9999999999998,
-        "MIN": 1000.0000000000001
-    },
-    "R142_DASH_RXN": {
-        "MAX": 0.035631912334795623,
-        "MIN": -0.032068721101487764
-    },
-    "3PGAREARR_DASH_RXN": {
+    "rxn00205_c0": {
         "MAX": 1000.0,
+        "MIN": 999.9999999999997
+    },
+    "rxn03908_c0": {
+        "MAX": 0.03563191234162778,
+        "MIN": -0.03206872110146656
+    },
+    "rxn01106_c0": {
+        "MAX": 998.2586074381738,
         "MIN": 1000.0
     },
-    "MALONYL_DASH_ACPDECARBOX_DASH_RXN": {
-        "MAX": 749.9939030551174,
-        "MIN": 749.9977993721432
+    "rxn08861_c0": {
+        "MAX": 749.993903055117,
+        "MIN": 749.9977993721391
     },
-    "DHSHIKIMATE_DASH_DEHYDRO_DASH_RXN": {
+    "rxn01188_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_GLC_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880125418,
+        "MAX": 16.36708088013493,
         "MIN": 0.0
     },
-    "AICARTRANSFORM_DASH_RXN": {
-        "MAX": 0.2971974234003777,
-        "MIN": -0.17219742340126692
+    "rxn03137_c0": {
+        "MAX": 0.2971974233980076,
+        "MIN": -0.17219742339926278
     },
-    "2_DASH_OCTAPRENYLPHENOL_DASH_HYDROX_DASH_RXN": {
-        "MAX": 0.0009376819035776453,
-        "MIN": -0.0008439137131971027
+    "rxn03394_c0": {
+        "MAX": 0.0009376819035805183,
+        "MIN": -0.0008439137131970364
     },
-    "DALADEHYDROG_DASH_RXN": {
-        "MAX": 999.6398111775086,
+    "rxn08291_c0": {
+        "MAX": 999.6398111775159,
         "MIN": 1000.0
     },
-    "RXN_DASH_2881": {
-        "MAX": -1.0786101785391272e-13,
-        "MIN": 0.7812956320129828
+    "rxn12217_c0": {
+        "MAX": 0.0,
+        "MIN": 0.7812956320201809
     },
     "EXF_DASH_FUM_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.550621320186785,
+        "MAX": 24.550621320185293,
         "MIN": 0.0
     },
-    "PHOSPHAGLYPSYN_DASH_RXN": {
-        "MAX": 0.009074135760130405,
-        "MIN": -0.008166722184137474
+    "rxn20547_c0": {
+        "MAX": 0.009074135760102742,
+        "MIN": -0.008166722184134148
     },
-    "THREDEHYD_DASH_RXN": {
-        "MAX": 0.14315026941173417,
-        "MIN": -0.1288352424708878
+    "rxn00737_c0": {
+        "MAX": 0.14315026941237904,
+        "MIN": -0.12883524247084158
     },
-    "OCTAPRENYL_DASH_METHYL_DASH_METHOXY_DASH_BENZOQ_DASH_OH_DASH_RXN": {
-        "MAX": 0.0018753638071417977,
-        "MIN": -0.0016878274263915506
+    "rxn20472_c0": {
+        "MAX": 0.001875363807150634,
+        "MIN": -0.0016878274263934434
     },
-    "CARDIOLIPSYN_DASH_RXN": {
-        "MAX": 0.0032658121455537746,
-        "MIN": -0.002939230931005858
+    "rxn19256_c0": {
+        "MAX": 0.003265812145568487,
+        "MIN": -0.002939230931004803
     },
-    "RXNIM_DASH_6099": {
+    "rxn12241_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253409998
+        "MIN": 10.911387253419637
     },
-    "GLUTAMINESYN_DASH_RXN": {
+    "rxn00187_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_ASN_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.2499999999938506,
+        "MAX": 0.24999999999446199,
         "MIN": 0.0
     },
-    "ACETYLORNDEACET_DASH_RXN": {
+    "rxn00469_c0": {
         "MAX": 1000.0000000000001,
-        "MIN": 1000.0000000000002
+        "MIN": 999.9999999999976
     },
-    "RXNIM_DASH_6092": {
-        "MAX": 999.1382969426252,
-        "MIN": 999.9467780755864
+    "rxn02302_c0": {
+        "MAX": 998.311829362612,
+        "MIN": 999.9467780755854
     },
-    "RXN0_DASH_277": {
-        "MAX": 0.035631912335244285,
-        "MIN": -0.03206872110154417
+    "rxn03907_c0": {
+        "MAX": 0.03563191233530201,
+        "MIN": -0.03206872110147858
     },
-    "RXNIM_DASH_6094": {
+    "rxn12240_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253412691
+        "MIN": 10.911387253408913
     },
-    "RXNIM_DASH_6095": {
+    "rxn12247_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253406298
+        "MIN": 10.911387253408275
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.0025298227074738457,
-        "MIN": -0.0022768404367582854
+    "rxn12356_c0": {
+        "MAX": 0.0025298227074491463,
+        "MIN": -0.0022768404367579233
     },
     "EXF_DASH_XANTHINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.12499999999639087,
+        "MAX": 0.12499999998904777,
         "MIN": 0.0
     },
-    "R221_DASH_RXN": {
+    "rxn02066_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660080267
+        "MIN": 12.275310660086157
     },
-    "DLACTDEHYDROGFAD_DASH_RXN": {
+    "rxn08783_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C16_COLON_0_DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.00027812004395464594,
-        "MIN": -0.00025030803955910727
+    "rxn01781_c0": {
+        "MAX": 0.0002781200439478492,
+        "MIN": -0.0002503080395590543
     },
-    "TRANS_DASH_RXN_DASH_100": {
+    "rxn12364_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 749.9939030551203,
-        "MIN": 749.9977993721425
+    "rxn05343_c0": {
+        "MAX": 749.9939030551167,
+        "MIN": 749.9977993721432
     },
-    "4_DASH_COUMARATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {
+    "rxn01182_c0": {
         "MAX": 0.0,
-        "MIN": 10.91138725340156
+        "MIN": 10.911387253402046
     },
-    "NAD_DASH_SYNTH_DASH_GLN_DASH_RXN": {
+    "rxn00190_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9953584745795
+        "MIN": 999.9953584745776
     },
-    "ORNDECARBOX_DASH_RXN": {
+    "rxn00470_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C18_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+    "rxn05460_c0": {
         "MAX": 1000.0,
-        "MIN": 999.995210117515
+        "MIN": 999.9952101175151
     },
-    "SULFATE_DASH_ADENYLYLTRANS_DASH_RXN": {
-        "MAX": 4.99999999999998,
-        "MIN": -0.10813167625791778
+    "rxn00379_c0": {
+        "MAX": 4.999999999999988,
+        "MIN": -0.10813167625614223
     },
-    "FGAMSYN_DASH_RXN": {
-        "MAX": 0.2731182023314307,
-        "MIN": -0.14811820233725037
+    "rxn03084_c0": {
+        "MAX": 0.2731182023313401,
+        "MIN": -0.1481182023330912
     },
     "EXF_DASH_D_DASH_GALACTARATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880107416,
+        "MAX": 16.367080880106716,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_ADENOSINE": {
+    "rxn12381_c0": {
         "MAX": 0.0,
-        "MIN": 0.09999999999409656
+        "MIN": 0.10000000000207693
     },
-    "UROGENIIISYN_DASH_RXN": {
-        "MAX": 0.003750727614172008,
-        "MIN": -0.0033756548527878395
+    "rxn02264_c0": {
+        "MAX": 0.003750727614206421,
+        "MIN": -0.0033756548527867467
     },
-    "TRANS_DASH_RXN_DASH_DEOXYURIDINE": {
+    "rxn12418_c0": {
         "MAX": 0.0,
-        "MIN": 0.2499999999789577
+        "MIN": 0.25000000000800293
     },
-    "ARGSUCCINSYN_DASH_RXN": {
-        "MAX": 999.8384558976632,
-        "MIN": 999.9226988545123
+    "rxn01434_c0": {
+        "MAX": 999.838455897687,
+        "MIN": 999.9226988545095
     },
-    "C12_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
+    "rxn05324_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9846916054628
+        "MIN": 999.9846916054644
     },
-    "DIHYDRODIPICSYN_DASH_RXN": {
-        "MAX": 0.39106479678178746,
-        "MIN": -0.14106479678293266
+    "rxn01644_c0": {
+        "MAX": 0.3910647968009893,
+        "MIN": -0.14106479678270703
     },
-    "DGTPTRIPHYDRO_DASH_RXN": {
+    "rxn01352_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRIACYLGLYCEROL_DASH_LIPASE_DASH_RXN": {
-        "MAX": 999.9990196767119,
+    "rxn12348_c0": {
+        "MAX": 999.9990196767122,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_CAFFEATE_DASH_PERIP": {
+    "rxn12397_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253412862
+        "MIN": 10.9113872534036
     },
-    "TRANS_DASH_RXN_DASH_GLN": {
+    "rxn08625_c0": {
         "MAX": 0.0,
-        "MIN": 0.25000000001629774
+        "MIN": 0.2499999999767171
     },
-    "2_PERIOD_8_PERIOD_1_PERIOD_6_DASH_RXN": {
+    "rxn17731_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "DIOHBUTANONEPSYN_DASH_RXN": {
-        "MAX": 0.0065637733256820084,
-        "MIN": -0.00590739599237887
+    "rxn05040_c0": {
+        "MAX": 0.006563773325627598,
+        "MIN": -0.005907395994408533
     },
     "EXF_DASH_D_DASH_ALANINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000166692,
+        "MAX": 0.49999999997222927,
         "MIN": 0.0
     },
-    "METHIONINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.05726010776482341,
-        "MIN": -0.05153409698835147
+    "rxn06443_c0": {
+        "MAX": 0.057260107764614245,
+        "MIN": -0.0515340969883419
     },
     "EXF_DASH_TRP_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.25000000000833444,
+        "MAX": 0.24999999998611555,
         "MIN": 0.0
     },
-    "C14_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 999.9851894759424,
+    "rxn06510_c0": {
+        "MAX": 999.9851894759422,
         "MIN": 1000.0
     },
     "EXF_DASH_PYRUVATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 27.734161760232183,
+        "MAX": 27.734161760247503,
         "MIN": 5.0
     },
-    "GSAAMINOTRANS_DASH_RXN": {
-        "MAX": 0.030005820913726788,
-        "MIN": -0.027005238822301793
+    "rxn01629_c0": {
+        "MAX": 0.030005820913647965,
+        "MIN": -0.02700523882229718
     },
-    "PHOSMANMUT_DASH_RXN": {
-        "MAX": -0.018191394205306764,
-        "MIN": 0.020212660228054735
+    "rxn01329_c0": {
+        "MAX": -0.01819139420530259,
+        "MIN": 0.020212660227916613
     },
-    "C4_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551349,
-        "MIN": 749.9977993721387
+    "rxn05322_c0": {
+        "MAX": 749.9939030551152,
+        "MIN": 749.9977993721458
     },
-    "RXN0_DASH_302": {
-        "MAX": 0.03563191233541932,
-        "MIN": -0.0320687211014857
+    "rxn03910_c0": {
+        "MAX": 0.035631912340331987,
+        "MIN": -0.03206872110147959
     },
-    "DAMP_DASH_NUCLEOTIDASE_DASH_RXN": {
-        "MAX": 0.1249999999954321,
-        "MIN": 0.0
+    "rxn01507_c0": {
+        "MAX": 0.12499999999690539,
+        "MIN": -3.819540276556067e-13
     },
-    "RXN0_DASH_305": {
+    "rxn01015_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_NITRATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000120798,
+        "MAX": 0.5000000000230075,
         "MIN": 0.0
     },
-    "HYDROXYBENZALDEHYDE_DASH_OXIDATION_DASH_NAD_DASH_RXN": {
-        "MAX": 0.0018753638071054043,
-        "MIN": 14.027238641250154
+    "rxn00957_c0": {
+        "MAX": 0.0018753638071038114,
+        "MIN": 14.027238641240611
     },
-    "6_DASH_CARBOXYHEXANOATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {
+    "rxn02296_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468677186
+        "MIN": 14.028926468675863
     },
-    "METHYLENETHFDEHYDROG_DASH_NADP_DASH_RXN": {
-        "MAX": 1.0876866814919246,
-        "MIN": -0.30639104945826734
+    "rxn00907_c0": {
+        "MAX": 1.0876866814624722,
+        "MIN": -0.3063910494696091
     },
-    "SUCCORNTRANSAM_DASH_RXN": {
-        "MAX": 999.7611547522024,
+    "rxn02944_c0": {
+        "MAX": 999.7611547522035,
         "MIN": 1000.0
     },
-    "NAG1P_DASH_URIDYLTRANS_DASH_RXN": {
-        "MAX": 0.02806902835593379,
-        "MIN": -0.025262125520355744
+    "rxn00293_c0": {
+        "MAX": 0.02806902835610485,
+        "MIN": -0.02526212552035343
     },
-    "GLYOXI_DASH_RXN": {
+    "rxn01834_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "R9_DASH_RXN": {
-        "MAX": 999.9999999999995,
-        "MIN": 999.9999999999995
+    "rxn02167_c0": {
+        "MAX": 999.9999999999998,
+        "MIN": 999.9999999999989
     },
-    "GLUCONOKIN_DASH_RXN": {
+    "rxn01275_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880123858
+        "MIN": 16.36708088011574
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_6501": {
+    "rxn12408_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253415375
+        "MIN": 10.911387253407034
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_302": {
+    "rxn12404_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000148537
+        "MIN": 0.5000000000000567
     },
-    "PSERTRANSAM_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.0850750182266
+    "rxn02914_c0": {
+        "MAX": 999.1735324199755,
+        "MIN": 999.0850750182364
     },
-    "RXN0_DASH_5107": {
-        "MAX": 999.9692754173025,
+    "rxn09014_c0": {
+        "MAX": 999.9692754173021,
         "MIN": 1000.0
     },
-    "ACETYL_DASH_COA_DASH_ACETYLTRANSFER_DASH_RXN": {
+    "rxn00178_c0": {
         "MAX": 999.9999999999998,
         "MIN": 1000.0
     },
-    "C10_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
+    "rxn05338_c0": {
         "MAX": 749.9939030551167,
-        "MIN": 749.9977993721426
+        "MIN": 749.9977993721425
     },
-    "GLUTRNAREDUCT_DASH_RXN": {
-        "MAX": 0.030005820913596336,
-        "MIN": -0.027005238822302907
+    "rxn19846_c0": {
+        "MAX": 0.030005820913569736,
+        "MIN": -0.0270052388222981
     },
-    "_LPAREN_R_COMMA_R_RPAREN__DASH_BUTANEDIOL_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn02112_c0": {
         "MAX": 0.0,
-        "MIN": 24.550621320172898
+        "MIN": 24.55062132015095
     },
-    "ENOYL_DASH_COA_DASH_DELTA_DASH_ISOM_DASH_RXN": {
-        "MAX": 999.9527523647721,
-        "MIN": 1000.0000000000003
+    "rxn02869_c0": {
+        "MAX": 999.9527523647726,
+        "MIN": 1000.0000000000002
     },
-    "UDPGLUCEPIM_DASH_RXN": {
+    "rxn00214_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464189,
-        "MIN": 759.8815033088907
+    "rxn03244_c0": {
+        "MAX": 749.9304476464354,
+        "MIN": 759.8815033088975
     },
-    "C6_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
-        "MAX": 999.9999999999998,
+    "rxn12288_c0": {
+        "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "N_DASH_ACETYLTRANSFER_DASH_RXN": {
+    "rxn00192_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_MAL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.55062132020498,
+        "MAX": 24.55062132016477,
         "MIN": 0.0
     },
-    "CARBPSYN_DASH_RXN": {
+    "rxn00414_c0": {
         "MAX": 1000.0,
-        "MIN": 999.761154752203
+        "MIN": 999.7611547522013
     },
-    "RXNIM_DASH_6207": {
+    "rxn12298_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253414926
+        "MIN": 10.911387253409746
     },
-    "OHMETHYLBILANESYN_DASH_RXN": {
-        "MAX": 0.003750727614232467,
-        "MIN": -0.0033756548527879345
+    "rxn00060_c0": {
+        "MAX": 0.0037507276142011562,
+        "MIN": -0.003375654852787099
     },
-    "DTDPGLUCOSEPP_DASH_RXN": {
-        "MAX": 0.020334423241572044,
-        "MIN": -0.018300980917387
+    "rxn01675_c0": {
+        "MAX": 0.02033442324163062,
+        "MIN": -0.01830098091738247
     },
-    "TRANS_DASH_RXNIM_DASH_5812_DASH_BIS": {
+    "rxn09048_c0": {
         "MAX": 0.0,
-        "MIN": 0.25000000000381073
+        "MIN": 0.2500000000115245
     },
-    "DGMP_DASH_NUCLEOTIDASE_DASH_RXN": {
-        "MAX": 0.10000000000674443,
+    "rxn01445_c0": {
+        "MAX": 0.09999999999980924,
         "MIN": 0.0
     },
-    "RXNIM_DASH_3886": {
+    "rxn12200_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088012596
+        "MIN": 16.367080880130317
     },
-    "THRESYN_DASH_RXN": {
-        "MAX": 0.7576704849424762,
-        "MIN": -0.2576704849417617
+    "rxn01069_c0": {
+        "MAX": 0.7576704849377762,
+        "MIN": -0.2576704849418338
     },
-    "RXNIM_DASH_6209": {
+    "rxn12238_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253416759
+        "MIN": 10.911387253414272
     },
-    "RXNIM_DASH_6208": {
+    "rxn12299_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253422241
+        "MIN": 10.911387253417962
     },
-    "MUCONOLACTONE_DASH_DELTA_DASH_ISOMERASE_DASH_RXN": {
-        "MAX": 999.9742329515057,
-        "MIN": 1000.0000000000009
+    "rxn02971_c0": {
+        "MAX": 999.9742329515058,
+        "MIN": 1000.0000000000016
     },
-    "C8_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn12260_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660105397
+        "MIN": 12.275310660084488
     },
-    "GLUTCYSLIG_DASH_RXN": {
+    "rxn00646_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "KDO_DASH_8PSYNTH_DASH_RXN": {
-        "MAX": 0.0008922409959984355,
-        "MIN": -0.0008030168963969016
+    "rxn02331_c0": {
+        "MAX": 0.000892240995997415,
+        "MIN": -0.0008030168963967091
     },
-    "UREASE_DASH_RXN": {
+    "rxn00101_c0": {
         "MAX": 0.0,
-        "MIN": 0.2500000000099535
+        "MIN": 0.25000000000657363
     },
-    "CYCLOHEXADIENYL_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9467780755849
+    "rxn00525_c0": {
+        "MAX": 1000.0000000000001,
+        "MIN": 999.9467780755845
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_ACP_DASH_HYDROLASE_DASH_RXN": {
+    "rxn12320_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_BENZYL_DASH_ALCOHOL": {
+    "rxn12384_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468666088
+        "MIN": 14.028926468666645
     },
     "EXF_DASH_SUBERATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 12.275310660082502,
+        "MAX": 12.275310660077754,
         "MIN": 0.0
     },
-    "1TRANSKETO_DASH_RXN": {
-        "MAX": 333.2097131624949,
-        "MIN": 333.4962165384003
+    "rxn01200_c0": {
+        "MAX": 333.20971316249137,
+        "MIN": 0.20695350416870292
     },
-    "3_DASH_HYDROXYBUTYRATE_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn00992_c0": {
         "MAX": 0.0,
-        "MIN": 24.55062132018402
+        "MIN": 24.550621320159735
     },
     "EXF_DASH_ARG_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.12499999999947606,
+        "MAX": 0.12499999999547408,
         "MIN": 0.0
     },
-    "PEPSYNTH_DASH_RXN": {
+    "rxn00147_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACYL_DASH_OH_WAX_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.005348462383585359,
-        "MIN": -0.004813616145195978
+    "rxn12350_c0": {
+        "MAX": 0.005348462383699774,
+        "MIN": -0.004813616145365518
     },
-    "3_DASH_DEHYDROQUINATE_DASH_DEHYDRATASE_DASH_CATABOLIC_DASH_RXN": {
+    "rxn02213_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468671651
+        "MIN": 14.028926468685395
     },
-    "TRANS_DASH_RXN_DASH_ETHANESULFONATE": {
+    "rxn05552_c0": {
         "MAX": 0.0,
-        "MIN": 4.8918683237424485
+        "MIN": 4.891868323744395
     },
-    "ACYLACYLTRAN_DASH_RXN": {
-        "MAX": 0.00044612049799840216,
-        "MIN": -0.0004015084481984418
+    "rxn12332_c0": {
+        "MAX": 0.00044612049799945216,
+        "MIN": -0.00040150844819839394
     },
-    "PNPOXI_DASH_RXN": {
-        "MAX": 0.0018753638071090412,
-        "MIN": -0.0016878274263939744
+    "rxn00209_c0": {
+        "MAX": 0.0018753638071099632,
+        "MIN": -0.0016878274263937736
     },
-    "SPONTPRO_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 999.896931806035
+    "rxn02374_c0": {
+        "MAX": 1000.0000000000002,
+        "MIN": 999.896931806025
     },
-    "CHORISMATEMUT_DASH_RXN": {
-        "MAX": 0.6047560213967581,
-        "MIN": -0.10475602140207967
+    "rxn01256_c0": {
+        "MAX": 0.6047560213775905,
+        "MIN": -0.1047560214032311
     },
-    "2_DASH_OCTAPRENYL_DASH_6_DASH_OHPHENOL_DASH_METHY_DASH_RXN": {
-        "MAX": 0.0018753638071667092,
-        "MIN": -0.0016878274265268143
+    "rxn03395_c0": {
+        "MAX": 0.0018753638070889394,
+        "MIN": -0.001687827426393725
     },
     "EXF_DASH_BETAINE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_3_DASH_KETOBUTYRATE": {
+    "rxn08030_c0": {
         "MAX": 0.0,
-        "MIN": 24.550621320146384
+        "MIN": 24.550621320164137
     },
-    "CDPKIN_DASH_RXN": {
+    "rxn00409_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "4_PERIOD_1_PERIOD_2_PERIOD_41_DASH_RXN": {
+    "rxn04025_c0": {
         "MAX": 0.0,
-        "MIN": 0.7812956319682093
+        "MIN": 0.7812956320065167
     },
-    "GLUTAMATESYN_DASH_RXN": {
+    "rxn00085_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_C8_COLON_0": {
+    "rxn12395_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660092432
+        "MIN": 12.275310660090037
     },
     "EXF_DASH_CHOLINE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "CMPKI_DASH_RXN": {
+    "rxn00364_c0": {
         "MAX": 1000.0,
-        "MIN": 999.942774821553
+        "MIN": 999.9427748215559
     },
-    "PYRNUTRANSHYDROGEN_DASH_RXN": {
+    "rxn00083_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "2TRANSKETO_DASH_RXN": {
-        "MAX": 666.4532180701846,
-        "MIN": 666.8753079982632
+    "rxn00785_c0": {
+        "MAX": -0.12530799826760688,
+        "MIN": 666.8753079982686
     },
     "EXF_DASH_D_DASH_LACTATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 32.73416176023051,
+        "MAX": 32.73416176028871,
         "MIN": 0.0
     },
-    "GLYCOLALD_DASH_DEHYDROG_DASH_RXN": {
-        "MAX": 0.0018753638071044164,
-        "MIN": -0.0016878274263938259
+    "rxn00979_c0": {
+        "MAX": 0.0018753638071497222,
+        "MIN": -0.0016878274264034848
     },
-    "DIACYLGLYCEROL_DASH_O_DASH_ACYLTRANSFERASE_DASH_RXN": {
+    "rxn12345_c0": {
         "MAX": 1000.0,
-        "MIN": 999.999019676706
+        "MIN": 999.9990196767108
     },
-    "RXN_DASH_3641": {
-        "MAX": 999.8677891026764,
-        "MIN": 1000.0
+    "rxn00598_c0": {
+        "MAX": 999.8677891026767,
+        "MIN": 16.49929177744363
     },
-    "NAD_DASH_KIN_DASH_RXN": {
-        "MAX": 0.0016409433304190365,
-        "MIN": -0.001476848997799939
+    "rxn00077_c0": {
+        "MAX": 0.0016409433302555741,
+        "MIN": -0.0014768489970248121
     },
-    "TRANS_DASH_RXNIM_DASH_5805": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "CYTIDEAM2_DASH_RXN": {
+    "rxn12435_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DUDPKIN_DASH_RXN": {
-        "MAX": 999.9999999999995,
-        "MIN": 999.9037624844535
+    "rxn01368_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
     },
-    "2_DASH_DEHYDROPANTOATE_DASH_REDUCT_DASH_RXN": {
-        "MAX": -0.0016878274279317378,
-        "MIN": 0.0018753638086384423
+    "rxn01678_c0": {
+        "MAX": 1000.0000000000003,
+        "MIN": 999.9037624844533
     },
-    "QUINOLINATE_DASH_SYNTHA_DASH_RXN": {
-        "MAX": 0.2546415254174151,
-        "MIN": -0.004641525422410729
+    "rxn01790_c0": {
+        "MAX": -0.0016878274266590478,
+        "MIN": 0.0018753638073718503
     },
-    "ACETOLACTREDUCTOISOM_DASH_RXN": {
-        "MAX": 0.43132617204454604,
-        "MIN": -0.38819355483891266
+    "rxn02988_c0": {
+        "MAX": 0.25464152542473506,
+        "MIN": -0.004641525421132112
     },
-    "ARGSUCCINLYA_DASH_RXN": {
-        "MAX": 999.838455897686,
-        "MIN": 999.9226988545181
+    "rxn02186_c0": {
+        "MAX": 0.4313261720444151,
+        "MIN": -0.38819355484131374
     },
-    "LIPIDADISACCHARIDESYNTH_DASH_RXN": {
-        "MAX": 0.0004461204979966902,
-        "MIN": -0.0004015084481984291
+    "rxn00802_c0": {
+        "MAX": 999.8384558976848,
+        "MIN": 999.9226988545189
     },
-    "GLYOHMETRANS_DASH_RXN": {
-        "MAX": 999.3365408277781,
+    "rxn03159_c0": {
+        "MAX": 0.0004461204979946556,
+        "MIN": -0.000401508448198344
+    },
+    "rxn00692_c0": {
+        "MAX": 999.3365408277772,
         "MIN": 1000.0
     },
     "EXF_DASH_CONIFERYL_DASH_ALDEHYDE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.7812956319502237,
+        "MAX": 0.7812956319751493,
         "MIN": 0.0
     },
-    "UDPNACETYLGLUCOSAMENOLPYRTRANS_DASH_RXN": {
-        "MAX": 0.013588393679979091,
-        "MIN": -0.012229554311980806
+    "rxn00461_c0": {
+        "MAX": 0.013588393680013007,
+        "MIN": -0.012229554311979184
     },
-    "URACIL_DASH_PRIBOSYLTRANS_DASH_RXN": {
+    "rxn00711_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "3_DASH_OCTAPRENYL_DASH_4_DASH_OHBENZOATE_DASH_DECARBOX_DASH_RXN": {
-        "MAX": 0.0018753638070939532,
-        "MIN": -0.0016878274263939857
+    "rxn03393_c0": {
+        "MAX": 0.0018753638071416557,
+        "MIN": -0.0016878274263936106
     },
-    "GLUTKIN_DASH_RXN": {
-        "MAX": 1000.0000000000014,
-        "MIN": 999.8969318060257
+    "rxn00179_c0": {
+        "MAX": 1000.0000000000017,
+        "MIN": 999.896931806025
     },
     "EXF_DASH_CARBON_DASH_DIOXIDE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": -1.7975147193600947,
+        "MAX": -1.7975147193826615,
         "MIN": 100.0
     },
-    "RXN_DASH_681": {
+    "rxn07465_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_242A": {
-        "MAX": 0.49999999999038774,
-        "MIN": 1.235111021370588e-16
+    "rxn12372_c0": {
+        "MAX": 0.49999999996651734,
+        "MIN": 2.9496215634645885e-13
     },
-    "ADPREDUCT_DASH_RXN": {
-        "MAX": 0.1374236017641762,
-        "MIN": -0.012423601780378393
+    "rxn05231_c0": {
+        "MAX": 0.1374236017720735,
+        "MIN": -0.012423601780443128
     },
-    "PLSYN_DASH_RXN": {
-        "MAX": 0.021918202319086325,
-        "MIN": -0.019726382087287612
+    "rxn12307_c0": {
+        "MAX": 0.021918202319098037,
+        "MIN": -0.01972638208728206
     },
-    "SUCC_DASH_FUM_DASH_OXRED_DASH_RXN": {
-        "MAX": 665.5953917699967,
-        "MIN": 733.1181244855749
+    "rxn09272_c0": {
+        "MAX": 665.5953917700359,
+        "MIN": 66.53959841712467
     },
-    "DTDPDEHYRHAMREDUCT_DASH_RXN": {
-        "MAX": 0.020334423241513164,
-        "MIN": -0.018300980917385443
+    "rxn02003_c0": {
+        "MAX": 0.02033442324157386,
+        "MIN": -0.018300980917381027
     },
-    "UDPACYLGLCNACDEACETYL_DASH_RXN": {
-        "MAX": 0.0008922409959957245,
-        "MIN": -0.0008030168963968113
+    "rxn03146_c0": {
+        "MAX": 0.0008922409959918933,
+        "MIN": -0.0008030168963966177
     },
-    "1_PERIOD_3_PERIOD_1_PERIOD_62_DASH_RXN": {
+    "rxn12249_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468672596
+        "MIN": 14.02892646866507
     },
-    "4_DASH_CARBOXYMUCONOLACTONE_DASH_DECARBOXYLASE_DASH_RXN": {
-        "MAX": 1000.0000000000013,
-        "MIN": 999.9999999999997
-    },
-    "5_APOST__DASH_NUCLEOTID_DASH_RXN": {
+    "rxn02483_c0": {
         "MAX": 1000.0,
-        "MIN": 1000.0000000000006
+        "MIN": 999.9999999999984
+    },
+    "rxn00708_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0000000000003
     },
     "EXF_DASH_4_DASH_HYDROXYBENZOATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468655076,
+        "MAX": 14.028926468666398,
         "MIN": 0.0
     },
-    "C16_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9861370602179,
-        "MIN": 999.9999999999998
+    "rxn00946_c0": {
+        "MAX": 999.9861370602176,
+        "MIN": 999.9999999999982
     },
     "EXF_DASH_DEOXYADENOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.09999999999852208,
+        "MAX": 0.0999999999945677,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0000000000002
-    },
-    "TRANS_DASH_RXN_DASH_DEOXYADENOSINE": {
-        "MAX": 0.0,
-        "MIN": 0.0999999999967848
-    },
-    "1_DASH_ACYLGLYCEROL_DASH_3_DASH_P_DASH_ACYLTRANSFER_DASH_TAG_DASH_RXN": {
-        "MAX": 0.00108924809790293,
-        "MIN": -0.0009803232881059273
-    },
-    "TRYPTOPHAN_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.028630053882550785,
-        "MIN": -0.025767048494177526
-    },
-    "ADOMET_DASH_DMK_DASH_METHYLTRANSFER_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "DCDPKIN_DASH_RXN": {
+    "rxn08439_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "RXNIM_DASH_3878": {
+    "rxn12414_c0": {
         "MAX": 0.0,
-        "MIN": 24.55062132016601
+        "MIN": 0.09999999999751022
     },
-    "RXN0_DASH_299": {
+    "rxn10204_c0": {
+        "MAX": 0.0010892480978918204,
+        "MIN": -0.000980323288105645
+    },
+    "rxn46484_c0": {
+        "MAX": 0.028630053882452957,
+        "MIN": -0.02576704849417011
+    },
+    "rxn08130_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000012067
+        "MIN": 0.0
+    },
+    "rxn01673_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn09953_c0": {
+        "MAX": 0.0,
+        "MIN": 24.550621320168457
+    },
+    "rxn03630_c0": {
+        "MAX": 0.0,
+        "MIN": 0.4999999999895408
     },
     "RXNIM_DASH_3877": {
         "MAX": 0.0,
-        "MIN": 16.36708088012158
+        "MIN": 16.367080880119296
     },
-    "FABAUNSATDEHYDR_DASH_RXN": {
-        "MAX": 749.9939030551154,
-        "MIN": 749.9977993721416
+    "rxn05333_c0": {
+        "MAX": 749.9939030551162,
+        "MIN": 749.9977993721429
     },
-    "TRANS_DASH_RXN_DASH_DEOXYINOSINE": {
+    "rxn12417_c0": {
         "MAX": 0.0,
-        "MIN": 0.1249999999947322
+        "MIN": 0.12500000000308778
     },
-    "ATP_DASH_PYROPHOSPHATASE_DASH_RXN": {
+    "rxn00063_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PSERTRANSAMPYR_DASH_RXN": {
-        "MAX": 0.0018753638070947963,
-        "MIN": -0.0016878274263941488
+    "rxn03445_c0": {
+        "MAX": 0.0018753638070917772,
+        "MIN": -0.0016878274263935466
     },
-    "2_DASH_OCTAPRENYL_DASH_METHOXY_DASH_BENZOQ_DASH_METH_DASH_RXN": {
-        "MAX": 0.0018753638070132179,
-        "MIN": -0.0016878274257329411
+    "rxn09039_c0": {
+        "MAX": 0.0018753638073208201,
+        "MIN": -0.001687827426589957
     },
-    "ALLANTOICASE_DASH_RXN": {
+    "rxn01746_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "ADENOSINE_DASH_NUCLEOSIDASE_DASH_RXN": {
-        "MAX": 999.9999999999955,
-        "MIN": 999.9999999999998
+    "rxn19072_c0": {
+        "MAX": 999.9999999999997,
+        "MIN": 1000.0000000000008
     },
-    "TRANS_DASH_RXN_DASH_TAURINE": {
+    "rxn05172_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000257759
+        "MIN": 0.5000000000175449
     },
-    "DLACTDEHYDROGNAD_DASH_RXN": {
-        "MAX": 1000.0000000000002,
+    "rxn00500_c0": {
+        "MAX": 1000.0000000000001,
         "MIN": 1000.0
     },
-    "C10_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464308,
-        "MIN": 759.881503308892
+    "rxn03253_c0": {
+        "MAX": 749.9304476464316,
+        "MIN": 759.8815033088985
     },
-    "GLUTAMIN_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "C12_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551162,
-        "MIN": 749.9977993721375
-    },
-    "C8_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 12.275310660088033
-    },
-    "C8_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551166,
-        "MIN": 749.9977993721419
-    },
-    "C8_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 12.275310660091252
-    },
-    "C14_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": {
+    "rxn00189_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACETYLORNTRANSAM_DASH_RXN": {
+    "rxn05340_c0": {
+        "MAX": 749.9939030551158,
+        "MIN": 749.9977993721394
+    },
+    "rxn12262_c0": {
+        "MAX": 0.0,
+        "MIN": 12.275310660087095
+    },
+    "rxn05341_c0": {
+        "MAX": 749.9939030551302,
+        "MIN": 749.9977993721402
+    },
+    "rxn12259_c0": {
+        "MAX": 0.0,
+        "MIN": 12.275310660080692
+    },
+    "rxn08434_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9226988545245
+        "MIN": 1000.0
     },
-    "CHORPYRLY_DASH_RXN": {
+    "rxn01637_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9999999999998
+        "MIN": 999.9226988545723
     },
-    "LIPIDXSYNTHESIS_DASH_RXN": {
-        "MAX": 0.0004461204979985231,
-        "MIN": -0.00040150844819846046
+    "rxn00966_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9999999999995
     },
-    "DIHYDROFOLATESYNTH_DASH_RXN": {
-        "MAX": 0.0018753638071519244,
-        "MIN": -0.0016878274263939007
+    "rxn03130_c0": {
+        "MAX": 0.00044612049799725426,
+        "MIN": -0.00040150844819832396
     },
-    "WAX_DASH_ESTERS_W_DASH_RXN": {
-        "MAX": 0.005348462383755763,
-        "MIN": -0.004813616145366588
+    "rxn01603_c0": {
+        "MAX": 0.0018753638075487608,
+        "MIN": -0.0016878274266588812
+    },
+    "rxn12358_c0": {
+        "MAX": 0.005348462383751533,
+        "MIN": -0.004813616145365903
     },
     "EXF_DASH_CPDIM_DASH_6112_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253414228,
+        "MAX": 10.911387253415736,
         "MIN": 0.0
     },
-    "DIHYDROXYMETVALDEHYDRAT_DASH_RXN": {
-        "MAX": 0.14315026941171247,
-        "MIN": -0.1288352424708725
+    "rxn03437_c0": {
+        "MAX": 0.14315026941215872,
+        "MIN": -0.12883524247085262
     },
-    "TRANS_DASH_RXN_DASH_TRP": {
+    "rxn12458_c0": {
         "MAX": 0.0,
-        "MIN": 0.24999999999591432
+        "MIN": 0.25000000002064215
     },
     "EXF_DASH_CHLOROGENATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 6.137655330042283,
+        "MAX": 6.137655330046199,
         "MIN": 0.0
     },
-    "PDXA_DASH_RXN": {
-        "MAX": 0.0018753638070868525,
-        "MIN": -0.0016878274263937636
+    "rxn12223_c0": {
+        "MAX": 0.001875363807111537,
+        "MIN": -0.0016878274263937172
     },
-    "METHYLENETHFREDUCT_DASH_RXN": {
-        "MAX": 999.9383389384511,
-        "MIN": 999.6794975213221
+    "rxn04954_c0": {
+        "MAX": 999.9383389384526,
+        "MIN": 999.6794975213215
     },
     "TRIACYLGLYCEROL_W_DASH_RXN": {
-        "MAX": 0.0010892480979002805,
-        "MIN": -0.0009803232881057623
+        "MAX": 0.0010892480978958047,
+        "MIN": -0.0009803232881057352
     },
-    "AMIDASE_DASH_RXN": {
+    "rxn12230_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "GLYCERATE_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn01011_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C5_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12256_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PROTOCATECHUATE_DASH_3_COMMA_4_DASH_DIOXYGENASE_DASH_RXN": {
+    "rxn01192_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "KDPGALDOL_DASH_RXN": {
+    "rxn03884_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880114344
+        "MIN": 16.367080880120593
     },
     "EXF_DASH_DEOXYINOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.12500000000876224,
+        "MAX": 0.12499999999217369,
         "MIN": 0.0
     },
-    "2_PERIOD_3_PERIOD_1_PERIOD_155_DASH_RXN": {
-        "MAX": 999.9861370602163,
+    "rxn02804_c0": {
+        "MAX": 999.9861370602174,
         "MIN": 1000.0
     },
-    "C16_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 999.9999999999981,
-        "MIN": 999.9861370602092
+    "rxn05344_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9861370602245
     },
-    "S_DASH_ADENMETSYN_DASH_RXN": {
-        "MAX": 0.011252182842744794,
-        "MIN": -0.01012696455836129
+    "rxn00126_c0": {
+        "MAX": 0.011252182842231727,
+        "MIN": -0.01012696455836107
     },
     "EXF_DASH_CAFFEATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253400088,
+        "MAX": 10.911387253403458,
         "MIN": 0.0
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 999.952752364772
-    },
-    "C12_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 749.930447646433,
-        "MIN": 757.2218526658747
-    },
-    "TRANS_DASH_RXN_DASH_PI_DASH_ABC": {
+    "rxn12313_c0": {
         "MAX": 1000.0,
-        "MIN": 999.653999381318
+        "MIN": 999.9527523647691
     },
-    "TETHYDPICSUCC_DASH_RXN": {
-        "MAX": 0.3910647967621331,
-        "MIN": -0.14106479678286074
+    "rxn03243_c0": {
+        "MAX": 749.9304476464349,
+        "MIN": 757.2218526658888
     },
-    "UDPNACETYLMURAMATEDEHYDROG_DASH_RXN": {
-        "MAX": 0.013588393679943288,
-        "MIN": -0.012229554311981056
+    "rxn05145_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.6539993813033
     },
-    "TRANS_DASH_RXNIM_DASH_5855": {
+    "rxn03031_c0": {
+        "MAX": 0.3910647967905156,
+        "MIN": -0.1410647967828919
+    },
+    "rxn02285_c0": {
+        "MAX": 0.013588393679928371,
+        "MIN": -0.012229554311979736
+    },
+    "rxn12439_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C16_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn03240_c0": {
         "MAX": 999.9861370602176,
-        "MIN": 999.9999999999991
+        "MIN": 1000.0000000000031
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.002540519632139718,
-        "MIN": -0.002286467668968367
+    "rxn12354_c0": {
+        "MAX": 0.002540519632162507,
+        "MIN": -0.0022864676689677396
     },
-    "RXNIM_DASH_3902": {
+    "rxn12363_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880104645
+        "MIN": 16.36708088013911
     },
     "EXF_DASH_HOMOSERINE_DASH_LACTONE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "NITRITREDUCT_DASH_RXN": {
+    "rxn00568_c0": {
         "MAX": 0.0,
-        "MIN": 0.49999999998241823
+        "MIN": 0.5000000000136606
     },
-    "PROTOHEMEFERROCHELAT_DASH_RXN": {
-        "MAX": 0.0018753638071074496,
-        "MIN": -0.0016878274263939475
+    "rxn00224_c0": {
+        "MAX": 0.0018753638071154237,
+        "MIN": -0.0016878274263935587
     },
-    "DCMP_DASH_NUCLEOTIDASE_DASH_RXN": {
-        "MAX": 0.1666666666638198,
-        "MIN": -5.345690848997818e-14
+    "rxn01218_c0": {
+        "MAX": 0.16666666667617522,
+        "MIN": 0.0
     },
-    "ISOCHORMAT_DASH_RXN": {
+    "rxn02177_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXNIM_DASH_5812": {
-        "MAX": 999.9999999999953,
+    "rxn12437_c0": {
+        "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "MANNPGUANYLTRANGDP_DASH_RXN": {
-        "MAX": 0.020212660228162913,
-        "MIN": -0.01819139420530456
+    "rxn00640_c0": {
+        "MAX": 0.020212660228088212,
+        "MIN": -0.018191394205303937
     },
-    "BRANCHED_DASH_CHAINAMINOTRANSFERVAL_DASH_RXN": {
-        "MAX": 0.229040431059161,
-        "MIN": -0.20613638795338454
+    "rxn00903_c0": {
+        "MAX": 0.2290404310604237,
+        "MIN": -0.20613638795337744
     },
-    "TRANS_DASH_RXN_DASH_DEOXYGUANOSINE": {
+    "rxn12416_c0": {
         "MAX": 0.0,
-        "MIN": 0.09999999999866432
+        "MIN": 0.10000000000544823
     },
-    "TRANS_DASH_RXN_DASH_C18_COLON_0": {
+    "rxn12390_c0": {
         "MAX": 0.0,
-        "MIN": 5.455693626709885
+        "MIN": 5.455693626707527
     },
-    "DETHIOBIOTIN_DASH_SYN_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "TRANS_DASH_RXN_DASH_C16_COLON_0": {
-        "MAX": 0.0,
-        "MIN": 6.137655330046898
-    },
-    "TRANS_DASH_RXN_DASH_ETHANOL_DASH_AMINE": {
+    "rxn02277_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TETRAACYLDISACC4KIN_DASH_RXN": {
-        "MAX": 0.00044612049800191606,
-        "MIN": -0.0004015084481984793
+    "rxn12388_c0": {
+        "MAX": 0.0,
+        "MIN": 6.137655330047243
+    },
+    "rxn12419_c0": {
+        "MAX": 0.0,
+        "MIN": 0.0
+    },
+    "rxn03181_c0": {
+        "MAX": 0.000446120498000174,
+        "MIN": -0.00040150844819828027
     },
     "EXF_DASH_C10_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 9.820248528081974,
+        "MAX": 9.820248528088182,
         "MIN": 0.0
     },
-    "PHEAMINOTRANS_DASH_RXN": {
-        "MAX": 0.5515340969874803,
-        "MIN": -0.05153409698857376
+    "rxn00493_c0": {
+        "MAX": 0.5515340969790112,
+        "MIN": -0.05153409698797497
     },
-    "HISTIDPHOS_DASH_RXN": {
-        "MAX": 0.028630053882268594,
-        "MIN": -0.025767048494176124
+    "rxn02160_c0": {
+        "MAX": 0.028630053882406695,
+        "MIN": -0.025767048494170264
     },
-    "RXN0_DASH_363": {
+    "rxn01545_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DIHYDROOROTOX_DASH_RXN": {
-        "MAX": 0.41154410232544325,
-        "MIN": -0.16154410231482397
+    "rxn01360_c0": {
+        "MAX": 0.41154410230995875,
+        "MIN": -0.1615441023149416
     },
-    "MALIC_DASH_NAD_DASH_RXN": {
+    "rxn00159_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DIHYDROOROT_DASH_RXN": {
-        "MAX": -0.16154410231464134,
-        "MIN": 0.4115441022977978
+    "rxn01465_c0": {
+        "MAX": -0.16154410231518937,
+        "MIN": 0.41154410229631266
     },
-    "IMP_DASH_DEHYDROG_DASH_RXN": {
+    "rxn00834_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9309600325537
+        "MIN": 999.9309600325574
     },
-    "TRANS_DASH_RXN_DASH_62B": {
+    "rxn05582_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000056068
+        "MIN": 0.4999999999893673
     },
-    "3_DASH_OXOADIPATE_DASH_COA_DASH_TRANSFERASE_DASH_RXN": {
-        "MAX": 999.867789102675,
-        "MIN": 1000.0
+    "rxn02143_c0": {
+        "MAX": 999.8677891026772,
+        "MIN": 16.499291777414587
     },
-    "TRANS_DASH_RXN_DASH_NA_DASH_CPA1": {
+    "rxn12448_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "HOMOSERDEHYDROG_DASH_RXN": {
-        "MAX": 0.8108924093523877,
-        "MIN": -0.31089240935633194
+    "rxn01301_c0": {
+        "MAX": 0.8108924093697375,
+        "MIN": -0.3108924093563733
     },
-    "1_PERIOD_2_PERIOD_1_PERIOD_65_DASH_RXN": {
+    "rxn02107_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253403305
+        "MIN": 10.911387253417445
     },
     "CYT_DASH_UBIQUINOL_DASH_OXID_DASH_D_DASH_RXN": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn12315_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "RNA_DASH_SYNTH_DASH_RXN": {
-        "MAX": 0.2801655374034187,
-        "MIN": -0.25214898366485455
+    "rxn12361_c0": {
+        "MAX": 0.2801655374038548,
+        "MIN": -0.2521489836647908
     },
-    "PREPHENATEDEHYDROG_DASH_RXN": {
+    "rxn01268_c0": {
         "MAX": 1000.0,
         "MIN": 999.9467780755856
     },
-    "RIBOPHOSPHAT_DASH_RXN": {
-        "MAX": 0.0032818866623385793,
-        "MIN": -0.0029536979961890023
+    "rxn05039_c0": {
+        "MAX": 0.0032818866622175715,
+        "MIN": -0.0029536979961883865
     },
     "EXF_DASH_2_DASH_KETOGLUTARATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 19.640497056126744,
+        "MAX": 19.640497056136645,
         "MIN": 0.0
     },
     "EXF_DASH_OXYGEN_DASH_MOLECULE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 100.0,
-        "MIN": 38.5135628190896
+        "MIN": 38.51356281913238
     },
     "EXF_DASH_C6_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880124654,
+        "MAX": 16.367080880117708,
         "MIN": 0.0
     },
-    "C14_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
+    "rxn05342_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9851894759452
+        "MIN": 999.9851894759389
     },
-    "METHENYLTHFCYCLOHYDRO_DASH_RXN": {
-        "MAX": 1.0876866814501291,
-        "MIN": -0.30639104946928514
+    "rxn01211_c0": {
+        "MAX": 1.0876866814574229,
+        "MIN": -0.3063910494659676
     },
     "EXF_DASH_4_DASH_HYDROXY_DASH_BENZYL_DASH_ALCOHOL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468659046,
+        "MAX": 14.028926468674458,
         "MIN": 0.0
     },
-    "L_DASH_ASPARTATE_DASH_OXIDASE_DASH_RXN": {
+    "rxn00262_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_CARBON_DASH_DIOXIDE": {
+    "rxn05467_c0": {
         "MAX": 100.0,
-        "MIN": -1.7975147192698557
+        "MIN": -1.797514719293497
     },
-    "7KAPSYN_DASH_RXN": {
+    "rxn02297_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C6_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 749.9304476464328,
-        "MIN": 766.4283356609375
+    "rxn00874_c0": {
+        "MAX": 749.9304476464297,
+        "MIN": 766.4283356609532
     },
-    "PDXJ_DASH_RXN": {
-        "MAX": 0.0018753638070954667,
-        "MIN": -0.0016878274263936832
+    "rxn04070_c0": {
+        "MAX": 0.0018753638071093458,
+        "MIN": -0.0016878274263935104
     },
-    "TYRAMINOTRANS_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9467780755854
+    "rxn00527_c0": {
+        "MAX": 1000.0000000000001,
+        "MIN": 999.9467780755842
     },
     "EXF_DASH_NA_PLUS__LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_TYR_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.49999999998918887,
+        "MAX": 0.5000000000182405,
         "MIN": 0.0
     },
-    "POLYSACCH_FREESYN_DASH_RXN": {
-        "MAX": 0.011730180844244943,
-        "MIN": -0.010557162759815959
+    "rxn12340_c0": {
+        "MAX": 0.011730180844234894,
+        "MIN": -0.010557162759814876
     },
-    "F16BDEPHOS_DASH_RXN": {
-        "MAX": 333.8289836506665,
-        "MIN": 332.96027938355815
+    "rxn00549_c0": {
+        "MAX": 333.8289836506731,
+        "MIN": -0.32898365066860075
     },
-    "GLUTAMATE_DASH_N_DASH_ACETYLTRANSFERASE_DASH_RXN": {
+    "rxn01636_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_PI": {
+    "rxn12450_c0": {
         "MAX": 1000.0,
-        "MIN": 999.653999381313
+        "MIN": 999.653999381309
     },
-    "TREHALOSE6PSYN_DASH_RXN": {
+    "rxn00605_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "DNA_DASH_SYNTH_DASH_RXN": {
-        "MAX": 0.046322154289470084,
-        "MIN": -0.041689938860552646
+    "rxn12360_c0": {
+        "MAX": 0.04632215428955166,
+        "MIN": -0.041689938860551605
     },
-    "UDP_DASH_NACMUR_DASH_ALA_DASH_LIG_DASH_RXN": {
-        "MAX": 0.013588393679950371,
-        "MIN": -0.012229554311979836
+    "rxn02286_c0": {
+        "MAX": 0.013588393679957256,
+        "MIN": -0.012229554311979531
     },
-    "PMPOXI_DASH_RXN": {
+    "rxn00208_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "BRANCHED_DASH_CHAINAMINOTRANSFERLEU_DASH_RXN": {
-        "MAX": 0.20041037717618196,
-        "MIN": -0.1803693394592146
+    "rxn00806_c0": {
+        "MAX": 0.2004103771766052,
+        "MIN": -0.18036933945921008
     },
-    "MALIC_DASH_NADP_DASH_RXN": {
+    "rxn00161_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "UTP_DASH_PYROPHOSPHATASE_DASH_RXN": {
-        "MAX": 999.8258248349232,
+    "rxn00463_c0": {
+        "MAX": 999.8258248349241,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXNIM_DASH_5788": {
+    "rxn12433_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468666365
+        "MIN": 14.028926468664608
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9527523647726,
-        "MIN": 1000.0
+    "rxn12268_c0": {
+        "MAX": 999.9527523647722,
+        "MIN": 1000.0000000000003
     },
     "EXF_DASH_INOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.12500000000004746,
+        "MAX": 0.125000000007449,
         "MIN": 0.0
     },
-    "BADH_DASH_RXN": {
+    "rxn01867_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "ASPARAGHYD_DASH_RXN": {
+    "rxn00342_c0": {
         "MAX": 0.0,
-        "MIN": 0.24999999998550268
+        "MIN": 0.250000000000144
     },
-    "TRANS_DASH_RXNIM_DASH_5786": {
+    "rxn12432_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_SUC": {
+    "rxn12455_c0": {
         "MAX": 0.0,
-        "MIN": 24.550621320154068
+        "MIN": 24.55062132018187
     },
-    "ALARACECAT_DASH_RXN": {
+    "rxn00283_c0": {
         "MAX": 999.6544866426901,
-        "MIN": 999.9853245348252
+        "MIN": 999.9853245348243
     },
-    "TRANS_DASH_RXN_DASH_ASN": {
+    "rxn05220_c0": {
         "MAX": 0.0,
-        "MIN": 0.2500000000035771
+        "MIN": 0.24999999998557954
     },
-    "ALDOXIME_DASH_DEHYDRAT_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "SUPEROX_DASH_DISMUT_DASH_RXN": {
+    "rxn12229_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "ATPSYN_DASH_RXN": {
+    "rxn00206_c0": {
+        "MAX": 0.0,
+        "MIN": 0.0
+    },
+    "rxn08173_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACYL_DASH_COA_TAG_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 999.9999999999998,
-        "MIN": 999.9990196767117
+    "rxn12343_c0": {
+        "MAX": 1000.0000000000001,
+        "MIN": 999.9990196767126
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 1000.0000000000002,
-        "MIN": 999.9675806348754
+    "rxn12326_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9675806348749
     },
     "TRANS_DASH_RXNIM_DASH_5771": {
         "MAX": 1000.0000000000002,
         "MIN": 1000.0
     },
-    "PANTEPADENYLYLTRAN_DASH_RXN": {
-        "MAX": 0.0018753638101155826,
-        "MIN": -0.0016878274292950397
+    "rxn02175_c0": {
+        "MAX": 0.001875363808447699,
+        "MIN": -0.0016878274277830946
     },
-    "TRANS_DASH_RXNIM_DASH_5773": {
-        "MAX": 999.9999999999998,
+    "rxn12431_c0": {
+        "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_110": {
+    "rxn12401_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468665544
+        "MIN": 14.028926468675
     },
     "TRANS_DASH_RXN_DASH_QUINATE": {
         "MAX": 0.0,
-        "MIN": 14.028926468671619
+        "MIN": 14.028926468673824
     },
-    "FOLYLPOLYGLUTAMATESYNTH_DASH_RXN": {
-        "MAX": 1.4256235032612814e-13,
-        "MIN": -1.4256235032612814e-13
-    },
-    "SUCCARGDIHYDRO_DASH_RXN": {
-        "MAX": 999.7611547522057,
-        "MIN": 999.9999999999998
-    },
-    "ANTHRANSYN_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9742329515054
-    },
-    "INORGPYROPHOSPHAT_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "BUTYRYL_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464329,
-        "MIN": 774.6118761009797
-    },
-    "GLUTAMINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.11452021552938955,
-        "MIN": -0.10306819397668814
-    },
-    "SIROHEME_DASH_FERROCHELAT_DASH_RXN": {
-        "MAX": 0.0018753638071021884,
-        "MIN": -0.0016878274263936873
-    },
-    "C5_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn00689_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056135036
+        "MIN": 0.0
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn02927_c0": {
+        "MAX": 999.7611547522022,
+        "MIN": 1000.0000000000001
+    },
+    "rxn00727_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9742329515057
+    },
+    "rxn00001_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "P_DASH_PANTOCYSLIG_DASH_RXN": {
-        "MAX": 0.0018753638080593116,
-        "MIN": -0.001687827427685473
+    "rxn00872_c0": {
+        "MAX": 749.9304476464321,
+        "MIN": 774.6118761010181
     },
-    "PYRUVOXID_DASH_RXN": {
+    "rxn41902_c0": {
+        "MAX": 0.11452021553049767,
+        "MIN": -0.10306819397672172
+    },
+    "rxn02056_c0": {
+        "MAX": 0.001875363807113636,
+        "MIN": -0.0016878274263939462
+    },
+    "rxn00676_c0": {
+        "MAX": 0.0,
+        "MIN": 19.640497056154878
+    },
+    "rxn12321_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "CHORISMATE_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 1000.0000000000023,
-        "MIN": 999.9999999999986
+    "rxn09177_c0": {
+        "MAX": 0.001875363808474239,
+        "MIN": -0.001687827428708795
     },
-    "C10_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551162,
+    "rxn09167_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn01255_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0000000000011
+    },
+    "rxn05327_c0": {
+        "MAX": 749.9939030551157,
         "MIN": 749.9977993721432
     },
-    "GLUTARATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {
+    "rxn12263_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056131032
+        "MIN": 19.64049705614802
     },
-    "PROLINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.11452021552971872,
-        "MIN": -0.10306819397670311
+    "rxn41196_c0": {
+        "MAX": 0.11452021553020265,
+        "MIN": -0.10306819397668068
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_335": {
+    "rxn12405_c0": {
         "MAX": 0.0,
-        "MIN": 24.550621320195226
+        "MIN": 24.55062132019162
     },
-    "GLUCOSAMINE1PACETYL_DASH_RXN": {
-        "MAX": 0.02806902835609629,
-        "MIN": -0.025262125520359086
+    "rxn03638_c0": {
+        "MAX": 0.028069028356224397,
+        "MIN": -0.025262125520353184
     },
     "EXF_DASH_SHIKIMATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468688542,
+        "MAX": 14.028926468675609,
         "MIN": 0.0
     },
     "EXF_DASH_FORMATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.7812956319728498,
+        "MAX": 0.7812956319997557,
         "MIN": 0.0
     },
-    "PROPIONATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {
+    "rxn00674_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACYL_DASH_ACP_TAG_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.0021784961958039245,
-        "MIN": -0.0019606465762115315
+    "rxn12342_c0": {
+        "MAX": 0.002178496195799016,
+        "MIN": -0.0019606465762111425
     },
-    "ISOCHORSYN_DASH_RXN": {
+    "rxn01258_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn12289_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088012072
+        "MIN": 16.367080880100612
     },
-    "NICOTINATEPRIBOSYLTRANS_DASH_RXN": {
-        "MAX": 999.9953584745783,
-        "MIN": 999.9999999999928
+    "rxn08981_c0": {
+        "MAX": 999.9953584745806,
+        "MIN": 999.9999999999934
     },
-    "PROLDEHYDROG_DASH_RXN": {
-        "MAX": 999.8969318060227,
+    "rxn09188_c0": {
+        "MAX": 999.8969318060234,
         "MIN": 1000.0
     },
-    "GLYRIBONUCSYN_DASH_RXN": {
-        "MAX": 0.2731182023353123,
-        "MIN": -0.14811820233198342
+    "rxn02895_c0": {
+        "MAX": 0.27311820233523143,
+        "MIN": -0.1481182023287611
     },
     "EXF_DASH_WATER_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 100.0,
         "MIN": 100.0
     },
-    "GLUCARDEHYDRA_DASH_RXN": {
+    "rxn01989_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088012482
+        "MIN": 16.36708088012733
     },
-    "TRANS_DASH_RXN_DASH_104": {
+    "rxn05602_c0": {
         "MAX": 1000.0000000000001,
         "MIN": 1000.0
     },
     "GLYCEROL_DASH_3_DASH_P_DASH_ACYLTRANSFER_DASH_TAG_DASH_RXN": {
-        "MAX": 0.0010892480978947805,
-        "MIN": -0.0009803232881057502
+        "MAX": 0.0010892480979055083,
+        "MIN": -0.0009803232881056103
     },
-    "TRANS_DASH_RXN_DASH_132": {
+    "rxn05197_c0": {
         "MAX": 0.0,
-        "MIN": 0.24999999999866798
+        "MIN": 0.25000000002809647
     },
-    "TRANS_DASH_RXN_DASH_ETOH": {
+    "rxn08428_c0": {
         "MAX": 0.0,
-        "MIN": 49.10124264036675
+        "MIN": 49.1012426403969
     },
-    "TRANS_DASH_RXN_DASH_105": {
-        "MAX": 999.9983121725735,
+    "rxn05470_c0": {
+        "MAX": 999.9983121725734,
         "MIN": 1000.0
     },
-    "C5_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12284_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056140756
+        "MIN": 19.640497056152302
     },
-    "TRANS_DASH_RXN_DASH_1_DASH_BIS": {
-        "MAX": 0.5000000000007089,
+    "rxn08999_c0": {
+        "MAX": 0.5000000000375919,
         "MIN": 0.0
     },
-    "URIDINE_DASH_NUCLEOSIDASE_DASH_RXN": {
+    "rxn01226_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "UNDECAPRENOL_DASH_KINASE_DASH_RXN": {
+    "rxn03900_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "DADPKIN_DASH_RXN": {
+    "rxn00839_c0": {
         "MAX": 1000.0,
-        "MIN": 999.98757639822
+        "MIN": 999.9875763982194
     },
-    "RXN0_DASH_884": {
-        "MAX": 0.003750727613949434,
-        "MIN": -0.0033756548525224694
+    "rxn04996_c0": {
+        "MAX": 0.003750727614253973,
+        "MIN": -0.003375654852786633
     },
-    "KDOTRANS2_DASH_RXN": {
-        "MAX": 0.0004461204979966424,
-        "MIN": -0.00040150844819845396
+    "rxn03439_c0": {
+        "MAX": 0.0004461204979996484,
+        "MIN": -0.0004015084481984205
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 999.9999999999994,
-        "MIN": 999.9527523647727
+    "rxn12317_c0": {
+        "MAX": 1000.0000000000008,
+        "MIN": 999.9527523647728
     },
-    "LPSSYN_DASH_RXN": {
-        "MAX": 0.00044612049799638815,
-        "MIN": -0.0004015084481985125
+    "rxn12305_c0": {
+        "MAX": 0.00044612049800262367,
+        "MIN": -0.0004015084481983815
     },
-    "DARAB5PISOM_DASH_RXN": {
-        "MAX": -0.0008030168963968766,
-        "MIN": 0.0008922409959939496
+    "rxn01117_c0": {
+        "MAX": -0.0008030168963966922,
+        "MIN": 0.0008922409960047759
     },
-    "RXN_DASH_2425": {
+    "rxn23789_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088011523
+        "MIN": 16.367080880135646
     },
-    "2_COMMA_5_DASH_DIOXOVALERATE_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn00196_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880122447
+        "MIN": 16.367080880151022
     },
     "EXF_DASH_QUINATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468677248,
+        "MAX": 14.028926468684071,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_MAL": {
+    "rxn12446_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "CITSYN_DASH_RXN": {
-        "MAX": 332.77762738284724,
-        "MIN": 382.94621162504853
+    "rxn00256_c0": {
+        "MAX": -0.5116356513257654,
+        "MIN": 382.9462116250618
     },
     "EXF_DASH_CPDIM_DASH_6114_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253412434,
+        "MAX": 10.911387253417823,
         "MIN": 0.0
     },
     "EXF_DASH_CPD_DASH_110_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468665682,
+        "MAX": 14.028926468688312,
         "MIN": 0.0
     },
     "EXF_DASH_C6_COLON_2_LPAREN_C2_COMMA_C4_RPAREN__LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880115996,
+        "MAX": 16.3670808801287,
         "MIN": 0.0
     },
-    "CATECHOL_DASH_1_COMMA_2_DASH_DIOXYGENASE_DASH_RXN": {
-        "MAX": 999.974232951507,
-        "MIN": 1000.0000000000007
+    "rxn00588_c0": {
+        "MAX": 999.9742329515059,
+        "MIN": 1000.0000000000001
     },
-    "TRANS_DASH_RXN_DASH_CIT_DASH_MFS": {
+    "rxn12371_c0": {
         "MAX": 999.9999999999999,
         "MIN": 1000.0
     },
-    "UDP_DASH_NACMURALGLDAPAALIG_DASH_RXN": {
-        "MAX": 0.013588393679995996,
-        "MIN": -0.012229554311981916
+    "rxn03164_c0": {
+        "MAX": 0.01358839368002415,
+        "MIN": -0.012229554311977843
     },
     "EXF_DASH_MALONATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 32.73416176025557,
+        "MAX": 32.73416176021874,
         "MIN": 0.0
     },
-    "4OHBENZOATE_DASH_OCTAPRENYLTRANSFER_DASH_RXN": {
-        "MAX": 0.0018753638076720938,
-        "MIN": -0.0016878274269251587
+    "rxn03893_c0": {
+        "MAX": 0.0018753638071084906,
+        "MIN": -0.0016878274263934512
     },
-    "PSERPHOSPHA_DASH_RXN": {
-        "MAX": 999.9999999999997,
+    "rxn00420_c0": {
+        "MAX": 999.1735324199595,
         "MIN": 999.0850750182246
     },
-    "TRANS_DASH_RXN_DASH_PHE": {
+    "rxn12449_c0": {
         "MAX": 0.0,
-        "MIN": 0.49999999997460515
+        "MIN": 0.49999999999636136
     },
-    "GLUC1PURIDYLTRANS_DASH_RXN": {
-        "MAX": 0.020334423241502288,
-        "MIN": -0.018300980917387473
+    "rxn00213_c0": {
+        "MAX": 0.02033442324142987,
+        "MIN": -0.018300980917385672
     },
-    "RXN0_DASH_311": {
-        "MAX": -1.601601000915893e-13,
-        "MIN": 32.734161760228815
-    },
-    "GPPSYN_DASH_RXN": {
-        "MAX": 0.0037507276142545887,
-        "MIN": -0.003375654852787909
-    },
-    "CHLOROGENATE_DASH_HYDROLASE_DASH_RXN": {
+    "rxn03061_c0": {
         "MAX": 0.0,
-        "MIN": 6.137655330039271
+        "MIN": 32.73416176021026
+    },
+    "rxn01213_c0": {
+        "MAX": 0.003750727614237016,
+        "MIN": -0.00337565485278741
+    },
+    "rxn02149_c0": {
+        "MAX": 0.0,
+        "MIN": 6.137655330040412
     },
     "EXF_DASH_SO3_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 4.89186832374335,
+        "MAX": 4.891868323743484,
         "MIN": 0.0
     },
-    "C4_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 749.9939030551158,
-        "MIN": 749.9977993721434
+    "rxn05347_c0": {
+        "MAX": 749.9939030551153,
+        "MIN": 749.9977993721445
     },
-    "TRANS_DASH_RXN_DASH_TYR": {
+    "rxn12459_c0": {
         "MAX": 0.0,
-        "MIN": 0.4999999999975098
+        "MIN": 0.49999999998860856
     },
-    "C14_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9851894759416,
-        "MIN": 999.9999999999994
+    "rxn03241_c0": {
+        "MAX": 999.9851894759414,
+        "MIN": 1000.0000000000048
     },
-    "CATAL_DASH_RXN": {
+    "rxn00006_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9143754449976
+        "MIN": 999.91437544499
     },
-    "QUINOPRIBOTRANS_DASH_RXN": {
-        "MAX": 0.2546415254200222,
-        "MIN": -0.004641525422066577
+    "rxn02402_c0": {
+        "MAX": 0.25464152541456636,
+        "MIN": -0.004641525424274193
     },
-    "SUCCDIAMINOPIMDESUCC_DASH_RXN": {
-        "MAX": 0.39106479678276945,
-        "MIN": -0.141064796782862
+    "rxn01973_c0": {
+        "MAX": 0.391064796762916,
+        "MIN": -0.1410647967828497
     },
     "3_DASH_DEHYDROQUINATE_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.8677891026755
+        "MAX": 1000.0000000000008,
+        "MIN": 0.0
     },
     "EXF_DASH_ETHANESULFONATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 4.891868323742095,
+        "MAX": 4.891868323744634,
         "MIN": 0.0
     },
     "EXF_DASH_DEOXYGUANOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.09999999999650255,
+        "MAX": 0.10000000000062251,
         "MIN": 0.0
     },
     "EXF_DASH_D_DASH_GLUCARATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880111715,
+        "MAX": 16.367080880121247,
         "MIN": 0.0
     },
-    "PGLUCISOM_DASH_RXN": {
-        "MAX": -0.03660196183478528,
-        "MIN": 0.040668846482986944
+    "rxn00558_c0": {
+        "MAX": -0.036601961834765426,
+        "MIN": 0.04066884648310937
     },
-    "RXN0_DASH_882": {
-        "MAX": 0.035631912338918964,
-        "MIN": -0.03206872110570494
+    "rxn10092_c0": {
+        "MAX": 0.03563191233428171,
+        "MIN": -0.03206872110076935
     },
-    "DIHYDROPICRED_DASH_RXN": {
-        "MAX": 0.39106479677815864,
-        "MIN": -0.14106479678241343
+    "rxn02929_c0": {
+        "MAX": 0.3910647967850237,
+        "MIN": -0.14106479678303127
     },
-    "HISTOLDEHYD_DASH_RXN": {
-        "MAX": 0.028630053882351028,
-        "MIN": -0.02576704849418423
+    "rxn02159_c0": {
+        "MAX": 0.02863005388243721,
+        "MIN": -0.025767048494170258
     },
-    "PRIBFAICARPISOM_DASH_RXN": {
-        "MAX": 0.028630053882351028,
-        "MIN": -0.025767048494184236
+    "rxn03175_c0": {
+        "MAX": 0.028630053882437213,
+        "MIN": -0.025767048494170258
     },
-    "FPPSYN_DASH_RXN": {
-        "MAX": 0.0037507276145794786,
-        "MIN": -0.003375654853315967
+    "rxn01466_c0": {
+        "MAX": 0.003750727613221721,
+        "MIN": -0.0033756548526985793
     },
     "EXF_DASH_L_DASH_ASPARTATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.4999999999952944,
+        "MAX": 0.5000000000043849,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_C5_COLON_0": {
+    "rxn12392_c0": {
         "MAX": 0.0,
-        "MIN": 19.64049705613442
+        "MIN": 19.64049705614004
     },
-    "C18_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn09449_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANSALDOL_DASH_RXN": {
-        "MAX": 333.2097131624913,
-        "MIN": 333.49621653840126
+    "rxn01333_c0": {
+        "MAX": 333.2097131624905,
+        "MIN": 0.2069535041739507
     },
-    "CYTDEAM_DASH_RXN": {
+    "rxn00717_c0": {
+        "MAX": 1000.0000000000001,
+        "MIN": 1000.0
+    },
+    "rxn08795_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_L_DASH_LACTATE": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
+    "rxn02474_c0": {
+        "MAX": 0.0032818866624282263,
+        "MIN": -0.0029536979961893046
     },
-    "RIBOFLAVINSYNREDUC_DASH_RXN": {
-        "MAX": 0.003281886662465582,
-        "MIN": -0.0029536979961894555
-    },
-    "GLY3KIN_DASH_RXN": {
+    "rxn01102_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "3_DASH_ISOPROPYLMALISOM_DASH_RXN": {
-        "MAX": 0.20041037717776178,
-        "MIN": -0.18036933945923497
+    "rxn02789_c0": {
+        "MAX": 0.20041037717735022,
+        "MIN": -0.18036933945922567
     },
-    "TRANS_DASH_RXN_DASH_FE_PLUS_2": {
+    "rxn12420_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9966243451471
+        "MIN": 999.996624345147
     },
-    "C14_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9851894759455,
-        "MIN": 1000.0000000000011
+    "rxn06777_c0": {
+        "MAX": 999.9851894759424,
+        "MIN": 1000.0
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.9999999999981,
-        "MIN": 999.9675806348747
+    "rxn12324_c0": {
+        "MAX": 999.999999999998,
+        "MIN": 999.9675806348739
     },
-    "TRANS_DASH_RXN_DASH_OXYGEN_DASH_MOLECULE": {
-        "MAX": 38.51356281907298,
-        "MIN": 100.00000000000051
+    "rxn05468_c0": {
+        "MAX": 38.51356281914996,
+        "MIN": 100.00000000000172
     },
-    "ASPCARBTRANS_DASH_RXN": {
-        "MAX": 0.4115441023176342,
-        "MIN": -0.1615441023147429
+    "rxn01018_c0": {
+        "MAX": 0.4115441023135285,
+        "MIN": -0.16154410231469676
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn12329_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACETYLHOMOSER_DASH_CYS_DASH_RXN": {
+    "rxn00952_c0": {
         "MAX": 1000.0,
-        "MIN": 999.0850750182233
+        "MIN": 998.2586074381601
     },
-    "SUCCCOASYN_DASH_RXN": {
+    "rxn00285_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PRPPAMIDOTRANS_DASH_RXN": {
-        "MAX": 0.2731182023343503,
-        "MIN": -0.1481182023291915
+    "rxn00790_c0": {
+        "MAX": 0.2731182023334159,
+        "MIN": -0.14811820233188389
     },
     "EXF_DASH_ADENOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.10000000000180145,
+        "MAX": 0.10000000000297794,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_ACET": {
+    "rxn08063_c0": {
         "MAX": 0.0,
-        "MIN": 49.101242640316656
+        "MIN": 49.10124264032862
     },
-    "DIACYLGLYKIN_DASH_RXN": {
-        "MAX": 999.9990196767118,
+    "rxn06139_c0": {
+        "MAX": 999.9990196767124,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_THR_DASH_EFLX": {
-        "MAX": 0.5000000000082968,
+    "rxn12456_c0": {
+        "MAX": 0.5000000000126881,
         "MIN": 0.0
     },
-    "C6_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn04752_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880106553
+        "MIN": 16.36708088011642
     },
-    "RIBOFLAVIN_DASH_SYN_DASH_RXN": {
-        "MAX": 0.0032818866612068657,
-        "MIN": -0.0029536979961885287
+    "rxn00048_c0": {
+        "MAX": 0.0032818866623535795,
+        "MIN": -0.002953697996442518
     },
-    "5_PERIOD_5_PERIOD_1_PERIOD_2_DASH_RXN": {
-        "MAX": 999.9999999999998,
-        "MIN": 999.9999999999994
-    },
-    "IGPSYN_DASH_RXN": {
-        "MAX": 0.2757670484837604,
-        "MIN": -0.025767048494291685
-    },
-    "AFATTYACID_FREE_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.0034965886710582087,
-        "MIN": -0.0031469298039550992
-    },
-    "ASPAMINOTRANS_DASH_RXN": {
+    "rxn02369_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "H2PTEROATESYNTH_DASH_RXN": {
-        "MAX": 0.0018753638071293418,
-        "MIN": -0.0016878274266594229
+    "rxn02507_c0": {
+        "MAX": 0.2757670485100028,
+        "MIN": -0.025767048494068
     },
-    "TRANS_DASH_RXNIM_DASH_5747_DASH_BIS": {
+    "rxn12304_c0": {
+        "MAX": 0.0034965886710817034,
+        "MIN": -0.0031469298039527235
+    },
+    "rxn00260_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn02201_c0": {
+        "MAX": 0.0018753638075049103,
+        "MIN": -0.0016878274266584332
+    },
+    "rxn09193_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_CPD_DASH_148_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 12.275310660096775,
+        "MAX": 12.27531066011347,
         "MIN": 0.0
     },
-    "RIBOKIN_DASH_RXN": {
-        "MAX": 999.6341620729436,
+    "rxn00772_c0": {
+        "MAX": 999.6341620729428,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_GLYCEROL_DASH_OUT": {
-        "MAX": 32.73416176021104,
-        "MIN": 5.917885789960197e-17
+    "rxn05581_c0": {
+        "MAX": 32.73416176022583,
+        "MIN": 4.811289260130242e-19
     },
-    "ACYL_DASH_COA_WAX_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 999.999999999999,
-        "MIN": 999.995186383806
+    "rxn12349_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9951863838552
     },
-    "TRANS_DASH_RXNIM_DASH_5736": {
+    "rxn12428_c0": {
         "MAX": 0.0,
-        "MIN": 0.1666666666623728
+        "MIN": 0.16666666666159394
     },
-    "TRANS_DASH_RXNIM_DASH_5731": {
+    "rxn08373_c0": {
         "MAX": 0.0,
-        "MIN": 0.49999999999173267
+        "MIN": 0.5000000000006314
     },
-    "TRANS_DASH_RXNIM_DASH_5733": {
-        "MAX": 0.01087071494393813,
-        "MIN": 0.4902163565399813
+    "rxn08302_c0": {
+        "MAX": 0.010870714943896386,
+        "MIN": 0.4902163565507981
     },
-    "TRANS_DASH_RXN_DASH_ANTHRANILATE": {
+    "rxn12383_c0": {
         "MAX": 0.0,
-        "MIN": 0.4999999999874666
+        "MIN": 0.4999999999930852
     },
-    "TRANS_DASH_RXN_DASH_BUTANEDIOL": {
+    "rxn11322_c0": {
         "MAX": 0.0,
-        "MIN": 24.55062132017732
+        "MIN": 24.550621320183893
     },
     "EXF_DASH_CIS_DASH_CIS_DASH_MUCONATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880104467,
+        "MAX": 16.36708088011184,
         "MIN": 0.0
     },
-    "MALONYL_DASH_COA_DASH_ACP_DASH_TRANSACYL_DASH_RXN": {
+    "rxn05465_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_CPDIM_DASH_6115_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.91138725341305,
+        "MAX": 10.91138725340659,
         "MIN": 0.0
     },
-    "C18_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn08444_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PEPTIDOSYN_DASH_RXN": {
-        "MAX": 0.013588393679985171,
-        "MIN": -0.012229554311982815
+    "rxn12306_c0": {
+        "MAX": 0.01358839368023249,
+        "MIN": -0.012229554311977805
     },
     "EXF_DASH_ACET_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 49.101242640336274,
+        "MAX": 49.10124264040146,
         "MIN": 0.0
     },
-    "ADENYLOSUCCINATE_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.8968425440509
+    "rxn00838_c0": {
+        "MAX": 1000.0000000000002,
+        "MIN": 999.8968425440447
     },
     "EXF_DASH_3_DASH_KETOBUTYRATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.55062132016995,
+        "MAX": 24.550621320171953,
         "MIN": 0.0
     },
-    "C12_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 749.9930036761926,
-        "MIN": 749.9986987510678
+    "rxn05331_c0": {
+        "MAX": 749.993003676198,
+        "MIN": 749.9986987510646
     },
-    "F16ALDOLASE_DASH_RXN": {
-        "MAX": 350.0293978641189,
-        "MIN": 332.96027938355684
+    "rxn00786_c0": {
+        "MAX": 350.02939786410604,
+        "MIN": -0.32898365066804386
     },
-    "TRANS_DASH_RXN_DASH_GLYCOLLATE_DASH_OUT": {
+    "rxn08653_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9983121725721
+        "MIN": 999.9983121725733
     },
-    "GDPKIN_DASH_RXN": {
+    "rxn00237_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DXS_DASH_RXN": {
-        "MAX": 0.03938263995341258,
-        "MIN": -0.03544437595851802
+    "rxn03909_c0": {
+        "MAX": 0.0393826399537246,
+        "MIN": -0.035444375952143135
     },
-    "CDPREDUCT_DASH_RXN": {
-        "MAX": 999.9246074538837,
-        "MIN": 999.9791550305695
+    "rxn06076_c0": {
+        "MAX": 999.9246074538842,
+        "MIN": 999.9791550305686
     },
-    "TRANS_DASH_RXN_DASH_C12_COLON_0": {
-        "MAX": 0.0,
-        "MIN": 8.183540440056609
+    "rxn12386_c0": {
+        "MAX": 1.263703539989892e-29,
+        "MIN": 8.18354044006283
     },
-    "TRANS_DASH_RXNIM_DASH_5747": {
-        "MAX": 1000.0,
-        "MIN": 999.9999999999983
-    },
-    "GART_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.8518817976689
-    },
-    "GLYCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.5726010776470541,
-        "MIN": -0.5153409698835524
-    },
-    "ALKANE_DASH_1_DASH_MONOOXYGENASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 12.275310660088198
-    },
-    "GUANINE_DASH_DEAMINASE_DASH_RXN": {
-        "MAX": 999.9309600325547,
+    "rxn08639_c0": {
+        "MAX": 999.9999999999981,
         "MIN": 1000.0
     },
-    "ALLOPHANATE_DASH_HYDROLASE_DASH_RXN": {
+    "rxn03004_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.851881797671
+    },
+    "rxn46689_c0": {
+        "MAX": 0.5726010776487881,
+        "MIN": -0.5153409698834439
+    },
+    "rxn12233_c0": {
+        "MAX": 0.0,
+        "MIN": 12.275310660094256
+    },
+    "rxn01225_c0": {
+        "MAX": 999.9309600325544,
+        "MIN": 1000.0
+    },
+    "rxn00002_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "UDP_DASH_POLYSACCH_LPS_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.012176301342183615,
-        "MIN": -0.010958671208015419
+    "rxn12335_c0": {
+        "MAX": 0.012176301342181653,
+        "MIN": -0.010958671208014746
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 999.9527523647728,
-        "MIN": 1000.0
+    "rxn12269_c0": {
+        "MAX": 999.9527523647707,
+        "MIN": 1000.0000000000002
     },
-    "ASPARTATE_DASH_RACEMASE_DASH_RXN": {
-        "MAX": 0.5000000000444693,
-        "MIN": -3.7617458157065857e-13
+    "rxn00348_c0": {
+        "MAX": 0.4999999999627958,
+        "MIN": -1.7346993625653221e-12
     },
-    "PHOSPHOGLUCMUT_DASH_RXN": {
-        "MAX": -0.03660196183477135,
-        "MIN": 0.04066884648312307
+    "rxn20583_c0": {
+        "MAX": -0.03660196183476544,
+        "MIN": 0.04066884648309714
     },
-    "ADENOSYLHOMOCYSTEINASE_DASH_RXN": {
-        "MAX": 0.009376819035534249,
-        "MIN": -0.008439137131969225
+    "rxn00141_c0": {
+        "MAX": 0.009376819034915313,
+        "MIN": -0.008439137131172423
     },
-    "HYPOXANPRIBOSYLTRAN_DASH_RXN": {
+    "rxn00836_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_PROPIONATE": {
+    "rxn09172_c0": {
         "MAX": 0.0,
-        "MIN": 32.73416176023597
+        "MIN": 32.734161760252675
     },
-    "TRANS_DASH_RXN_DASH_GUANOSINE": {
+    "rxn12427_c0": {
         "MAX": 0.0,
-        "MIN": 0.10000000000172192
+        "MIN": 0.09999999999701527
     },
-    "R11_DASH_RXN": {
-        "MAX": 24.550621320187066,
-        "MIN": 6.151941276431526e-13
+    "rxn00875_c0": {
+        "MAX": 24.550621320178994,
+        "MIN": 1.2944709769158004e-12
     },
     "TRANS_DASH_RXNIM_DASH_5895": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "GLUTARYL_DASH_COA_DASH_DEHYDROG_DASH_RXN": {
-        "MAX": 999.9999999999999,
-        "MIN": 1000.0000000000003
-    },
-    "ASPDECARBOX_DASH_RXN": {
-        "MAX": 0.0018753638075504086,
-        "MIN": -0.0016878274274754205
-    },
-    "TRANS_DASH_RXN_DASH_PYRUVATE": {
-        "MAX": 5.0,
-        "MIN": 27.73416176024392
-    },
-    "THIAZOLSYN2_DASH_RXN": {
-        "MAX": 0.001875363807103719,
-        "MIN": -0.0016878274263932794
-    },
-    "HISTIDINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.028630053882446205,
-        "MIN": -0.025767048494165803
-    },
-    "TRANS_DASH_RXN_DASH_C6_COLON_2_LPAREN_c2_COMMA_c4_RPAREN_": {
-        "MAX": 0.0,
-        "MIN": 16.36708088011698
-    },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_205": {
-        "MAX": 0.0,
-        "MIN": 14.028926468668086
-    },
-    "GMKALT_DASH_RXN": {
-        "MAX": 999.9915786323502,
+    "rxn12264_c0": {
+        "MAX": 1000.0000000000011,
         "MIN": 1000.0
     },
-    "DIHYDROFOLATEREDUCT_DASH_RXN": {
-        "MAX": -0.014111429206829952,
-        "MIN": 0.26411142919110836
+    "rxn00346_c0": {
+        "MAX": 0.0018753638058871638,
+        "MIN": -0.0016878274253393183
     },
-    "TRANS_DASH_RXN_DASH_FE_DASH_NRAMP": {
+    "rxn09218_c0": {
+        "MAX": 5.0,
+        "MIN": 1000.0
+    },
+    "rxn27289_c0": {
+        "MAX": 0.0018753638070991363,
+        "MIN": -0.0016878274263939547
+    },
+    "rxn40608_c0": {
+        "MAX": 0.028630053882362835,
+        "MIN": -0.025767048494176117
+    },
+    "rxn12394_c0": {
+        "MAX": 0.0,
+        "MIN": 16.36708088010999
+    },
+    "rxn12403_c0": {
+        "MAX": 0.0,
+        "MIN": 14.028926468670436
+    },
+    "rxn01509_c0": {
+        "MAX": 999.9915786323503,
+        "MIN": 1000.0
+    },
+    "rxn00686_c0": {
+        "MAX": -0.014111429207277622,
+        "MIN": 0.26411142920709274
+    },
+    "rxn12504_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9966243451455
+        "MIN": 999.996624345114
     },
     "EXF_DASH_NITRITE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.49999999999788636,
+        "MAX": 0.5000000000080632,
         "MIN": 0.0
     },
-    "TRYPSYN_DASH_RXN": {
-        "MAX": 0.27576704848593225,
-        "MIN": -0.025767048494309896
+    "rxn01964_c0": {
+        "MAX": 0.27576704849138506,
+        "MIN": -0.02576704849418666
     },
-    "GLURS_DASH_RXN": {
-        "MAX": 0.14452603644386566,
-        "MIN": -0.13007343279902087
+    "rxn47732_c0": {
+        "MAX": 0.14452603644333298,
+        "MIN": -0.13007343279899758
     },
-    "ERYTHRON4PDEHYDROG_DASH_RXN": {
-        "MAX": 0.00187536380711119,
-        "MIN": -0.0016878274263941253
+    "rxn02939_c0": {
+        "MAX": 0.0018753638070997587,
+        "MIN": -0.0016878274263938228
     },
-    "GUANPRIBOSYLTRAN_DASH_RXN": {
+    "rxn00915_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "BRANCHED_DASH_CHAINAMINOTRANSFERILEU_DASH_RXN": {
-        "MAX": 0.14315026941210374,
-        "MIN": -0.12883524247087857
+    "rxn01575_c0": {
+        "MAX": 0.1431502694127921,
+        "MIN": -0.12883524247089678
     },
-    "DCYSDESULF_DASH_RXN": {
+    "rxn01365_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "RXN_DASH_7607": {
+    "rxn00831_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C10_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 749.9304476464316,
-        "MIN": 759.8815033088916
+    "rxn02680_c0": {
+        "MAX": 749.9304476464334,
+        "MIN": 759.8815033089031
     },
-    "AIRS_DASH_RXN": {
-        "MAX": 0.27311820233135686,
-        "MIN": -0.14811820232851447
+    "rxn02937_c0": {
+        "MAX": 0.2731182023328918,
+        "MIN": -0.14811820233091116
     },
-    "C8_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 749.9304476464337,
-        "MIN": 762.3365654409248
+    "rxn03248_c0": {
+        "MAX": 749.9304476464395,
+        "MIN": 762.3365654409245
     },
     "TRANS_DASH_RXN_DASH_MALONATE": {
-        "MAX": 1000.0,
+        "MAX": 999.9999999999999,
         "MIN": 1000.0
     },
-    "C10_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
-        "MAX": 1000.0,
+    "rxn09453_c0": {
+        "MAX": 999.9999999999991,
         "MIN": 1000.0
     },
-    "ARGININE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.08589016164739179,
-        "MIN": -0.07730114548255008
+    "rxn41927_c0": {
+        "MAX": 0.08589016164713077,
+        "MIN": -0.07730114548251411
     },
-    "LYSINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.143150269411834,
-        "MIN": -0.12883524247091682
+    "rxn06442_c0": {
+        "MAX": 0.14315026941238143,
+        "MIN": -0.1288352424708261
     },
-    "THIOREDOXIN_DASH_REDUCT_DASH_NADPH_DASH_RXN": {
-        "MAX": 5.291689938856654,
-        "MIN": -0.149821615117935
+    "rxn05289_c0": {
+        "MAX": 5.291689938866771,
+        "MIN": -0.14982161510866124
     },
-    "C7_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn03880_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468669928
+        "MIN": 14.028926468672218
     },
     "EXF_DASH_LYS_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.250000000000221,
+        "MAX": 0.2500000000051322,
         "MIN": 0.0
     },
-    "C8_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.999999999997
-    },
-    "1_PERIOD_1_PERIOD_1_PERIOD_259_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 14.028926468670189
-    },
-    "METHYLISOCITRATE_DASH_LYASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 32.73416176023024
-    },
-    "C16_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": {
+    "rxn08447_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn03617_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088010585
+        "MIN": 14.028926468682828
     },
-    "ACONITATEHYDR_DASH_RXN": {
-        "MAX": 332.7776273828418,
-        "MIN": 382.9462116250595
+    "rxn00289_c0": {
+        "MAX": 1.601601000915893e-13,
+        "MIN": 32.73416176028219
     },
-    "ATPPHOSPHORIBOSYLTRANS_DASH_RXN": {
-        "MAX": 0.028630053882485785,
-        "MIN": -0.025767048494176194
+    "rxn06033_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
     },
-    "1_PERIOD_1_PERIOD_1_PERIOD_215_DASH_RXN": {
+    "rxn12291_c0": {
+        "MAX": 0.0,
+        "MIN": 16.367080880090146
+    },
+    "rxn01388_c0": {
+        "MAX": -0.5116356513471488,
+        "MIN": 382.94621162505166
+    },
+    "rxn00789_c0": {
+        "MAX": 0.02863005388246023,
+        "MIN": -0.025767048494163315
+    },
+    "rxn01277_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_SUC_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.550621320201618,
+        "MAX": 24.55062132019138,
         "MIN": 0.0
     },
-    "C5_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn12287_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056133498
+        "MIN": 19.640497056129597
     },
-    "UROPORIIIMETHYLTRANSA_DASH_RXN": {
-        "MAX": 0.0018753638071058528,
-        "MIN": -0.001687827426393948
+    "rxn05005_c0": {
+        "MAX": 0.001875363807101158,
+        "MIN": -0.0016878274263933959
     },
-    "ADENODEAMIN_DASH_RXN": {
-        "MAX": 999.8968425440453,
+    "rxn01137_c0": {
+        "MAX": 999.8968425440451,
         "MIN": 1000.0
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 1000.0000000000001,
+    "rxn12311_c0": {
+        "MAX": 1000.0,
         "MIN": 999.952752364773
     },
-    "FORMYLTHFDEFORMYL_DASH_RXN": {
+    "rxn00691_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8658063739341
+        "MIN": 999.8658063739342
     },
-    "ISPH2_DASH_RXN": {
-        "MAX": 0.03188118472287071,
-        "MIN": -0.028693066250554903
+    "rxn04113_c0": {
+        "MAX": 0.03188118472134215,
+        "MIN": -0.02869306624869261
     },
     "EXF_DASH_C8_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 12.275310660082908,
+        "MAX": 12.275310660082964,
         "MIN": 0.0
     },
-    "RXNIM_DASH_3991": {
+    "rxn12206_c0": {
         "MAX": 0.0,
-        "MIN": 32.73416176022483
+        "MIN": 32.73416176022657
     },
-    "DCTP_DASH_PYROPHOSPHATASE_DASH_RXN": {
+    "rxn01222_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ASPARTATE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.11452021552989994,
-        "MIN": -0.10306819397670554
+    "rxn47838_c0": {
+        "MAX": 0.1145202155298476,
+        "MIN": -0.10306819397667828
     },
-    "MANNPISOM_DASH_RXN": {
-        "MAX": -0.01819139420530676,
-        "MIN": 0.020212660228156397
+    "rxn00559_c0": {
+        "MAX": -0.018191394205302587,
+        "MIN": 0.020212660228057157
     },
     "TRANS_DASH_RXNIM_DASH_5803": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DCTP_DASH_DEAM_DASH_RXN": {
-        "MAX": 999.9161860862337,
-        "MIN": 999.9875763982209
+    "rxn01672_c0": {
+        "MAX": 999.9161860862332,
+        "MIN": 999.9875763982208
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12281_c0": {
         "MAX": 999.9675806348748,
-        "MIN": 1000.0000000000003
+        "MIN": 999.9999999999998
     },
     "EXF_DASH_TAURINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000028366,
+        "MAX": 0.5000000000202669,
         "MIN": 0.0
     },
-    "RIB5PISOM_DASH_RXN": {
-        "MAX": 333.0470452780127,
-        "MIN": 333.742217756217
+    "rxn00777_c0": {
+        "MAX": -0.24221775621888744,
+        "MIN": 333.7422177562196
     },
-    "XANPRIBOSYLTRAN_DASH_RXN": {
+    "rxn01544_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GUANYL_DASH_KIN_DASH_RXN": {
+    "rxn00239_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9309600325576
+        "MIN": 999.9309600325546
     },
     "TRANS_DASH_RXNIM_DASH_5808": {
         "MAX": 0.0,
-        "MIN": 14.02892646867634
+        "MIN": 14.02892646867958
     },
-    "3_DASH_OXOADIPATE_DASH_ENOL_DASH_LACTONASE_DASH_RXN": {
-        "MAX": 999.8677891026762,
-        "MIN": 1000.0000000000001
+    "rxn02144_c0": {
+        "MAX": 999.8677891026766,
+        "MIN": 16.49929177744752
     },
     "EXF_DASH_VANILLATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.7812956319573582,
+        "MAX": 0.7812956320022517,
         "MIN": 0.0
     },
-    "2_PERIOD_7_PERIOD_7_PERIOD_1_DASH_RXN": {
-        "MAX": 1000.0000000000018,
-        "MIN": 999.9953584745771
+    "rxn00105_c0": {
+        "MAX": 999.9999999999994,
+        "MIN": 999.9953584745775
     },
-    "IMPCYCLOHYDROLASE_DASH_RXN": {
-        "MAX": -0.17219742340047256,
-        "MIN": 0.29719742340027894
+    "rxn00832_c0": {
+        "MAX": -0.17219742339971789,
+        "MIN": 0.2971974234004244
     },
-    "TRANS_DASH_RXN_DASH_29A": {
+    "rxn05579_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
@@ -2132,508 +2132,508 @@
         "MIN": 1000.0
     },
     "EXF_DASH_ADIPATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880110837,
+        "MAX": 16.36708088012005,
         "MIN": 0.0
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 1000.0000000000023,
-        "MIN": 999.9675806348573
+    "rxn12325_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9675806348757
     },
     "EXF_DASH_GLT_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000128172,
+        "MAX": 0.5000000000147354,
         "MIN": 0.0
     },
     "EXF_DASH_GLYCOLLATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.0018753638076028968,
-        "MIN": -0.0016878274271186786
+        "MAX": 0.0018753638074495236,
+        "MIN": -0.0016878274268119324
     },
-    "NACGLCTRANS_DASH_RXN": {
-        "MAX": 0.013588393680215397,
-        "MIN": -0.012229554311981559
+    "rxn03408_c0": {
+        "MAX": 0.013588393679983482,
+        "MIN": -0.012229554311978896
     },
-    "UMPKI_DASH_RXN": {
+    "rxn00119_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8258248349248
+        "MIN": 999.8258248349258
     },
     "EXF_DASH_URIDINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.25000000000833394,
+        "MAX": 0.2500000000084702,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_SUBERATE": {
+    "rxn12454_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660090527
+        "MIN": 12.275310660088556
     },
     "EXF_DASH_SULFATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": -0.10813167625328113,
+        "MAX": -0.10813167625438691,
         "MIN": 5.0
     },
-    "ADENYL_DASH_KIN_DASH_RXN": {
+    "rxn00097_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C14_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9851894759414,
-        "MIN": 999.9999999999987
+    "rxn02803_c0": {
+        "MAX": 999.9851894759436,
+        "MIN": 999.9999999999989
     },
-    "AMPSYN_DASH_RXN": {
+    "rxn00800_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8968425440439
+        "MIN": 999.8968425440496
     },
     "EXF_DASH_THR_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000003882,
+        "MAX": 0.500000000009622,
         "MIN": 0.0
     },
-    "CO2_DASH_DISS_DASH_RXN": {
+    "rxn00102_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GLUTSEMIALDEHYDROG_DASH_RXN": {
+    "rxn02373_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8969318060241
+        "MIN": 999.8969318060238
     },
-    "UNDECAPRENYL_DASH_DIPHOSPHATASE_DASH_RXN": {
-        "MAX": 0.013588393680007508,
-        "MIN": -0.012229554311978936
+    "rxn03901_c0": {
+        "MAX": 0.013588393679953731,
+        "MIN": -0.012229554311978913
     },
-    "N_DASH_ACETYLGLUTPREDUCT_DASH_RXN": {
+    "rxn02465_c0": {
         "MAX": 999.9999999999998,
-        "MIN": 999.9226988545289
+        "MIN": 999.922698854517
     },
-    "ACONITATEDEHYDR_DASH_RXN": {
-        "MAX": 332.7776273828538,
-        "MIN": 382.9462116250793
+    "rxn00974_c0": {
+        "MAX": -0.5116356513461504,
+        "MIN": 382.9462116250445
     },
-    "TRANS_DASH_RXN_DASH_3_COMMA_4_DASH_DIHYDROXYBENZOATE_DASH_PERIP": {
-        "MAX": 1000.0000000000003,
-        "MIN": 1000.0000000000002
+    "rxn12246_c0": {
+        "MAX": 1000.0000000000002,
+        "MIN": 1000.0000000000024
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9527523647719,
-        "MIN": 999.9999999999997
+    "rxn12267_c0": {
+        "MAX": 999.9527523650089,
+        "MIN": 1000.0000000000001
     },
     "TRANS_DASH_RXN_DASH_SHIKIMATE": {
         "MAX": 0.0,
-        "MIN": 14.02892646866568
+        "MIN": 14.028926468686564
     },
-    "GDP_DASH_MANNOSE_DASH_6_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn00638_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "R222_DASH_RXN": {
+    "rxn12234_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DTMPKI_DASH_RXN": {
+    "rxn01513_c0": {
         "MAX": 999.9816990190825,
-        "MIN": 999.9875763982192
+        "MIN": 999.987576398218
     },
-    "PHOSGLYPHOS_DASH_RXN": {
-        "MAX": 999.9999999999953,
-        "MIN": 1000.0000000000003
+    "rxn01100_c0": {
+        "MAX": 999.1735324199578,
+        "MIN": 1000.0000000000008
     },
-    "GLUTATHIONE_DASH_SYN_DASH_RXN": {
+    "rxn00351_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_C16_COLON_1_LPAREN_C7_RPAREN_": {
+    "rxn12389_c0": {
         "MAX": 0.0,
-        "MIN": 6.137655330045598
+        "MIN": 6.137655330043997
     },
-    "ACETYL_DASH_COA_DASH_CARBOXYLTRANSFER_DASH_RXN": {
+    "rxn00533_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "L_DASH_LACTDEHYDROGFMN_DASH_RXN": {
+    "rxn08792_c0": {
         "MAX": 0.0,
-        "MIN": 32.73416176025157
+        "MIN": 32.73416176022024
     },
-    "HISTCYCLOHYD_DASH_RXN": {
-        "MAX": 0.028630053882103147,
-        "MIN": -0.025767048494173647
+    "rxn02835_c0": {
+        "MAX": 0.028630053882366724,
+        "MIN": -0.02576704849416714
     },
-    "C7_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn03866_c0": {
         "MAX": 0.0,
-        "MIN": 14.02892646866544
+        "MIN": 14.028926468669844
     },
-    "C6_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551194,
-        "MIN": 749.9977993721424
+    "rxn05337_c0": {
+        "MAX": 749.993903055114,
+        "MIN": 749.9977993721399
     },
-    "VALINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.2290404310585315,
-        "MIN": -0.20613638795340872
+    "rxn44277_c0": {
+        "MAX": 0.22904043106085265,
+        "MIN": -0.20613638795335873
     },
     "TRANS_DASH_RXN_DASH_CAFFEATE": {
         "MAX": 0.0,
-        "MIN": 10.911387253410552
+        "MIN": 10.911387253416134
     },
-    "P_DASH_PANTOCYSDECARB_DASH_RXN": {
-        "MAX": 0.0018753638077594764,
-        "MIN": -0.0016878274280193058
+    "rxn02341_c0": {
+        "MAX": 0.0018753638059032394,
+        "MIN": -0.0016878274245345705
     },
-    "C8_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn03247_c0": {
         "MAX": 749.9304476464321,
-        "MIN": 762.3365654409147
+        "MIN": 762.3365654409162
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.9999999999999,
+    "rxn12318_c0": {
+        "MAX": 1000.0000000000009,
         "MIN": 999.9527523647727
     },
-    "PREPHENATEDEHYDRAT_DASH_RXN": {
-        "MAX": 0.5515340969832546,
-        "MIN": -0.0515340969883524
+    "rxn01000_c0": {
+        "MAX": 0.5515340969873719,
+        "MIN": -0.051534096988340494
     },
-    "TRANS_DASH_RXNIM_DASH_5794": {
+    "rxn08096_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056144326
+        "MIN": 19.640497056145417
     },
-    "TRANS_DASH_RXNIM_DASH_5792": {
+    "rxn12434_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880118824
+        "MIN": 16.367080880122515
     },
-    "TRANS_DASH_RXN_DASH_WATER": {
+    "rxn05319_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DAHPSYN_DASH_RXN": {
-        "MAX": 1000.0000000000011,
-        "MIN": 999.8677891026741
-    },
-    "C8_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464316,
-        "MIN": 762.3365654409157
-    },
-    "TRANS_DASH_RXNIM_DASH_5923": {
+    "rxn01332_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880128324
+        "MIN": 0.0
     },
-    "CTPSYN_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9037624844528
+    "rxn02679_c0": {
+        "MAX": 749.9304476464322,
+        "MIN": 762.3365654409187
     },
-    "C8_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551799,
-        "MIN": 749.9977993721426
-    },
-    "TRANS_DASH_RXN_DASH_THYMIDINE": {
+    "rxn12444_c0": {
         "MAX": 0.0,
-        "MIN": 0.24999999999090447
+        "MIN": 16.367080880123687
     },
-    "C12_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 749.9939030551137,
-        "MIN": 749.9977993721435
-    },
-    "TRANS_DASH_RXN_DASH_PRO": {
+    "rxn00412_c0": {
         "MAX": 1000.0,
-        "MIN": 1000.0
+        "MIN": 999.903762484455
     },
-    "2_DASH_ISOPROPYLMALATESYN_DASH_RXN": {
-        "MAX": 0.20041037717577218,
-        "MIN": -0.18036933945923625
+    "rxn05325_c0": {
+        "MAX": 749.9939030551175,
+        "MIN": 749.9977993721461
     },
-    "ISOCIT_DASH_CLEAV_DASH_RXN": {
-        "MAX": 1000.0000000000005,
-        "MIN": 1000.0000000000009
+    "rxn12457_c0": {
+        "MAX": 0.0,
+        "MIN": 0.2500000000069506
     },
-    "MALATE_DASH_DEH_DASH_RXN": {
+    "rxn05348_c0": {
+        "MAX": 749.993903055117,
+        "MIN": 749.9977993721371
+    },
+    "rxn12451_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "BENZOATE_DASH_CIS_DASH_DIOL_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 14.028926468668462
+    "rxn00902_c0": {
+        "MAX": 0.20041037717547308,
+        "MIN": -0.18036933945923656
     },
-    "TRANS_DASH_RXN_DASH_FUM": {
-        "MAX": 0.0,
-        "MIN": 24.550621320165245
+    "rxn00336_c0": {
+        "MAX": 999.060936000679,
+        "MIN": 1000.0000000000013
     },
-    "ALCOHOL_DASH_DEHYDROG_DASH_RXN": {
-        "MAX": 49.10124264033821,
-        "MIN": 1.8893175644377595e-12
-    },
-    "TRANS_DASH_RXN_DASH_COUMARATE": {
-        "MAX": 0.0,
-        "MIN": 10.911387253405877
-    },
-    "ABC_DASH_13_DASH_RXN": {
+    "rxn00248_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ALANINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.37219070047059094,
-        "MIN": -0.3349716304243029
+    "rxn00584_c0": {
+        "MAX": 0.0,
+        "MIN": 14.028926468669484
     },
-    "C18_COLON_1_DASH__LPAREN_C9_RPAREN_ACP_DASH_HYDROLASE_DASH_RXN": {
+    "rxn12423_c0": {
+        "MAX": 0.0,
+        "MIN": 24.550621320167384
+    },
+    "rxn00543_c0": {
+        "MAX": 49.10124264035871,
+        "MIN": 2.0890692012065092e-12
+    },
+    "rxn12400_c0": {
+        "MAX": 0.0,
+        "MIN": 10.911387253417695
+    },
+    "rxn05146_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn48506_c0": {
+        "MAX": 0.3721907004685557,
+        "MIN": -0.3349716304241608
+    },
+    "rxn12328_c0": {
         "MAX": 999.9724288263487,
-        "MIN": 999.995151808526
+        "MIN": 999.9951518085269
     },
-    "GDPREDUCT_DASH_RXN": {
-        "MAX": 0.1084213676512006,
-        "MIN": -0.008421367649656617
+    "rxn05233_c0": {
+        "MAX": 0.10842136765508825,
+        "MIN": -0.008421367649522553
     },
-    "TRANS_DASH_RXNIM_DASH_5876_DASH_BIS": {
+    "rxn08614_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880125265
+        "MIN": 16.36708088013363
     },
     "EXF_DASH_UREA_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999999656472,
+        "MAX": 0.2500000000081067,
         "MIN": 0.0
     },
     "EXF_DASH_ETOH_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 49.101242640351366,
+        "MAX": 49.10124264034936,
         "MIN": 0.0
     },
-    "3_DASH_ISOPROPYLMALDEHYDROG_DASH_RXN": {
-        "MAX": 0.20041037717670152,
-        "MIN": -0.180369339459195
+    "rxn03062_c0": {
+        "MAX": 0.20041037717712346,
+        "MIN": -0.18036933945917988
     },
-    "HISTALDEHYD_DASH_RXN": {
-        "MAX": 0.028630053882435908,
-        "MIN": -0.025767048494170705
+    "rxn00863_c0": {
+        "MAX": 0.02863005388254953,
+        "MIN": -0.025767048494168547
     },
-    "C16_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
+    "rxn05332_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9861370602188
+        "MIN": 999.986137060236
     },
     "EXF_DASH_THYMIDINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.2500000000019533,
+        "MAX": 0.24999999999912229,
         "MIN": 0.0
     },
-    "PRTRANS_DASH_RXN": {
-        "MAX": 0.2757670485055087,
-        "MIN": -0.025767048493793795
+    "rxn00791_c0": {
+        "MAX": 0.27576704849045813,
+        "MIN": -0.025767048494842047
     },
-    "SAICARSYN_DASH_RXN": {
-        "MAX": 0.27143037490374805,
-        "MIN": -0.1464303749073215
+    "rxn03147_c0": {
+        "MAX": 0.2714303749083167,
+        "MIN": -0.14643037491393476
     },
-    "DHBDEHYD_DASH_RXN": {
+    "rxn01094_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "AFATTYACID_WAX_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 999.9999999999983,
-        "MIN": 999.9951863839073
+    "rxn12351_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9951863838547
     },
-    "2_DASH_OCTAPRENYL_DASH_6_DASH_METHOXYPHENOL_DASH_HYDROX_DASH_RXN": {
-        "MAX": 0.0018753638073966963,
-        "MIN": -0.0016878274266601096
+    "rxn09042_c0": {
+        "MAX": 0.0018753638071427395,
+        "MIN": -0.00168782742639357
     },
-    "TRANS_DASH_RXN_DASH_1": {
+    "rxn08525_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PROPKIN_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 1000.0000000000002
+    "rxn00985_c0": {
+        "MAX": 1000.0000000000007,
+        "MIN": 999.9999999999999
     },
-    "ALDHDEHYDROG_DASH_RXN": {
+    "rxn05735_c0": {
         "MAX": 0.0,
-        "MIN": 0.4999999999831296
+        "MIN": 0.5000000000171367
     },
-    "C12_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9846916054671,
+    "rxn02720_c0": {
+        "MAX": 999.9846916054665,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_122": {
+    "rxn05298_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DUMP_DASH_NUCLEOTIDASE_DASH_RXN": {
-        "MAX": 0.25000000000078804,
-        "MIN": 3.084934555607358e-13
+    "rxn01521_c0": {
+        "MAX": 0.24999999999729042,
+        "MIN": 1.8506839892376062e-13
     },
-    "MUCONATE_DASH_CYCLOISOMERASE_DASH_RXN": {
+    "rxn02782_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9742329515051
+        "MIN": 999.9742329515052
     },
     "EXF_DASH_C12_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 8.183540440058971,
+        "MAX": 8.183540440062306,
         "MIN": 0.0
     },
     "EXF_DASH_CPD_DASH_6501_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253408861,
+        "MAX": 10.91138725341521,
         "MIN": 0.0
     },
-    "PHOSPHATIDATE_DASH_PHOSPHATASE_DASH_RXN": {
+    "rxn06138_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9990196767056
+        "MIN": 999.9990196767122
     },
-    "SULFITE_DASH_REDUCT_DASH_RXN": {
-        "MAX": 0.49877949225619517,
-        "MIN": -0.10813167625667207
+    "rxn00623_c0": {
+        "MAX": 0.49877949225718987,
+        "MIN": -0.10813167625548953
     },
-    "NICOTINAMID_DASH_RXN": {
-        "MAX": 999.9953584745771,
-        "MIN": 1000.0000000000007
+    "rxn00938_c0": {
+        "MAX": 999.9953584745762,
+        "MIN": 1000.0000000000017
     },
-    "C10_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn12250_c0": {
         "MAX": 0.0,
-        "MIN": 9.82024852806609
+        "MIN": 9.820248528076268
     },
-    "GLYC3PDEHYDROG_DASH_RXN": {
-        "MAX": 999.9711265724403,
+    "rxn08556_c0": {
+        "MAX": 999.9711265724407,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_GLUTARATE": {
+    "rxn12425_c0": {
         "MAX": 0.0,
-        "MIN": 19.640497056150995
+        "MIN": 19.64049705614177
     },
-    "C12_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn09452_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PSEUDOURIDYLATE_DASH_SYNTHASE_DASH_RXN": {
+    "rxn00776_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "SHIKIMATE_DASH_5_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn01740_c0": {
         "MAX": 1000.0,
-        "MIN": 1000.0
+        "MIN": 999.9999999999959
     },
-    "XMPXAN_DASH_RXN": {
-        "MAX": 1000.0000000000002,
-        "MIN": 1000.0
-    },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COATRANSFERASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "CPM_DASH_KDOSYNTH_DASH_RXN": {
-        "MAX": 0.0008922409959970629,
-        "MIN": -0.0008030168963968645
-    },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+    "rxn01961_c0": {
         "MAX": 1000.0000000000006,
-        "MIN": 999.9527523647727
+        "MIN": 1000.0000000000003
     },
-    "ACETATEKIN_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 999.9999999999985
-    },
-    "DTDPKIN_DASH_RXN": {
+    "rxn12276_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9692754173012
+        "MIN": 1000.0
     },
-    "PGPPHOSPHA_DASH_RXN": {
-        "MAX": 0.009074135760127486,
-        "MIN": -0.008166722184136548
+    "rxn02405_c0": {
+        "MAX": 0.0008922409959980437,
+        "MIN": -0.0008030168963966905
     },
-    "RXNIM_DASH_6173": {
+    "rxn12319_c0": {
+        "MAX": 999.9999999999974,
+        "MIN": 999.952752364773
+    },
+    "rxn00225_c0": {
+        "MAX": 999.9999999999999,
+        "MIN": 999.9999999999987
+    },
+    "rxn01512_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9692754173021
+    },
+    "rxn20526_c0": {
+        "MAX": 0.009074135760081755,
+        "MIN": -0.008166722184134842
+    },
+    "rxn12248_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253401232
+        "MIN": 10.911387253408561
     },
-    "C12_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464315,
-        "MIN": 757.2218526658835
+    "rxn03242_c0": {
+        "MAX": 749.9304476464298,
+        "MIN": 757.2218526658834
     },
-    "PHOSACETYLTRANS_DASH_RXN": {
+    "rxn00173_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ASPARTATEKIN_DASH_RXN": {
-        "MAX": 0.951957206120043,
-        "MIN": -0.45195720613985024
+    "rxn00337_c0": {
+        "MAX": 0.9519572061572306,
+        "MIN": -0.4519572061391718
     },
-    "C14_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn08441_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "RXN0_DASH_743": {
-        "MAX": 0.27143037490404515,
-        "MIN": -0.14643037491073296
+    "rxn05115_c0": {
+        "MAX": 0.2714303749114433,
+        "MIN": -0.14643037489748334
     },
-    "FUMARYLACETOACETASE_DASH_RXN": {
+    "rxn00993_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C16_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9861370602191,
+    "rxn03239_c0": {
+        "MAX": 999.9861370602184,
         "MIN": 1000.0
     },
-    "H2NEOPTERINP3PYROPHOSPHOHYDRO_DASH_RXN": {
-        "MAX": 0.0018753638072640392,
-        "MIN": -0.0016878274265266287
+    "rxn03173_c0": {
+        "MAX": 0.0018753638070098822,
+        "MIN": -0.0016878274263936934
     },
     "1_DASH_ACYLGLYCEROL_DASH_3_DASH_P_DASH_ACYLTRANSFER_DASH_PL_DASH_RXN": {
-        "MAX": 0.025184014464578863,
-        "MIN": -0.02266561301829188
+        "MAX": 0.025184014464674068,
+        "MIN": -0.02266561301829125
     },
-    "C16_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 1000.000000000001,
-        "MIN": 999.9861370602213
+    "rxn05336_c0": {
+        "MAX": 1000.0000000000005,
+        "MIN": 999.9861370602187
     },
-    "AFATTYACID_TAG_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 999.999999999999,
-        "MIN": 999.9990196767086
+    "rxn12344_c0": {
+        "MAX": 999.9999999999999,
+        "MIN": 999.9990196767092
     },
-    "THIAZOLSYN3_DASH_RXN": {
+    "rxn03075_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_CYTIDINE": {
+    "rxn12413_c0": {
         "MAX": 0.0,
-        "MIN": 0.1666666666606384
+        "MIN": 0.16666666666410423
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
+    "rxn12327_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9675806348756
+        "MIN": 999.9675806348727
     },
-    "KDO_DASH_8PPHOSPHAT_DASH_RXN": {
-        "MAX": 0.0008922409959939264,
-        "MIN": -0.0008030168963968356
+    "rxn02404_c0": {
+        "MAX": 0.000892240996000967,
+        "MIN": -0.000803016896396618
     },
-    "C6_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464318,
-        "MIN": 766.4283356609301
+    "rxn03251_c0": {
+        "MAX": 749.930447646431,
+        "MIN": 766.4283356609577
     },
-    "TRANS_DASH_RXN_DASH_GLUCONATE": {
+    "rxn08610_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880111963
+        "MIN": 16.367080880115036
     },
-    "HOMOCYSMETB12_DASH_RXN": {
-        "MAX": 999.6794975213284,
-        "MIN": 999.9383389384523
+    "rxn00693_c0": {
+        "MAX": 999.67949752135,
+        "MIN": 999.9383389384533
     },
-    "GLUCONOLACT_DASH_RXN": {
+    "rxn01107_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880124398
+        "MIN": 16.3670808801191
     },
-    "TRANS_DASH_RXNIM_DASH_5847": {
+    "rxn05215_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000140707
+        "MIN": 0.500000000004084
     },
-    "2PGADEHYDRAT_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9999999999934
+    "rxn00459_c0": {
+        "MAX": 998.2586074381944,
+        "MIN": 1000.0000000000017
     },
-    "RXNIM_DASH_6188": {
+    "rxn12242_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253409336
+        "MIN": 10.911387253416242
     },
-    "GUANIDINOBUTYRASE_DASH_RXN": {
+    "rxn01462_c0": {
         "MAX": 0.0,
-        "MIN": 0.16666666666964508
+        "MIN": 0.16666666667598584
     },
-    "RXNIM_DASH_6205": {
+    "rxn12237_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253416917
+        "MIN": 10.91138725341956
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12273_c0": {
         "MAX": 999.9527523647729,
-        "MIN": 999.9999999999999
+        "MIN": 1000.0
     },
-    "GLUTATHIONE_DASH_REDUCT_DASH_NADPH_DASH_RXN": {
+    "rxn00086_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_27_DASH_BIS": {
+    "rxn12374_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "RXNIM_DASH_6204": {
+    "rxn12500_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880126796
+        "MIN": 16.367080880120092
     },
     "TRANS_DASH_RXN_DASH_201": {
         "MAX": 1000.0,
@@ -2643,1344 +2643,1348 @@
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_C10_COLON_0": {
+    "rxn12385_c0": {
         "MAX": 0.0,
-        "MIN": 9.820248528073316
+        "MIN": 9.820248528072783
     },
     "EXF_DASH_PHE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000116662,
+        "MAX": 0.5000000000090637,
         "MIN": 0.0
     },
     "EXF_DASH_BUTANEDIOL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.550621320189958,
+        "MAX": 24.550621320182817,
         "MIN": 0.0
     },
-    "C18_COLON_0_DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 999.9952101175121,
-        "MIN": 999.9999999999999
+    "rxn08767_c0": {
+        "MAX": 999.9952101175137,
+        "MIN": 1000.0000000000028
     },
-    "ABC_DASH_70_DASH_RXN": {
+    "rxn05153_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8918683237451
+        "MIN": 999.8918683237446
     },
-    "RXNIM_DASH_6206": {
+    "rxn12297_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253415759
+        "MIN": 10.911387253415082
     },
     "EXF_DASH_PURINE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "GAPOXNPHOSPHN_DASH_RXN": {
-        "MAX": 1000.0,
+    "rxn00781_c0": {
+        "MAX": 999.1735324199691,
         "MIN": 1000.0
     },
-    "R223_DASH_RXN": {
-        "MAX": 1000.0,
+    "rxn09444_c0": {
+        "MAX": 1000.000000000002,
         "MIN": 1000.0
     },
-    "ADENYLYLSULFATE_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 4.999999999999948,
-        "MIN": -0.10813167625386469
+    "rxn05256_c0": {
+        "MAX": 5.0000000000002025,
+        "MIN": -0.10813167625400154
     },
-    "3_DASH_CH3_DASH_2_DASH_OXOBUTANOATE_DASH_OH_DASH_CH3_DASH_XFER_DASH_RXN": {
-        "MAX": 0.0018753638057196884,
-        "MIN": -0.001687827424932125
+    "rxn00912_c0": {
+        "MAX": 0.0018753638048278766,
+        "MIN": -0.0016878274249525573
     },
-    "UPPSYN_DASH_RXN": {
-        "MAX": 0.0018753638071071774,
-        "MIN": -0.0016878274263945584
+    "rxn04308_c0": {
+        "MAX": 0.0018753638071182786,
+        "MIN": -0.001687827426393938
     },
     "EXF_DASH_FE_PLUS_2_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": -0.003375654852766176,
         "MIN": 0.00375072761418464
     },
-    "2_PERIOD_4_PERIOD_2_PERIOD_12_DASH_RXN": {
-        "MAX": 999.9953584745763,
+    "rxn00941_c0": {
+        "MAX": 999.9953584745743,
         "MIN": 1000.0
     },
-    "GLYCERALDEHYDE_DASH_DEHYDRO_DASH_RXN": {
+    "rxn01286_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "1_PERIOD_2_PERIOD_1_PERIOD_27_DASH_RXN": {
+    "rxn00671_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "ACETOOHBUTSYN_DASH_RXN": {
-        "MAX": 0.14315026941149114,
-        "MIN": -0.12883524247087416
+    "rxn08043_c0": {
+        "MAX": 0.14315026941083023,
+        "MIN": -0.12883524247083664
     },
-    "SUCCINYLDIAMINOPIMTRANS_DASH_RXN": {
-        "MAX": -0.14106479678286205,
-        "MIN": 0.3910647967856969
+    "rxn03087_c0": {
+        "MAX": -0.14106479678282968,
+        "MIN": 0.3910647967836023
     },
-    "GABATRANSAM_DASH_RXN": {
+    "rxn01204_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000166387
+        "MIN": 0.4999999999981136
     },
-    "PANTOATE_DASH_BETA_DASH_ALANINE_DASH_LIG_DASH_RXN": {
-        "MAX": 0.001875363805694196,
-        "MIN": -0.0016878274264342228
+    "rxn01791_c0": {
+        "MAX": 0.0018753638080760953,
+        "MIN": -0.0016878274256332212
     },
-    "AICARSYN_DASH_RXN": {
-        "MAX": 0.2714303749074917,
-        "MIN": -0.14643037490691876
+    "rxn03136_c0": {
+        "MAX": 0.27143037490744265,
+        "MIN": -0.14643037490629732
     },
-    "MALATE_DASH_DEHYDROGENASE_DASH__LPAREN_ACCEPTOR_RPAREN__DASH_RXN": {
+    "rxn08900_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "TRANS_DASH_RXN_DASH_CHLOROGENATE": {
         "MAX": 0.0,
-        "MIN": 6.13765533004697
+        "MIN": 6.137655330050118
     },
-    "RXN0_DASH_742": {
-        "MAX": 0.27143037490685956,
-        "MIN": -0.14643037490405603
+    "rxn05114_c0": {
+        "MAX": 0.27143037490567085,
+        "MIN": -0.14643037490636782
     },
     "EXF_DASH_URACIL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999999947406,
+        "MAX": 0.24999999999956887,
         "MIN": 0.0
     },
-    "ACETALD_DASH_DEHYDROG_DASH_RXN": {
+    "rxn00171_c0": {
         "MAX": 0.0,
-        "MIN": 49.10124264037903
+        "MIN": 49.10124264035902
     },
-    "FUMHYDR_DASH_RXN": {
+    "rxn00799_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GPH_DASH_RXN": {
+    "rxn00980_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C6_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 749.9939030551144,
-        "MIN": 749.9977993721436
+    "rxn05330_c0": {
+        "MAX": 749.9939030551182,
+        "MIN": 749.997799372144
     },
-    "C16_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
+    "rxn05328_c0": {
         "MAX": 1000.0,
         "MIN": 999.9861370602181
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 999.9527523647732
+    "rxn12312_c0": {
+        "MAX": 1000.0000000000017,
+        "MIN": 999.9527523647724
     },
-    "PHOSPHASERDECARB_DASH_RXN": {
-        "MAX": 0.01610987870462983,
-        "MIN": -0.014498890834153249
+    "rxn06090_c0": {
+        "MAX": 0.016109878704592743,
+        "MIN": -0.014498890834151946
     },
-    "H2NEOPTERINALDOL_DASH_RXN": {
-        "MAX": 0.0018753638072080872,
-        "MIN": -0.0016878274262611022
+    "rxn02504_c0": {
+        "MAX": 0.0018753638071487772,
+        "MIN": -0.001687827426393641
     },
-    "SERINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.11452021552995469,
-        "MIN": -0.1030681939766877
+    "rxn43380_c0": {
+        "MAX": 0.11452021552944501,
+        "MIN": -0.10306819397667996
     },
-    "TYROSINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.05726010776497735,
-        "MIN": -0.05153409698834385
+    "rxn41935_c0": {
+        "MAX": 0.05726010776498504,
+        "MIN": -0.05153409698833923
     },
-    "ADCLY_DASH_RXN": {
-        "MAX": 0.0018753638072080874,
-        "MIN": -0.0016878274262611024
+    "rxn03841_c0": {
+        "MAX": 0.0018753638071487776,
+        "MIN": -0.0016878274263936411
     },
-    "RXN0_DASH_2044": {
+    "rxn04750_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880128313
+        "MIN": 16.367080880119214
     },
     "EXF_DASH_L_DASH_ALPHA_DASH_ALANINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000015565,
+        "MAX": 0.4999999999915092,
         "MIN": 0.0
     },
-    "RIBOFLAVINKIN_DASH_RXN": {
-        "MAX": 0.003281886662176295,
-        "MIN": -0.002953697995935499
+    "rxn00392_c0": {
+        "MAX": 0.0032818866622438903,
+        "MIN": -0.0029536979960565228
     },
-    "BENZALDEHYDE_DASH_DEHYDROGENASE_DASH__LPAREN_NAD_PLUS__RPAREN__DASH_RXN": {
+    "rxn01032_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468682203
+        "MIN": 14.028926468667715
     },
-    "TRANS_DASH_RXN_DASH_118": {
+    "rxn05221_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "_LPAREN_DEOXY_RPAREN_ADENYLATE_DASH_KINASE_DASH_RXN": {
+    "rxn01127_c0": {
         "MAX": 999.9875763982195,
         "MIN": 1000.0
     },
     "EXF_DASH_C16_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 6.1376553300487116,
+        "MAX": 6.137655330044694,
         "MIN": 0.0
     },
     "EXF_DASH_4_DASH_AMINO_DASH_BUTYRATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000085936,
+        "MAX": 0.5000000000149348,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_3623": {
+    "rxn12406_c0": {
         "MAX": 0.0,
-        "MIN": 9.820248528073105
+        "MIN": 9.820248528077956
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn12271_c0": {
+        "MAX": 1000.0000000000008,
+        "MIN": 1000.0
+    },
+    "rxn00139_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ADENPRIBOSYLTRAN_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
+    "rxn03904_c0": {
+        "MAX": 0.01358839367997859,
+        "MIN": -0.012229554311973668
     },
-    "PHOSNACMURPENTATRANS_DASH_RXN": {
-        "MAX": 0.013588393679969541,
-        "MIN": -0.012229554311979935
-    },
-    "OROTPDECARB_DASH_RXN": {
-        "MAX": 0.41154410231715677,
-        "MIN": -0.1615441023153344
+    "rxn00710_c0": {
+        "MAX": 0.41154410232981015,
+        "MIN": -0.16154410231591254
     },
     "UNBAL_DASH_S_DASH_ADENOSYL_DASH_4_DASH_METHYLTHIO_DASH_2_DASH_OXOBUTANOATE": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "RXN_DASH_7609": {
+    "rxn00913_c0": {
         "MAX": 1000.0,
-        "MIN": 1000.0000000000002
+        "MIN": 999.9999999999976
     },
     "EXF_DASH_COUMARATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253418127,
+        "MAX": 10.91138725341618,
         "MIN": 0.0
     },
-    "LEUCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.20041037717719667,
-        "MIN": -0.18036933945922873
+    "rxn44809_c0": {
+        "MAX": 0.20041037717865193,
+        "MIN": -0.18036933945920916
     },
-    "PHENYLALANINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.05726010776480298,
-        "MIN": -0.05153409698835106
+    "rxn47831_c0": {
+        "MAX": 0.05726010776508757,
+        "MIN": -0.05153409698834547
     },
-    "C6_COLON_2_LPAREN_c2_COMMA_c4_RPAREN__DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn12292_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088012679
+        "MIN": 16.36708088012847
     },
-    "C8_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 749.9939030550831,
-        "MIN": 749.9977993721373
+    "rxn05334_c0": {
+        "MAX": 749.9939030551155,
+        "MIN": 749.9977993721434
     },
-    "CYSTEINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.057260107764794406,
-        "MIN": -0.051534096988352616
+    "rxn43736_c0": {
+        "MAX": 0.05726010776497546,
+        "MIN": -0.05153409698832733
     },
-    "C6_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.9939030551154,
-        "MIN": 749.9977993721421
+    "rxn05326_c0": {
+        "MAX": 749.9939030551166,
+        "MIN": 749.9977993721428
     },
-    "ASPARTASE_DASH_RXN": {
+    "rxn00347_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXNIM_DASH_5899": {
+    "rxn05152_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "SUCCSEMIALDDEHYDROG_DASH_RXN": {
+    "rxn00509_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000570394
+        "MIN": 0.5000000000027559
     },
-    "DAPASYN_DASH_RXN": {
+    "rxn02312_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "ISOLEUCINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.14315026941392905,
-        "MIN": -0.12883524247087827
+    "rxn48235_c0": {
+        "MAX": 0.1431502694132991,
+        "MIN": -0.12883524247085637
     },
-    "LUMAZINESYN_DASH_RXN": {
-        "MAX": 0.006563773324781616,
-        "MIN": -0.005907395994680749
+    "rxn03080_c0": {
+        "MAX": 0.00656377332448323,
+        "MIN": -0.00590739599339317
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_148": {
+    "rxn12402_c0": {
         "MAX": 0.0,
-        "MIN": 12.27531066010093
+        "MIN": 12.275310660094572
     },
     "EXF_DASH_ETHANOL_DASH_AMINE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_242A_DASH_BIS": {
+    "rxn12373_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "CYSTATHIONINE_DASH_BETA_DASH_LYASE_DASH_RXN": {
-        "MAX": 999.1382969426425,
-        "MIN": 999.9467780755871
+    "rxn00950_c0": {
+        "MAX": 998.3118293626093,
+        "MIN": 999.9467780755834
     },
-    "RXN_DASH_2": {
+    "rxn03586_c0": {
         "MAX": 0.0,
-        "MIN": 0.7812956319761046
+        "MIN": 0.7812956320527521
     },
     "EXF_DASH_NICOTINAMIDE_NUCLEOTIDE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999999538502,
+        "MAX": 0.2499999999956028,
         "MIN": 0.0
     },
     "EXF_DASH_CYTOSINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.16666666666699065,
+        "MAX": 0.16666666666992225,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn12252_c0": {
         "MAX": 0.0,
-        "MIN": 9.820248528070232
+        "MIN": 9.820248528071556
     },
-    "C14_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 1000.0000000000001,
-        "MIN": 999.9851894759386
+    "rxn05345_c0": {
+        "MAX": 1000.0000000000103,
+        "MIN": 999.9851894759422
     },
-    "C10_COLON_0_DASH_CARBOXY3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12251_c0": {
         "MAX": 0.0,
-        "MIN": 9.8202485280637
+        "MIN": 9.820248528068566
     },
-    "2_DASH_METHYLCITRATE_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 32.734161760248305
+    "rxn00679_c0": {
+        "MAX": -1.6016010009158928e-13,
+        "MIN": 32.73416176023742
     },
-    "TRANS_DASH_RXN_DASH_162": {
+    "rxn12370_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "4_PERIOD_2_PERIOD_1_PERIOD_101_DASH_RXN": {
+    "rxn04024_c0": {
         "MAX": 0.0,
-        "MIN": 0.7812956320331448
+        "MIN": 0.7812956320121476
     },
-    "TRANS_DASH_RXNIM_DASH_5753": {
+    "rxn05183_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_ANTHRANILATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.49999999999479927,
+        "MAX": 0.49999999999130595,
         "MIN": 0.0
     },
-    "HISTAMINOTRANS_DASH_RXN": {
-        "MAX": 0.028630053882451774,
-        "MIN": -0.02576704849417698
+    "rxn02320_c0": {
+        "MAX": 0.028630053882399274,
+        "MIN": -0.025767048494170487
     },
     "TRANS_DASH_RXN_DASH_WATER_DASH_PERIP": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_4_DASH_HYDROXY_DASH_BENZYL_DASH_ALCOHOL": {
+    "rxn12376_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468689408
+        "MIN": 14.02892646868118
     },
-    "SARCOX_DASH_RXN": {
+    "rxn00433_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C18_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9952101175152,
-        "MIN": 1000.0000000000025
+    "rxn07574_c0": {
+        "MAX": 999.995210117515,
+        "MIN": 1000.0000000000001
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn12282_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DALADALALIG_DASH_RXN": {
-        "MAX": 0.013588393680015956,
-        "MIN": -0.012229554311981713
+    "rxn00851_c0": {
+        "MAX": 0.013588393679912783,
+        "MIN": -0.012229554311978249
     },
     "EXF_DASH_L_DASH_ORNITHINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999999975178,
+        "MAX": 0.24999999998295225,
         "MIN": 0.0
     },
-    "DTDPDEHYDRHAMEPIM_DASH_RXN": {
-        "MAX": 0.0203344232414946,
-        "MIN": -0.018300980917387834
+    "rxn02000_c0": {
+        "MAX": 0.02033442324157275,
+        "MIN": -0.01830098091738265
     },
-    "2_DASH_NITROPROPANE_DASH_DIOXYGENASE_DASH_RXN": {
+    "rxn12295_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "SUCCGLUALDDEHYD_DASH_RXN": {
-        "MAX": 999.7611547522017,
-        "MIN": 1000.000000000002
+    "rxn03422_c0": {
+        "MAX": 999.761154752201,
+        "MIN": 1000.0000000000005
     },
-    "C18_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.999999999994,
-        "MIN": 999.9952101175184
+    "rxn12322_c0": {
+        "MAX": 1000.0000000000024,
+        "MIN": 999.9952101175154
     },
-    "TRANS_DASH_RXNIM_DASH_5742": {
+    "rxn05219_c0": {
         "MAX": 0.0,
-        "MIN": 0.3906478159871449
+        "MIN": 0.3906478159960776
     },
-    "ADDALT_DASH_RXN": {
-        "MAX": 0.1250000000055113,
-        "MIN": 3.908919508504942e-15
+    "rxn01858_c0": {
+        "MAX": 0.12499999999908007,
+        "MIN": -2.772843371574995e-13
     },
-    "RXN_DASH_7913": {
-        "MAX": 999.9999999999999,
+    "rxn01219_c0": {
+        "MAX": 1000.0000000000003,
         "MIN": 1000.0
     },
     "TRANS_DASH_RXN_DASH_L_DASH_ASPARTATE": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PRAISOM_DASH_RXN": {
-        "MAX": 0.2757670485041984,
-        "MIN": -0.025767048494273734
+    "rxn02508_c0": {
+        "MAX": 0.2757670484844533,
+        "MIN": -0.02576704849415891
     },
     "EXF_DASH_BUTYRIC_ACID_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 24.55062132012969,
+        "MAX": 24.55062132018721,
         "MIN": 0.0
     },
-    "BHBDCLOS_DASH_RXN": {
+    "rxn01451_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GMP_DASH_SYN_DASH_GLUT_DASH_RXN": {
+    "rxn00917_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9309600325553
+        "MIN": 999.9309600325544
     },
-    "C18_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 999.9999999999998,
-        "MIN": 999.9952101175156
+    "rxn07578_c0": {
+        "MAX": 1000.000000000001,
+        "MIN": 999.9952101175153
     },
-    "BENZYL_DASH_ALC_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn01293_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468667125
+        "MIN": 14.028926468669539
     },
-    "RXN0_DASH_1461": {
-        "MAX": 0.0018753638071042989,
-        "MIN": -0.0016878274263939386
+    "rxn02303_c0": {
+        "MAX": 0.0018753638071087784,
+        "MIN": -0.0016878274263936628
     },
-    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6115": {
+    "rxn12411_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253411933
+        "MIN": 10.91138725340886
     },
-    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6116": {
+    "rxn12412_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253415425
+        "MIN": 10.91138725341163
     },
-    "C16_COLON_0_DASH_COA_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.00027812004394881933,
-        "MIN": -0.00025030803955909735
+    "rxn12352_c0": {
+        "MAX": 0.00027812004394921013,
+        "MIN": -0.00025030803955065136
     },
-    "C8_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12261_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660087525
+        "MIN": 12.27531066009244
     },
-    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6112": {
+    "rxn12409_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253409771
+        "MIN": 10.91138725341375
     },
-    "MALSYN_DASH_RXN": {
+    "rxn00330_c0": {
+        "MAX": 999.0609360006573,
+        "MIN": 1000.0
+    },
+    "rxn10126_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "FAD_DASH_UBIQUINONE_DASH_RXN": {
+    "rxn12199_c0": {
+        "MAX": 115.97793796017368,
+        "MIN": 231.95078996078558
+    },
+    "rxn12496_c0": {
+        "MAX": 0.023442047588803198,
+        "MIN": -0.021097842829919163
+    },
+    "rxn00184_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PQQ_DASH_OXID_DASH_RXN": {
-        "MAX": 115.97793796013342,
-        "MIN": 231.95078996084203
-    },
-    "COFACTORSYN_DASH_RXN": {
-        "MAX": 0.023442047588689875,
-        "MIN": -0.02109784282992421
-    },
-    "GLUTDEHYD_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12279_c0": {
         "MAX": 999.9675806348739,
         "MIN": 1000.0
     },
-    "C6_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn08446_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0000000000003
+    },
+    "rxn00175_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACETATE_DASH__DASH_COA_DASH_LIGASE_DASH_RXN": {
+    "rxn26065_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
-    },
-    "RXN0_DASH_361": {
-        "MAX": 1000.0,
-        "MIN": 1000.0000000000001
     },
     "RXN0_DASH_366": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_3OXOCOA_DASH_THIOLASE_DASH_RXN": {
-        "MAX": 999.9527523647726,
-        "MIN": 1000.0
+    "rxn12274_c0": {
+        "MAX": 999.952752364772,
+        "MIN": 999.9999999999983
     },
-    "ACETOINDEHYDROG_DASH_RXN": {
+    "rxn01685_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_FRU_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880102503,
+        "MAX": 16.367080880114724,
         "MIN": 0.0
     },
     "EXF_DASH_CPDIM_DASH_6116_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 10.911387253423195,
+        "MAX": 10.911387253409627,
         "MIN": 0.0
     },
-    "C6_COLON_1_LPAREN_C4_RPAREN__DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12290_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880134846
+        "MIN": 16.36708088012049
     },
-    "ARYLSULFAT_DASH_RXN": {
+    "rxn00925_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "UDPNACETYLGLUCOSAMACYLTRANS_DASH_RXN": {
-        "MAX": 0.0008922409959948391,
-        "MIN": -0.0008030168963969794
+    "rxn06729_c0": {
+        "MAX": 0.0008922409959927583,
+        "MIN": -0.0008030168963967171
     },
     "EXF_DASH_D_DASH_SERINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.4999999999851416,
+        "MAX": 0.49999999996089234,
         "MIN": 0.0
     },
     "EXF_DASH_CPD_DASH_302_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000163476,
+        "MAX": 0.4999999999889867,
         "MIN": 0.0
     },
     "EXF_DASH_AMMONIUM_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": -4.49999999998366,
+        "MAX": -4.500000000010954,
         "MIN": 5.0
     },
     "EXF_DASH_GLUCONATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.36708088012608,
+        "MAX": 16.36708088011131,
         "MIN": 0.0
     },
-    "ERYTH4PDEHYDROG_DASH_RXN": {
-        "MAX": 0.00187536380711891,
-        "MIN": -0.0016878274263938016
+    "rxn01331_c0": {
+        "MAX": 0.0018753638071017744,
+        "MIN": -0.00168782742639363
     },
-    "C5_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9999999999997,
-        "MIN": 1000.0000000000011
+    "rxn12255_c0": {
+        "MAX": 999.9999999999999,
+        "MIN": 999.9999999999997
     },
-    "PROTEINSYN_DASH_RXN": {
-        "MAX": 2.8630053882387516,
-        "MIN": -2.5767048494177134
+    "rxn12192_c0": {
+        "MAX": 2.863005388238048,
+        "MIN": -2.576704849417004
     },
-    "TRANS_DASH_RXN_DASH_58": {
+    "rxn08854_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "GTP_DASH_CYCLOHYDRO_DASH_I_DASH_RXN": {
-        "MAX": 0.0018753638070018168,
-        "MIN": -0.001687827426394204
+    "rxn00299_c0": {
+        "MAX": 0.001875363807107746,
+        "MIN": -0.0016878274261281966
     },
     "EXF_DASH_MET_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.39064781599186327,
+        "MAX": 0.39064781599491444,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_FORMATE": {
-        "MAX": 1000.0,
+    "rxn12422_c0": {
+        "MAX": 999.9999999999997,
         "MIN": 1000.0
     },
-    "UROGENDECARBOX_DASH_RXN": {
-        "MAX": 0.0018753638071043566,
-        "MIN": -0.0016878274263943305
+    "rxn02288_c0": {
+        "MAX": 0.0018753638071012512,
+        "MIN": -0.001687827426393533
     },
-    "TRANS_DASH_RXN_DASH_NMN": {
+    "rxn08995_c0": {
         "MAX": 0.0,
-        "MIN": 0.24999999999573447
+        "MIN": 0.24999999999667058
     },
-    "UDP_DASH_NACMURALA_DASH_GLU_DASH_LIG_DASH_RXN": {
-        "MAX": 0.013588393679981775,
-        "MIN": -0.012229554311983791
+    "rxn02008_c0": {
+        "MAX": 0.013588393679965506,
+        "MIN": -0.012229554311978287
     },
-    "RXN0_DASH_383": {
-        "MAX": 999.942774821557,
+    "rxn00367_c0": {
+        "MAX": 999.9427748215583,
         "MIN": 1000.0
     },
-    "RXN0_DASH_384": {
-        "MAX": 999.9875763982195,
+    "rxn09013_c0": {
+        "MAX": 999.9875763982196,
         "MIN": 1000.0
     },
-    "RXN0_DASH_385": {
-        "MAX": 999.99157863235,
+    "rxn01351_c0": {
+        "MAX": 999.9915786323502,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_57": {
+    "rxn05564_c0": {
         "MAX": 0.0,
-        "MIN": 0.49999999996779
+        "MIN": 0.49999999998794215
     },
-    "GLUTAMIDOTRANS_DASH_RXN": {
-        "MAX": 0.028630053882278506,
-        "MIN": -0.025767048494175056
+    "rxn03135_c0": {
+        "MAX": 0.02863005388237121,
+        "MIN": -0.025767048494180367
     },
-    "HOMOSERKIN_DASH_RXN": {
-        "MAX": 0.7576704849319722,
-        "MIN": -0.25767048494135436
+    "rxn01300_c0": {
+        "MAX": 0.7576704849365434,
+        "MIN": -0.2576704849417028
     },
-    "DTDPGLUCDEHYDRAT_DASH_RXN": {
-        "MAX": 0.020334423241519437,
-        "MIN": -0.018300980917386113
+    "rxn01997_c0": {
+        "MAX": 0.020334423241513928,
+        "MIN": -0.01830098091738189
     },
-    "1_PERIOD_5_PERIOD_1_PERIOD_29_DASH_RXN": {
+    "rxn03974_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
     "EXF_DASH_CPD_DASH_205_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468658426,
+        "MAX": 14.02892646867391,
         "MIN": 0.0
     },
-    "1PFRUCTPHOSN_DASH_RXN": {
+    "rxn01492_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880118646
+        "MIN": 16.367080880109455
     },
     "EXF_DASH_DEOXYURIDINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999998663155,
+        "MAX": 0.25000000000391254,
         "MIN": 0.0
     },
     "EXF_DASH_CIT_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.367080880118646,
+        "MAX": 16.367080880113644,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_CPD_DASH_592": {
+    "rxn12407_c0": {
         "MAX": 0.0,
-        "MIN": 0.16666666664745144
+        "MIN": 0.16666666667991317
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_ALDEHYDE_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 0.002529822707447474,
-        "MIN": -0.002276840436758894
+    "rxn12355_c0": {
+        "MAX": 0.002529822707457386,
+        "MIN": -0.0022768404367589723
     },
-    "2_PERIOD_6_PERIOD_1_PERIOD_76_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "3_DASH_OHACYL_DASH_ACP_LPS_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.0017844819919749688,
-        "MIN": -0.0016060337927938755
-    },
-    "PORPHOBILSYNTH_DASH_RXN": {
-        "MAX": 0.015002910456683104,
-        "MIN": -0.013502619411152706
-    },
-    "3_DASH_HYDROXYISOBUTYRATE_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn04786_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_C18_COLON_1_LPAREN_C9_RPAREN_": {
-        "MAX": 0.0,
-        "MIN": 5.45569362670108
+    "rxn12330_c0": {
+        "MAX": 0.0017844819919779404,
+        "MIN": -0.0016060337927939303
     },
-    "ACYL_DASH_ACP_PL_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.05036802892890321,
-        "MIN": -0.045331226036593626
+    "rxn00029_c0": {
+        "MAX": 0.015002910456708091,
+        "MIN": -0.013502619411153174
     },
-    "ADENOSYLHOMOCYSTEINE_DASH_NUCLEOSIDASE_DASH_RXN": {
+    "rxn01480_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "WAX_DASH_ESTER_DASH_SYNTHASE_DASH_RXN": {
+    "rxn12391_c0": {
+        "MAX": 0.0,
+        "MIN": 5.455693626703297
+    },
+    "rxn12338_c0": {
+        "MAX": 0.05036802892980309,
+        "MIN": -0.045331226036573496
+    },
+    "rxn00143_c0": {
+        "MAX": 0.0,
+        "MIN": 0.0
+    },
+    "rxn12359_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9951863838544
+        "MIN": 999.9951863838558
     },
-    "PYRIMSYN1_DASH_RXN": {
-        "MAX": 0.0018753638070928462,
-        "MIN": -0.0016878274263937745
+    "rxn20643_c0": {
+        "MAX": 0.0018753638070834696,
+        "MIN": -0.0016878274263936344
     },
-    "TRANS_DASH_RXNIM_DASH_5839": {
-        "MAX": 1000.0,
-        "MIN": 1000.0000000000002
-    },
-    "C18_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9952101175146,
-        "MIN": 1000.0000000000003
-    },
-    "NADH_DASH_DEHYDROG_DASH_A_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "ACSERLY_DASH_RXN": {
-        "MAX": 999.1932066944757,
-        "MIN": 999.8918683237466
-    },
-    "EXF_DASH_GLN_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.24999999999949382,
-        "MIN": 0.0
-    },
-    "RXN0_DASH_280": {
-        "MAX": 0.0,
-        "MIN": 4.891868323745017
-    },
-    "TRANS_DASH_RXNIM_DASH_5839_DASH_BIS": {
+    "rxn08856_c0": {
         "MAX": 1000.0,
         "MIN": 999.9999999999999
     },
-    "RXNIM_DASH_6211": {
-        "MAX": 0.0,
-        "MIN": 10.911387253400687
+    "rxn08053_c0": {
+        "MAX": 999.9952101175132,
+        "MIN": 999.9999999999922
     },
-    "OPPSYN_DASH_RXN": {
-        "MAX": 0.0018753638073980916,
-        "MIN": -0.001687827426659478
-    },
-    "C8_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464314,
-        "MIN": 762.3365654409253
-    },
-    "C14_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 999.9992933451308,
-        "MIN": 999.9858961308146
-    },
-    "SHIKIMATE_DASH_KINASE_DASH_RXN": {
+    "rxn10122_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9527523647726,
-        "MIN": 1000.0000000000001
+    "rxn00649_c0": {
+        "MAX": 998.366739114431,
+        "MIN": 999.891868323744
     },
-    "TRANS_DASH_RXN_DASH_CPDIM_DASH_6114": {
+    "EXF_DASH_GLN_LBRACKET_Extraorganism_RBRACKET_": {
+        "MAX": 0.24999999999592357,
+        "MIN": 0.0
+    },
+    "rxn08469_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253410961
+        "MIN": 4.891868323743726
     },
-    "RXN0_DASH_949": {
+    "rxn08155_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0000000000003
+    },
+    "rxn12228_c0": {
+        "MAX": 0.0,
+        "MIN": 10.911387253407002
+    },
+    "rxn03891_c0": {
+        "MAX": 0.0018753638070690838,
+        "MIN": -0.001687827426393398
+    },
+    "rxn03246_c0": {
+        "MAX": 749.930447646432,
+        "MIN": 762.336565440928
+    },
+    "C14_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
+        "MAX": 999.9992933451309,
+        "MIN": 999.9858961308014
+    },
+    "rxn01739_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn12270_c0": {
+        "MAX": 999.9527523647699,
+        "MIN": 999.9999999999997
+    },
+    "rxn12410_c0": {
+        "MAX": 0.0,
+        "MIN": 10.911387253410835
+    },
+    "rxn12336_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "GROWTH_DASH_RXN": {
-        "MAX": 0.44686403215843595,
-        "MIN": -0.4021776289454244
+        "MAX": 0.4468640321618921,
+        "MIN": -0.40217762894534326
     },
-    "TRANS_DASH_RXN_DASH_27": {
-        "MAX": 231.95078996090726,
-        "MIN": 115.9779379601831
+    "rxn09256_c0": {
+        "MAX": 231.9507899608499,
+        "MIN": 115.97793796018559
     },
-    "ARGININE_DASH_N_DASH_SUCCINYLTRANSFERASE_DASH_RXN": {
-        "MAX": 999.7611547522043,
-        "MIN": 1000.0000000000007
+    "rxn00601_c0": {
+        "MAX": 999.7611547522032,
+        "MIN": 999.9999999999998
     },
-    "RIBULP3EPIM_DASH_RXN": {
-        "MAX": 333.04033486512134,
-        "MIN": 333.7489281691058
+    "rxn01116_c0": {
+        "MAX": -0.2489281691021561,
+        "MIN": 333.74892816910796
     },
-    "TRANS_DASH_RXN_DASH_ADIPATE": {
+    "rxn12382_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880126387
+        "MIN": 16.367080880121968
     },
-    "THREONINE_DASH__DASH_TRNA_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.14315026941148554,
-        "MIN": -0.12883524247088707
+    "rxn44292_c0": {
+        "MAX": 0.14315026941241635,
+        "MIN": -0.12883524247085076
     },
-    "TREHALOSEPHOSPHA_DASH_RXN": {
+    "rxn02004_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "RXNIM_DASH_6212": {
-        "MAX": 0.0018753638071029794,
-        "MIN": 14.0272386412556
+    "rxn12239_c0": {
+        "MAX": 0.0018753638071045521,
+        "MIN": 14.027238641237561
     },
-    "4_PERIOD_2_PERIOD_1_PERIOD_41_DASH_RXN": {
+    "rxn01634_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880130644
+        "MIN": 16.36708088011876
     },
-    "RXNIM_DASH_6210": {
+    "rxn12227_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253415901
+        "MIN": 10.911387253416839
     },
-    "TRANS_DASH_RXNIM_DASH_5837": {
+    "rxn12438_c0": {
         "MAX": 0.0,
-        "MIN": 0.7812956319793817
+        "MIN": 0.7812956319992794
     },
-    "C10_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn12254_c0": {
         "MAX": 0.0,
-        "MIN": 9.820248528073149
+        "MIN": 9.82024852807261
     },
-    "ALANINE_DASH_AMINOTRANSFERASE_DASH_RXN": {
+    "rxn00191_c0": {
         "MAX": 1000.0,
-        "MIN": 999.6398111775146
+        "MIN": 999.6398111775156
     },
-    "DXPREDISOM_DASH_RXN": {
-        "MAX": -0.032068721101821726,
-        "MIN": 0.03563191233540453
+    "rxn03958_c0": {
+        "MAX": -0.03206872110181743,
+        "MIN": 0.035631912335477155
     },
-    "4_DASH_HYDROXYBENZOATE_DASH_3_DASH_MONOOXYGENASE_DASH_RXN": {
+    "rxn00962_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ACETYLGLUTKIN_DASH_RXN": {
-        "MAX": 1000.0000000000002,
-        "MIN": 999.9226988545169
+    "rxn01917_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.9226988545172
     },
-    "3_PERIOD_6_PERIOD_1_PERIOD_41_DASH_RXN": {
+    "rxn00095_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "2_DASH_METHYLCITRATE_DASH_DEHYDRATASE_DASH_RXN": {
         "MAX": -1.601601000915893e-13,
-        "MIN": 32.734161760258516
+        "MIN": 32.734161760250636
     },
-    "1_PERIOD_14_PERIOD_12_PERIOD_1_DASH_RXN": {
+    "rxn00595_c0": {
         "MAX": 999.9742329515058,
-        "MIN": 1000.0000000000007
+        "MIN": 999.999999999996
     },
     "EXF_DASH_C18_COLON_1_LPAREN_C9_RPAREN__LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 5.455693626709634,
+        "MAX": 5.455693626710483,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_DEOXYCYTIDINE": {
+    "rxn12415_c0": {
         "MAX": 0.0,
-        "MIN": 0.16666666667676944
+        "MIN": 0.16666666666051902
     },
     "EXF_DASH_CPD_DASH_3623_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 9.82024852807521,
+        "MAX": 9.82024852807383,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 749.9304476464429,
-        "MIN": 759.8815033088985
+    "rxn03245_c0": {
+        "MAX": 749.9304476464362,
+        "MIN": 759.8815033088914
     },
-    "NICONUCADENYLYLTRAN_DASH_RXN": {
+    "rxn02155_c0": {
         "MAX": 999.9999999999998,
-        "MIN": 999.9953584745748
+        "MIN": 999.9953584745797
     },
-    "L_DASH_GLN_DASH_FRUCT_DASH_6_DASH_P_DASH_AMINOTRANS_DASH_RXN": {
-        "MAX": 0.028069028355835492,
-        "MIN": -0.025262125520357993
+    "rxn00555_c0": {
+        "MAX": 0.0280690283558355,
+        "MIN": -0.025262125520353142
     },
-    "FADSYN_DASH_RXN": {
-        "MAX": 0.0016409433311119423,
-        "MIN": -0.0014768489970792133
+    "rxn00122_c0": {
+        "MAX": 0.00164094333151639,
+        "MIN": -0.0014768489974043581
     },
-    "UDPHYDROXYMYRGLUCOSAMNACETYLTRANS_DASH_RXN": {
-        "MAX": 0.0008922409959962222,
-        "MIN": -0.0008030168963968416
+    "rxn06723_c0": {
+        "MAX": 0.0008922409960030544,
+        "MIN": -0.0008030168963966875
     },
-    "C4_COLON_0_DASH_3HYDROXYACP_DASH_DEHYDRATASE_DASH_RXN": {
-        "MAX": 749.9939030551174,
-        "MIN": 749.9977993721301
+    "rxn05329_c0": {
+        "MAX": 749.9939030551162,
+        "MIN": 749.997799372143
     },
-    "SUCCGLUDESUCC_DASH_RXN": {
-        "MAX": 999.7611547522005,
-        "MIN": 1000.000000000004
+    "rxn00291_c0": {
+        "MAX": 999.7611547522068,
+        "MIN": 1000.0000000000017
     },
-    "UDPREDUCT_DASH_RXN": {
+    "rxn06075_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9037624844541
+        "MIN": 999.9037624844526
     },
-    "SHIKIMATE_DASH_PQQ_DASH_RXN": {
-        "MAX": 115.97793796017267,
-        "MIN": 231.9507899608742
+    "rxn01742_c0": {
+        "MAX": 115.97793796021587,
+        "MIN": 231.95078996106957
     },
-    "ACETOLACTSYN_DASH_RXN": {
-        "MAX": 0.4313261720454697,
-        "MIN": -0.38819355484336676
+    "rxn15021_c0": {
+        "MAX": 0.4313261720458528,
+        "MIN": -0.3881935548399067
     },
-    "ACYL_DASH_ACP_LPS_DASH_ASSEMBLY_DASH_RXN": {
-        "MAX": 0.0008922409960024788,
-        "MIN": -0.0008030168963968875
+    "rxn12331_c0": {
+        "MAX": 0.0008922409960029624,
+        "MIN": -0.0008030168963967388
     },
-    "C12_COLON_0_DASH_2ENOYLACP_DASH_ISOMERASE_DASH_RXN": {
-        "MAX": 999.9999999999999,
-        "MIN": 999.9527523647723
+    "rxn12308_c0": {
+        "MAX": 999.9999999999968,
+        "MIN": 999.9527523647743
     },
     "EXF_DASH_CYTIDINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.1666666666615683,
+        "MAX": 0.1666666666710259,
         "MIN": 0.0
     },
-    "PHOSPHASERSYN_DASH_RXN": {
-        "MAX": 0.016109878704686924,
-        "MIN": -0.014498890834153275
+    "rxn06044_c0": {
+        "MAX": 0.01610987870464326,
+        "MIN": -0.014498890834175762
     },
-    "3_DASH_DEHYDROQUINATE_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 1000.0000000000002,
-        "MIN": 999.8677891026849
+    "rxn02212_c0": {
+        "MAX": 999.999999999998,
+        "MIN": 0.0
     },
-    "PEPCARBOX_DASH_RXN": {
+    "rxn00251_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DSERDEAM_DASH_RXN": {
+    "rxn00166_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000173446
+        "MIN": 0.500000000038205
     },
-    "C12_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn08440_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "6_PERIOD_3_PERIOD_5_PERIOD_6_DASH_RXN": {
-        "MAX": 0.11452021552979506,
-        "MIN": -0.1030681939767119
+    "rxn06619_c0": {
+        "MAX": 0.11452021552896305,
+        "MIN": -0.1030681939766973
     },
-    "CHD_DASH_RXN": {
+    "rxn10770_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_PI_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": -0.34600061870307874,
-        "MIN": 0.5960006186961565
+        "MAX": -0.3460006187070479,
+        "MIN": 0.5960006186865773
     },
-    "NITRATREDUCT_DASH_RXN": {
+    "rxn12498_c0": {
         "MAX": 0.0,
-        "MIN": 0.5000000000101795
+        "MIN": 0.5000000000014545
     },
-    "THYMIDYLATE_DASH_5_APOST__DASH_PHOSPHATASE_DASH_RXN": {
-        "MAX": 0.24999999999629463,
-        "MIN": 0.0
+    "rxn01145_c0": {
+        "MAX": 0.24999999999172806,
+        "MIN": 8.209134455434755e-15
     },
-    "GLUTARYL_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 1000.0000000000017,
+    "rxn01802_c0": {
+        "MAX": 999.9999999999999,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_104_DASH_BIS": {
+    "rxn12366_c0": {
         "MAX": 0.0,
-        "MIN": 32.7341617601946
+        "MIN": 32.73416176028025
     },
-    "SERINE_DASH_O_DASH_ACETTRAN_DASH_RXN": {
-        "MAX": 999.193206694482,
-        "MIN": 999.8918683237466
+    "rxn00423_c0": {
+        "MAX": 998.3667391144222,
+        "MIN": 999.8918683237476
     },
-    "C5_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn12283_c0": {
         "MAX": 0.0,
-        "MIN": 19.64049705614714
+        "MIN": 19.640497056158758
     },
-    "C6_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 749.9304476464417,
-        "MIN": 766.4283356609575
+    "rxn03249_c0": {
+        "MAX": 749.9304476464329,
+        "MIN": 766.4283356609335
     },
-    "C14_COLON_1_LPAREN_C5_RPAREN__DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.9527523647727
+    "rxn12314_c0": {
+        "MAX": 999.9999999999999,
+        "MIN": 999.952752364773
     },
     "EXF_DASH_CPD_DASH_218_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "1_PERIOD_6_PERIOD_1_PERIOD_2_DASH_RXN": {
+    "rxn09295_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "RXN_DASH_1126": {
+    "rxn01427_c0": {
         "MAX": 0.0,
-        "MIN": 10.911387253410254
+        "MIN": 10.911387253424266
     },
-    "TRANS_DASH_RXN_DASH_CONIFERYL_DASH_ALDEHYDE": {
+    "rxn12399_c0": {
         "MAX": 0.0,
-        "MIN": 0.781295632010133
+        "MIN": 0.7812956320197277
     },
-    "C6_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 749.9304476464312,
-        "MIN": 766.4283356609462
+    "rxn03250_c0": {
+        "MAX": 749.9304476464339,
+        "MIN": 766.4283356609482
     },
     "EXF_DASH_GLYCEROL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 32.734161760236454,
+        "MAX": 32.73416176023025,
         "MIN": 0.0
     },
-    "4OH2OXOGLUTARALDOL_DASH_RXN": {
+    "rxn00328_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_CPD_DASH_3571_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 16.36708088012249,
+        "MAX": 16.367080880138534,
         "MIN": 0.0
     },
-    "HOMOCYSMET_DASH_RXN": {
+    "rxn03052_c0": {
         "MAX": 1000.0,
-        "MIN": 999.3365408277873
+        "MIN": 999.3365408277845
     },
-    "PREPHENATE_DASH_TRANSAMINE_DASH_RXN": {
+    "rxn05036_c0": {
         "MAX": 1000.0,
         "MIN": 999.9467780755849
     },
-    "PYRIMSYN3_DASH_RXN": {
-        "MAX": 0.0018753638071063261,
-        "MIN": -0.001687827426393973
+    "rxn03108_c0": {
+        "MAX": 0.0018753638071097275,
+        "MIN": -0.0016878274263935717
     },
-    "HOMOSERINE_DASH_O_DASH_ACETYLTRANSFERASE_DASH_RXN": {
-        "MAX": 0.44386974041321187,
-        "MIN": -0.05322192441501729
+    "rxn01303_c0": {
+        "MAX": 0.44386974040739174,
+        "MIN": -0.05322192441468719
     },
-    "THI_DASH_P_DASH_SYN_DASH_RXN": {
-        "MAX": 0.0018753638071147558,
-        "MIN": -0.0016878274263939727
+    "rxn02305_c0": {
+        "MAX": 0.0018753638071200838,
+        "MIN": -0.001687827426393573
     },
-    "IMIDPHOSDEHYD_DASH_RXN": {
-        "MAX": 0.028630053882412573,
-        "MIN": -0.025767048494176395
+    "rxn02473_c0": {
+        "MAX": 0.028630053882546264,
+        "MIN": -0.025767048494170285
     },
     "EXF_DASH_L_DASH_LACTATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 32.734161760232986,
+        "MAX": 32.734161760280756,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXN_DASH_151": {
+    "rxn12369_c0": {
         "MAX": 1000.0,
-        "MIN": 999.8918683237424
+        "MIN": 999.8918683237503
     },
-    "THI_DASH_P_DASH_KIN_DASH_RXN": {
-        "MAX": 0.0018753638071036202,
-        "MIN": -0.0016878274263940841
+    "rxn00438_c0": {
+        "MAX": 0.0018753638071004506,
+        "MIN": -0.0016878274263936288
     },
-    "C14_COLON_0_DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.9992933451293,
-        "MIN": 999.9858961308114
+    "rxn12309_c0": {
+        "MAX": 999.9992933451266,
+        "MIN": 999.9858961307879
     },
-    "PYRUVDEH_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "TRIOSEPISOMERIZATION_DASH_RXN": {
-        "MAX": 366.42999369719894,
-        "MIN": 332.9267644305747
-    },
-    "C14_COLON_0_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn00154_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "C16_COLON_0_DASH_COA_DASH_THIOLASE_DASH_RXN": {
+    "rxn00747_c0": {
+        "MAX": 366.4299936972378,
+        "MIN": -0.3624986036475289
+    },
+    "rxn05736_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "DIHYDRONEOPTERIN_DASH_MONO_DASH_P_DASH_DEPHOS_DASH_RXN": {
-        "MAX": 0.0018753638070130802,
-        "MIN": -0.0016878274266590647
-    },
-    "C18_COLON_0_DASH_3HYDROXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9952101175146,
-        "MIN": 999.9999999999989
-    },
-    "NITRILE_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "TRANS_DASH_RXN_DASH_BUTYRIC_ACID": {
-        "MAX": 0.0,
-        "MIN": 24.55062132019365
-    },
-    "2OXOGLUTARATEDEH_DASH_RXN": {
+    "rxn00943_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "TRANS_DASH_RXN_DASH_SO3_DASH_OUT": {
-        "MAX": 4.891868323743963,
-        "MIN": 1.4958236341074653e-13
+    "rxn03168_c0": {
+        "MAX": 0.001875363807268884,
+        "MIN": -0.0016878274266589706
     },
-    "UDPKIN_DASH_RXN": {
-        "MAX": 1000.0,
+    "rxn12277_c0": {
+        "MAX": 999.9952101175138,
         "MIN": 1000.0
     },
-    "UGD_DASH_RXN": {
+    "rxn12231_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 999.9999999999998,
-        "MIN": 999.9527523647727
-    },
-    "TRANS_DASH_RXNIM_DASH_5876": {
+    "rxn08184_c0": {
         "MAX": 0.0,
-        "MIN": 16.36708088011157
+        "MIN": 24.550621320185584
     },
-    "TRANS_DASH_RXNIM_DASH_5874": {
+    "rxn08094_c0": {
+        "MAX": 999.0609360006457,
+        "MIN": 1000.0
+    },
+    "rxn09260_c0": {
+        "MAX": 4.891868323744757,
+        "MIN": 1.720847676992095e-13
+    },
+    "rxn00117_c0": {
+        "MAX": 1000.0,
+        "MIN": 1000.0
+    },
+    "rxn00211_c0": {
         "MAX": 0.0,
-        "MIN": 0.12499999999451919
+        "MIN": 0.0
     },
-    "PANTOTHENATE_DASH_KIN_DASH_RXN": {
-        "MAX": 0.0018753638055674035,
-        "MIN": -0.0016878274255884554
+    "rxn12316_c0": {
+        "MAX": 1000.0000000000006,
+        "MIN": 999.9527523647724
     },
-    "GLYOXII_DASH_RXN": {
+    "rxn08581_c0": {
+        "MAX": 0.0,
+        "MIN": 16.367080880117886
+    },
+    "rxn12440_c0": {
+        "MAX": 0.0,
+        "MIN": 0.12499999999938849
+    },
+    "rxn12510_c0": {
+        "MAX": 0.0018753638042305544,
+        "MIN": -0.0016878274259527143
+    },
+    "rxn01274_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_PRO_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.5000000000196565,
+        "MAX": 0.5000000000103767,
         "MIN": 0.0
     },
-    "ASPARTATE_DASH_SEMIALDEHYDE_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 0.9519572061262694,
-        "MIN": -0.4519572061374817
+    "rxn01643_c0": {
+        "MAX": 0.9519572061196043,
+        "MIN": -0.4519572061409069
     },
-    "KDOTRANS_DASH_RXN": {
-        "MAX": 0.00044612049800065286,
-        "MIN": -0.0004015084481985441
+    "rxn03182_c0": {
+        "MAX": 0.0004461204979989132,
+        "MIN": -0.00040150844819834055
     },
     "EXF_DASH_GLUTARATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 19.64049705616655,
+        "MAX": 19.640497056147318,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXNIM_DASH_5720": {
+    "rxn05466_c0": {
         "MAX": 5.000000000000001,
-        "MIN": -4.500000000096271
+        "MIN": -4.500000000007648
     },
-    "GTP_DASH_CYCLOHYDRO_DASH_II_DASH_RXN": {
-        "MAX": 0.003281886662462951,
-        "MIN": -0.002953697996819892
+    "rxn00300_c0": {
+        "MAX": 0.003281886662463412,
+        "MIN": -0.0029536979961884676
     },
-    "C18_COLON_0_DASH_ACP_DASH_HYDROLASE_DASH_RXN": {
-        "MAX": 999.9952689369123,
-        "MIN": 999.9999411806122
+    "rxn12323_c0": {
+        "MAX": 999.9952689369119,
+        "MIN": 999.999941180604
     },
     "ACETOOHBUTREDUCTOISOM_DASH_RXN": {
-        "MAX": 0.14315026941261777,
-        "MIN": -0.12883524247087025
+        "MAX": 0.14315026941228537,
+        "MIN": -0.12883524247084946
     },
-    "AMP_DASH_DEPHOSPHORYLATION_DASH_RXN": {
+    "rxn00132_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "BENZOATE_DASH_DIOXYGENASE_DASH_NON_DASH_DECARBOX_DASH_RXN": {
+    "rxn03897_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468672022
+        "MIN": 14.028926468674692
     },
-    "C6_COLON_0_DASH_CARBOXY_DASH_COATRANSFERASE_DASH_RXN": {
+    "rxn04753_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880115
+        "MIN": 16.367080880128782
     },
-    "C12_COLON_0_DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 749.9304476464324,
-        "MIN": 757.2218526658779
+    "rxn02911_c0": {
+        "MAX": 749.9304476464316,
+        "MIN": 757.2218526658861
     },
-    "ORNCARBAMTRANSFER_DASH_RXN": {
-        "MAX": 999.8384558976844,
-        "MIN": 999.9226988545197
+    "rxn01019_c0": {
+        "MAX": 999.838455897686,
+        "MIN": 999.922698854517
     },
-    "TRANS_DASH_RXN_DASH_URIDINE": {
+    "rxn12460_c0": {
         "MAX": 0.0,
-        "MIN": 0.2499999999890054
+        "MIN": 0.25000000000741485
     },
     "EXF_DASH_C14_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 7.0144632343274536,
+        "MAX": 7.014463234338125,
         "MIN": 0.0
     },
-    "6_PERIOD_2_PERIOD_1_PERIOD_34_DASH_RXN": {
+    "rxn01571_c0": {
         "MAX": 0.0,
-        "MIN": 0.7812956319972367
+        "MIN": 0.781295632013971
     },
-    "THYMIDYLATESYN_DASH_RXN": {
-        "MAX": 0.2624236017778768,
-        "MIN": -0.012423601780083034
+    "rxn01520_c0": {
+        "MAX": 0.2624236017778079,
+        "MIN": -0.012423601780490415
     },
-    "GLYC3PDEHYDROGBIOSYN_DASH_RXN": {
-        "MAX": 999.9711265724418,
+    "rxn00611_c0": {
+        "MAX": 999.9711265724371,
         "MIN": 1000.0
     },
     "EXF_DASH_BENZOATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.0289264686667,
+        "MAX": 14.028926468680183,
         "MIN": 0.0
     },
-    "C10_COLON_0_DASH_CARBOXYCOA_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12253_c0": {
         "MAX": 0.0,
-        "MIN": 9.820248528067657
+        "MIN": 9.82024852806805
     },
-    "RXN0_DASH_902": {
+    "rxn01297_c0": {
         "MAX": 1000.0,
-        "MIN": 999.9309600325539
+        "MIN": 999.9309600325543
     },
-    "RXN0_DASH_901": {
-        "MAX": 0.0,
-        "MIN": 0.0
-    },
-    "PRPPSYN_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.6341620729391
-    },
-    "CPD_DASH_1301_DASH_ACTIVATION_DASH_RXN": {
-        "MAX": 999.9999999999995,
-        "MIN": 999.336540827781
-    },
-    "PROTOPORGENOXI_DASH_RXN": {
-        "MAX": 0.0018753638070969439,
-        "MIN": -0.001687827426393957
-    },
-    "TRANS_DASH_RXN_DASH_C14_COLON_0": {
-        "MAX": 0.0,
-        "MIN": 7.014463234329918
-    },
-    "GLUTRACE_DASH_RXN": {
-        "MAX": 0.013588393679954458,
-        "MIN": -0.012229554311981423
-    },
-    "DIAMINOPIMDECARB_DASH_RXN": {
-        "MAX": 0.378835242467409,
-        "MIN": -0.1288352424705707
-    },
-    "C5_COLON_0_DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 0.0,
-        "MIN": 19.640497056139765
-    },
-    "HEMEOSYN_DASH_RXN": {
+    "rxn01522_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "C4_COLON_0_DASH_3OXOACP_DASH_REDUCTASE_DASH_RXN": {
-        "MAX": 749.993903055117,
-        "MIN": 749.9977993721482
+    "rxn00770_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.634162072948
     },
-    "PHOSGLUCOSAMINEMUT_DASH_RXN": {
-        "MAX": 0.028069028355982805,
-        "MIN": -0.025262125520356324
+    "rxn12215_c0": {
+        "MAX": 1000.0,
+        "MIN": 999.3365408277798
     },
-    "NADH_DASH_DEHYDROGENASE_DASH_RXN": {
+    "rxn12219_c0": {
+        "MAX": 0.001875363807100344,
+        "MIN": -0.0016878274263935893
+    },
+    "rxn12387_c0": {
+        "MAX": 0.0,
+        "MIN": 7.014463234338972
+    },
+    "rxn00193_c0": {
+        "MAX": 0.01358839368000061,
+        "MIN": -0.012229554311978532
+    },
+    "rxn00313_c0": {
+        "MAX": 0.3788352424589877,
+        "MIN": -0.12883524247056566
+    },
+    "rxn12286_c0": {
+        "MAX": 0.0,
+        "MIN": 19.64049705612863
+    },
+    "rxn05120_c0": {
+        "MAX": 0.0,
+        "MIN": 0.0
+    },
+    "rxn05339_c0": {
+        "MAX": 749.9939030551169,
+        "MIN": 749.9977993721427
+    },
+    "rxn01485_c0": {
+        "MAX": 0.028069028355918985,
+        "MIN": -0.025262125520353968
+    },
+    "rxn08975_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "1_PERIOD_2_PERIOD_1_PERIOD_9_DASH_RXN": {
-        "MAX": 1000.0,
+    "rxn00779_c0": {
+        "MAX": 999.1735324199747,
         "MIN": 1000.0
     },
-    "GLYCEROL_DASH_KIN_DASH_RXN": {
-        "MAX": 0.0032658121455674234,
-        "MIN": 32.73122252929366
+    "rxn00615_c0": {
+        "MAX": 0.003265812145561689,
+        "MIN": 32.7312225293035
     },
-    "2_PERIOD_5_PERIOD_1_PERIOD_19_DASH_RXN": {
+    "rxn02476_c0": {
         "MAX": 1000.0,
-        "MIN": 1000.0
+        "MIN": 999.9999999999986
     },
-    "OROPRIBTRANS_DASH_RXN": {
-        "MAX": -0.1615441023153199,
-        "MIN": 0.41154410231748145
+    "rxn01362_c0": {
+        "MAX": -0.16154410231507002,
+        "MIN": 0.41154410230911403
     },
-    "C6_COLON_0_DASH_3OXOACP_DASH_SYNTHASE_DASH_RXN": {
-        "MAX": 749.9939030551164,
-        "MIN": 749.997799372142
+    "rxn05346_c0": {
+        "MAX": 749.9939030551162,
+        "MIN": 749.9977993721428
     },
     "EXF_DASH_CARNITINE_LBRACKET_Extraorganism_RBRACKET_": {
         "MAX": 0.0,
         "MIN": 0.0
     },
     "EXF_DASH_C18_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 5.45569362670388,
+        "MAX": 5.455693626701187,
         "MIN": 0.0
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_COA_DASH_DEHYDROGENASE_DASH_RXN": {
-        "MAX": 999.9527523647716,
-        "MIN": 999.9999999999997
+    "rxn12275_c0": {
+        "MAX": 999.9527523647726,
+        "MIN": 999.9999999999999
     },
-    "C5_COLON_0_DASH_CARBOXY3OXOCOA_DASH_THIOLASE_DASH_RXN": {
+    "rxn12257_c0": {
+        "MAX": 1000.0000000000015,
+        "MIN": 1000.0
+    },
+    "rxn00504_c0": {
+        "MAX": 999.8969318060234,
+        "MIN": 1000.0
+    },
+    "rxn00670_c0": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "PYRROLINECARBDEHYDROG_DASH_RXN": {
-        "MAX": 999.8969318060246,
-        "MIN": 1000.0
-    },
-    "PTAALT_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 1000.0
-    },
-    "TRANS_DASH_RXN_DASH_99": {
+    "rxn08213_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "1_PERIOD_2_PERIOD_1_PERIOD_67_DASH_RXN": {
-        "MAX": 8.494288964083545e-16,
-        "MIN": 0.7812956320017226
+    "rxn03969_c0": {
+        "MAX": 0.0,
+        "MIN": 0.7812956319753376
     },
-    "CDPDIGLYSYN_DASH_RXN": {
-        "MAX": 0.02518401446479181,
-        "MIN": -0.0226656130182924
+    "rxn06043_c0": {
+        "MAX": 0.025184014464684733,
+        "MIN": -0.022665613018285343
     },
-    "DIMETHUROPORDEHYDROG_DASH_RXN": {
-        "MAX": 0.0018753638071041941,
-        "MIN": -0.0016878274263939673
+    "rxn02774_c0": {
+        "MAX": 0.0018753638070994573,
+        "MIN": -0.001687827426393442
     },
     "GLYCEROL_DASH_3_DASH_P_DASH_ACYLTRANSFER_DASH_PL_DASH_RXN": {
-        "MAX": 0.02518401446476646,
-        "MIN": -0.022665613018292403
+        "MAX": 0.025184014464702854,
+        "MIN": -0.022665613018285347
     },
     "TRANS_DASH_RXN_DASH_MAL_DASH_DAACS": {
         "MAX": 1000.0,
         "MIN": 1000.0
     },
-    "ASPARTATE_DASH__DASH_TRNAASN_DASH_LIGASE_DASH_RXN": {
-        "MAX": 0.11452021553015652,
-        "MIN": -0.10306819397670305
+    "rxn06433_c0": {
+        "MAX": 0.11452021552876283,
+        "MIN": -0.10306819397668515
     },
-    "TRANS_DASH_RXNIM_DASH_5901": {
+    "rxn05560_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880118806
+        "MIN": 16.36708088010702
     },
-    "RIBOFLAVINSYNDEAM_DASH_RXN": {
-        "MAX": 0.0032818866620996294,
-        "MIN": -0.0029536979960626025
+    "rxn02475_c0": {
+        "MAX": 0.0032818866622111747,
+        "MIN": -0.002953697996189701
     },
-    "PABASYN_DASH_RXN": {
-        "MAX": 0.0018753638072356333,
-        "MIN": -0.0016878274265266862
+    "rxn01257_c0": {
+        "MAX": 0.001875363807157057,
+        "MIN": -0.0016878274266595163
     },
-    "C16_COLON_1_LPAREN_C7_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9527523647708,
-        "MIN": 1000.0000000000002
+    "rxn12272_c0": {
+        "MAX": 999.9527523647723,
+        "MIN": 1000.0000000000003
     },
     "EXF_DASH_BENZYL_DASH_ALCOHOL_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 14.028926468677522,
+        "MAX": 14.028926468664547,
         "MIN": 0.0
     },
-    "TRANS_DASH_RXNIM_DASH_5736_DASH_BIS": {
+    "rxn12429_c0": {
         "MAX": 0.0,
         "MIN": 0.0
     },
-    "1_PERIOD_1_PERIOD_99_PERIOD_25_DASH_RXN": {
+    "rxn01364_c0": {
         "MAX": 0.0,
-        "MIN": 14.028926468664793
+        "MIN": 14.028926468669756
     },
-    "C8_COLON_0_DASH_CARBOXY2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
+    "rxn12258_c0": {
         "MAX": 0.0,
-        "MIN": 12.275310660087097
+        "MIN": 12.275310660096016
     },
     "EXF_DASH_C16_COLON_1_LPAREN_C7_RPAREN__LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 6.137655330042511,
+        "MAX": 6.137655330041423,
         "MIN": 0.0
     },
-    "H2PTERIDINEPYROPHOSPHOKIN_DASH_RXN": {
-        "MAX": 0.0018753638073604466,
-        "MIN": -0.0016878274266595487
+    "rxn02503_c0": {
+        "MAX": 0.0018753638073733506,
+        "MIN": -0.0016878274266590681
     },
-    "TRANS_DASH_RXN_DASH_INOSINE": {
+    "rxn12445_c0": {
         "MAX": 0.0,
-        "MIN": 0.12499999999757208
+        "MIN": 0.12499999999851939
     },
-    "C18_COLON_1_LPAREN_C9_RPAREN__DASH_2ENOYLCOA_DASH_HYDRATASE_DASH_RXN": {
-        "MAX": 999.9675806348785,
-        "MIN": 1000.0000000000006
+    "rxn12278_c0": {
+        "MAX": 999.9675806348739,
+        "MIN": 1000.0000000000007
     },
-    "PGLYCDEHYDROG_DASH_RXN": {
-        "MAX": 1000.0,
-        "MIN": 999.0850750182212
+    "rxn01101_c0": {
+        "MAX": 999.17353241996,
+        "MIN": 999.0850750182275
     },
     "EXF_DASH_C5_COLON_0_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 19.640497056153432,
+        "MAX": 19.640497056141577,
         "MIN": 0.0
     },
-    "RXN_DASH_1241": {
-        "MAX": -1.443900039049993e-13,
-        "MIN": 0.7812956320229716
+    "rxn03970_c0": {
+        "MAX": 0.0,
+        "MIN": 0.7812956320088175
     },
-    "SALICYLATE_DASH_1_DASH_MONOOXYGENASE_DASH_RXN": {
-        "MAX": -1.565057949131598e-13,
-        "MIN": 14.028926468693347
+    "rxn00589_c0": {
+        "MAX": 0.0,
+        "MIN": 14.028926468695389
     },
-    "GTP_DASH_PYROPHOSPHATASE_DASH_RXN": {
-        "MAX": 999.9309600325537,
+    "rxn00301_c0": {
+        "MAX": 999.9309600325539,
         "MIN": 1000.0
     },
     "EXF_DASH_PROPIONATE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 32.73416176022487,
+        "MAX": 32.734161760233995,
         "MIN": 0.0
     },
-    "PGLUCONDEHYDRAT_DASH_RXN": {
+    "rxn01477_c0": {
         "MAX": 0.0,
-        "MIN": 16.367080880123957
+        "MIN": 16.367080880114415
     },
     "EXF_DASH_DEOXYCYTIDINE_LBRACKET_Extraorganism_RBRACKET_": {
-        "MAX": 0.16666666667298974,
+        "MAX": 0.16666666666166086,
         "MIN": 0.0
     },
-    "DUTP_DASH_PYROP_DASH_RXN": {
-        "MAX": 0.26242360177402296,
-        "MIN": -0.012423601780234515
+    "rxn01519_c0": {
+        "MAX": 0.2624236017849043,
+        "MIN": -0.012423601780262883
     },
-    "TRANS_DASH_RXN_DASH_UREA": {
+    "rxn05667_c0": {
         "MAX": 0.0,
-        "MIN": 0.25000000001285877
+        "MIN": 0.2499999999830839
+    },
+    "DgoA": {
+        "MAX": 1000.0,
+        "MIN": 0.0
     }
 }
