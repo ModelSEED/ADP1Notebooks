@@ -1,0 +1,29 @@
+# Core scientific computing packages
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Jupyter notebook support
+jupyter>=1.0.0
+ipython>=8.0.0
+notebook>=7.0.0
+
+# Metabolic modeling packages
+cobra>=0.26.0
+python-libsbml>=5.19.0
+chemicals>=1.4.0
+chemw>=0.3.5
+
+# Excel support for data import/export
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+escher>=1.7.0
+
+# Local dependencies (install in editable mode)
+# Note: These will be installed by bootstrap.sh
+# -e ../KBUtilLib
+# -e ../ADP1Notebooks

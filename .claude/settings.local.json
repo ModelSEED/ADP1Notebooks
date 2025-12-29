@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3:*)",
+      "Bash(cat:*)",
+      "Bash(conda run -n modelseed python3:*)",
+      "Bash(/opt/anaconda3/envs/modelseed/bin/python:*)",
+      "Bash(jupyter-dev create:*)",
+      "Skill(msmodelutl-expert)",
+      "Skill(msmodelutl-expert:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
