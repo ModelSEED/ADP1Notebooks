@@ -12,12 +12,13 @@ base_dir = os.path.dirname(os.path.dirname(script_dir))
 folder_name = os.path.basename(script_dir)
 
 print(base_dir+"/KBUtilLib/src")
-sys.path = [base_dir+"/KBUtilLib/src",base_dir+"/cobrakbase/cobrakbase",base_dir+"/ModelSEEDpy/","/home/chenry/MyEnvs/modelseed_cplex"] + sys.path
+sys.path = [base_dir+"/KBUtilLib/src",base_dir+"/cobrakbase",base_dir+"/ModelSEEDpy/","/home/chenry/MyEnvs/modelseed_cplex"] + sys.path
 
 # Import utilities with error handling
 from kbutillib import MSFBAUtils, AICurationUtils, NotebookUtils, EscherUtils, KBPLMUtils,KBModelUtils,MSBiochemUtils,KBAnnotationUtils
 
 import hashlib
+import sqlite3
 import pandas as pd
 from pandas import DataFrame, read_csv, concat, set_option
 import cobra
@@ -978,5 +979,155 @@ class NotebookUtil(MSFBAUtils, AICurationUtils, NotebookUtils, KBPLMUtils, Esche
 
         return results
 
+    def classify_fva_flux(self, fva_result, flux_value, zero_tol=1e-5):
+        """Classify a reaction based on FVA min/max and pFBA flux.
+
+        Returns a string class:
+            'blocked' - both min and max are zero
+            'essential_fwd' - min > 0 (must carry forward flux)
+            'essential_rev' - max < 0 (must carry reverse flux)
+            'optionally_active_fwd' - min=0, max>0, flux>0
+            'optionally_active_rev' - min<0, max=0, flux<0
+            'variable_fwd' - min<0, max>0, flux>0
+            'variable_rev' - min<0, max>0, flux<0
+            'variable_zero' - min<0, max>0, flux=0
+            'optionally_active_zero_fwd' - min=0, max>0, flux=0
+            'optionally_active_zero_rev' - min<0, max=0, flux=0
+        """
+        mn = fva_result.get("MIN", 0)
+        mx = fva_result.get("MAX", 0)
+        if mn is None:
+            mn = 0
+        if mx is None:
+            mx = 0
+        if abs(mn) < zero_tol and abs(mx) < zero_tol:
+            return "blocked"
+        if mn > zero_tol:
+            return "essential_fwd"
+        if mx < -zero_tol:
+            return "essential_rev"
+        if abs(mn) < zero_tol and mx > zero_tol:
+            if abs(flux_value) > zero_tol:
+                return "optionally_active_fwd"
+            return "optionally_active_zero_fwd"
+        if mn < -zero_tol and abs(mx) < zero_tol:
+            if abs(flux_value) > zero_tol:
+                return "optionally_active_rev"
+            return "optionally_active_zero_rev"
+        # min < 0 and max > 0
+        if flux_value > zero_tol:
+            return "variable_fwd"
+        if flux_value < -zero_tol:
+            return "variable_rev"
+        return "variable_zero"
+
+    def standardize_exchange_id(self, rxn):
+        """Return a standardized exchange ID based on the metabolite being exchanged.
+
+        For reactions with a single metabolite (exchange/demand/sink), returns
+        EX_<cpd_id> where cpd_id is the metabolite ID (e.g. EX_cpd00020).
+        For non-exchange reactions, returns the original ID.
+        """
+        mets = list(rxn.metabolites.keys())
+        if len(mets) == 1:
+            met_id = mets[0].id
+            # Strip compartment suffix (e.g. _e0, _c0)
+            base_id = met_id.rsplit("_", 1)[0] if "_" in met_id else met_id
+            return f"EX_{base_id}"
+        return rxn.id
+
+    def get_exchange_map(self, model):
+        """Build a map from standardized exchange ID to original reaction ID.
+
+        Returns dict: {standardized_id: original_rxn_id}
+        """
+        ex_map = {}
+        for rxn in model.reactions:
+            mets = list(rxn.metabolites.keys())
+            if len(mets) == 1:
+                std_id = self.standardize_exchange_id(rxn)
+                ex_map[std_id] = rxn.id
+        return ex_map
+
+    def compare_reaction_stoichiometry(self, rxn1, rxn2):
+        """Compare stoichiometry and compartment between two reactions.
+
+        Returns a list of difference strings. Empty list means identical.
+        """
+        diffs = []
+        mets1 = {m.id: c for m, c in rxn1.metabolites.items()}
+        mets2 = {m.id: c for m, c in rxn2.metabolites.items()}
+        all_mets = set(mets1.keys()) | set(mets2.keys())
+        for met_id in sorted(all_mets):
+            c1 = mets1.get(met_id)
+            c2 = mets2.get(met_id)
+            if c1 is None:
+                diffs.append(f"{met_id}: missing in published, {c2:g} in modelseed")
+            elif c2 is None:
+                diffs.append(f"{met_id}: {c1:g} in published, missing in modelseed")
+            elif abs(c1 - c2) > 1e-9:
+                diffs.append(f"{met_id}: {c1:g} in published vs {c2:g} in modelseed")
+        return diffs
+
+    def get_reaction_directionality(self, rxn):
+        """Return directionality string for a reaction based on bounds."""
+        if rxn.lower_bound < 0 and rxn.upper_bound > 0:
+            return "reversible"
+        if rxn.lower_bound >= 0:
+            return "forward"
+        if rxn.upper_bound <= 0:
+            return "reverse"
+        return "unknown"
+
+    # Map from published model compartment names to ModelSEED compartment IDs
+    COMPARTMENT_MAP = {
+        "Cytosol": "c0",
+        "Extraorganism": "e0",
+        "Periplasm": "p0",
+        "e": "e0",
+    }
+
+    def normalize_compartment(self, compartment):
+        """Normalize a compartment name to ModelSEED convention (c0, e0, p0).
+
+        Maps nonstandard names used by the published model (Cytosol, Extraorganism,
+        Periplasm, e) to the standard ModelSEED suffixes.
+        Returns the input unchanged if already standard.
+        """
+        return self.COMPARTMENT_MAP.get(compartment, compartment)
+
+    def is_diffusion_reaction(self, rxn):
+        """Check if a reaction is a pure single-compound diffusion reaction.
+
+        Returns True only if the reaction involves exactly one unique compound
+        (by name) moving between compartments with no co-transported species.
+        For example, 'formate <=> formate' is diffusion, but
+        'h+ + hexanoate <=> h+ + hexanoate' is a proton-coupled symporter
+        and is NOT flagged.
+        """
+        name_stoich = {}
+        for met, coeff in rxn.metabolites.items():
+            name_stoich[met.name] = name_stoich.get(met.name, 0) + coeff
+        if not all(abs(v) < 1e-9 for v in name_stoich.values()):
+            return False
+        return len(name_stoich) == 1
+
+    def build_gene_reaction_map(self, model):
+        """Build a map from gene ID to list of reaction IDs.
+
+        Filters out mRNA_ prefixed genes.
+        Returns dict: {gene_id: [rxn_id, ...]}
+        """
+        gene_rxn_map = {}
+        for rxn in model.reactions:
+            for gene in rxn.genes:
+                gid = str(gene)
+                if gid.startswith("mRNA_"):
+                    continue
+                if gid not in gene_rxn_map:
+                    gene_rxn_map[gid] = []
+                gene_rxn_map[gid].append(rxn.id)
+        return gene_rxn_map
+
 # Initialize the NotebookUtil instance
-util = NotebookUtil() 
+util = NotebookUtil()

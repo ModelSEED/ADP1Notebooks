@@ -1,0 +1,189 @@
+{
+  "command_type": "jupyter-dev",
+  "status": "complete",
+  "session_id": "berdl-fold-change-analysis-20260221",
+  "parent_session_id": null,
+  "session_summary": "Created ADP1BERDLFoldChangeAnalysis.ipynb notebook that performs proteomics fold change flux analysis using the BERDL fitness-constrained flux as reference instead of the lactate condition flux.",
+
+  "project": {
+    "name": "ADP1Notebooks",
+    "notebook_name": "ADP1BERDLFoldChangeAnalysis",
+    "purpose": "Fold change flux analysis using BERDL fitness-constrained reference flux"
+  },
+
+  "structure": {
+    "directories_created": [],
+    "util_py_status": "existed",
+    "notebook_path": "notebooks/ADP1BERDLFoldChangeAnalysis.ipynb"
+  },
+
+  "notebook_cells": [
+    {
+      "cell_number": 1,
+      "type": "markdown",
+      "purpose": "Introduction - objectives, strains, reference flux source"
+    },
+    {
+      "cell_number": 2,
+      "type": "markdown",
+      "purpose": "Header for proteomics data loading"
+    },
+    {
+      "cell_number": 3,
+      "type": "code",
+      "purpose": "Load proteomics data from Excel, average replicates, save strain info",
+      "data_loaded": [],
+      "data_saved": ["berdl_fc_strains", "berdl_fc_averaged_expression"]
+    },
+    {
+      "cell_number": 4,
+      "type": "markdown",
+      "purpose": "Header for BERDL reference flux loading"
+    },
+    {
+      "cell_number": 5,
+      "type": "code",
+      "purpose": "Load BERDL fitness-constrained flux from ADP1BERDLFitnessFluxFitting datacache",
+      "data_loaded": ["berdl_constrained_pyruvate_result (from ADP1BERDLFitnessFluxFitting)"],
+      "data_saved": ["berdl_fc_reference_flux"]
+    },
+    {
+      "cell_number": 6,
+      "type": "markdown",
+      "purpose": "Header for fold change analysis"
+    },
+    {
+      "cell_number": 7,
+      "type": "code",
+      "purpose": "Run fit_flux_to_proteomics_fold_change_data for all 6 target conditions",
+      "data_loaded": ["berdl_fc_strains", "berdl_fc_averaged_expression", "berdl_fc_reference_flux", "ADP1Genome"],
+      "data_saved": ["ADP1BERDLFoldChangeAnalysis"]
+    },
+    {
+      "cell_number": 8,
+      "type": "markdown",
+      "purpose": "Header for summary statistics"
+    },
+    {
+      "cell_number": 9,
+      "type": "code",
+      "purpose": "Generate summary table comparing all conditions, save to Excel",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 10,
+      "type": "markdown",
+      "purpose": "Header for protein analysis"
+    },
+    {
+      "cell_number": 11,
+      "type": "code",
+      "purpose": "Analyze proteins with significant fold changes not implemented",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 12,
+      "type": "markdown",
+      "purpose": "Header for comparison with lactate-based analysis"
+    },
+    {
+      "cell_number": 13,
+      "type": "code",
+      "purpose": "Compare BERDL vs lactate reference flux results, correlate fitted fluxes",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis", "ADP1FoldChangeAnalysis (from ADP1FoldChangeAnalysis)"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 14,
+      "type": "markdown",
+      "purpose": "Header for Escher reference flux visualization"
+    },
+    {
+      "cell_number": 15,
+      "type": "code",
+      "purpose": "Visualize BERDL reference flux on Escher map",
+      "data_loaded": ["berdl_fc_reference_flux"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 16,
+      "type": "markdown",
+      "purpose": "Header for fitted flux visualization"
+    },
+    {
+      "cell_number": 17,
+      "type": "code",
+      "purpose": "Visualize fitted flux for selected condition on Escher map",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 18,
+      "type": "markdown",
+      "purpose": "Header for flux differential visualization"
+    },
+    {
+      "cell_number": 19,
+      "type": "code",
+      "purpose": "Compute and visualize flux differential (fitted - reference) on Escher map",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis", "berdl_fc_reference_flux"],
+      "data_saved": []
+    },
+    {
+      "cell_number": 20,
+      "type": "markdown",
+      "purpose": "Header for batch map generation"
+    },
+    {
+      "cell_number": 21,
+      "type": "code",
+      "purpose": "Generate Escher maps for all conditions (fitted + differential)",
+      "data_loaded": ["ADP1BERDLFoldChangeAnalysis", "berdl_fc_reference_flux"],
+      "data_saved": ["berdl_fold_change_escher_files"]
+    }
+  ],
+
+  "utility_functions": [],
+
+  "files": {
+    "created": [
+      {
+        "path": "notebooks/ADP1BERDLFoldChangeAnalysis.ipynb",
+        "purpose": "Fold change flux analysis notebook using BERDL fitness-constrained reference flux",
+        "type": "code"
+      }
+    ],
+    "modified": [],
+    "deleted": []
+  },
+
+  "artifacts": {
+    "notebook_filename": "notebooks/ADP1BERDLFoldChangeAnalysis.ipynb",
+    "util_py_path": "notebooks/util.py",
+    "cell_count": 21,
+    "utility_function_count": 0
+  },
+
+  "validation": {
+    "all_cells_have_markdown": true,
+    "all_cells_start_with_run_util": true,
+    "data_loading_uses_util_load": true,
+    "data_saving_uses_util_save": true,
+    "cells_independent": true,
+    "files_in_correct_directories": true
+  },
+
+  "comments": [
+    "Notebook mirrors ADP1FoldChangeAnalysis structure but uses BERDL fitness-constrained flux as reference",
+    "Reference flux loaded from ADP1BERDLFitnessFluxFitting datacache via notebook_name parameter",
+    "Added comparison cell (cell 13) that correlates BERDL vs lactate-based results",
+    "All datacache keys prefixed with berdl_fc_ to avoid collisions with ADP1FoldChangeAnalysis",
+    "Same model setup as ADP1FoldChangeAnalysis (DgoA allowed, rxn01332 knocked out)",
+    "Same proteomics data, same strains, same fold change fitting parameters"
+  ],
+
+  "queries_for_user": [],
+  "errors": []
+}

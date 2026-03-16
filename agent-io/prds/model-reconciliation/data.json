@@ -1,0 +1,150 @@
+{
+  "command_type": "jupyter-dev",
+  "status": "complete",
+  "session_id": "model-reconciliation-20260201",
+  "parent_session_id": null,
+  "session_summary": "Created ModelReconciliation notebook comparing published ADP1 model vs ModelSEED model with pFBA, FVA at 50% optimum in pyruvate media, and comprehensive comparison dataframe.",
+
+  "project": {
+    "name": "ADP1NotebookUtils",
+    "notebook_name": "ModelReconciliation",
+    "purpose": "Compare published and ModelSEED metabolic models of ADP1 in shared namespace"
+  },
+
+  "structure": {
+    "directories_created": [],
+    "util_py_status": "modified",
+    "notebook_path": "notebooks/ModelReconciliation.ipynb"
+  },
+
+  "notebook_cells": [
+    {
+      "cell_number": 1,
+      "type": "markdown",
+      "purpose": "Title and overview of reconciliation workflow",
+      "data_loaded": [],
+      "data_saved": []
+    },
+    {
+      "cell_number": 2,
+      "type": "markdown",
+      "purpose": "Description of Cell 1: Load models",
+      "data_loaded": [],
+      "data_saved": []
+    },
+    {
+      "cell_number": 3,
+      "type": "code",
+      "purpose": "Load published model from JSON and ModelSEED model from KBase, save model info",
+      "data_loaded": [],
+      "data_saved": ["ModelReconciliation/model_info"]
+    },
+    {
+      "cell_number": 4,
+      "type": "markdown",
+      "purpose": "Description of Cell 2: Run pFBA and FVA",
+      "data_loaded": [],
+      "data_saved": []
+    },
+    {
+      "cell_number": 5,
+      "type": "code",
+      "purpose": "Run pFBA and FVA at 50% optimum on both models in pyruvate media",
+      "data_loaded": [],
+      "data_saved": ["ModelReconciliation/published_pyr_results", "ModelReconciliation/modelseed_pyr_results"]
+    },
+    {
+      "cell_number": 6,
+      "type": "markdown",
+      "purpose": "Description of Cell 3: Build comparison dataframe",
+      "data_loaded": [],
+      "data_saved": []
+    },
+    {
+      "cell_number": 7,
+      "type": "code",
+      "purpose": "Build comprehensive comparison dataframe with flux, FVA class, membership, genes, directionality, equation, stoichiometry differences",
+      "data_loaded": ["ModelReconciliation/published_pyr_results", "ModelReconciliation/modelseed_pyr_results"],
+      "data_saved": ["ModelReconciliation/comparison_dataframe"]
+    }
+  ],
+
+  "utility_functions": [
+    {
+      "name": "classify_fva_flux",
+      "purpose": "Classify reaction FVA results into categories (blocked, essential_fwd, essential_rev, variable, optionally_active, etc.)",
+      "added_to_util_py": true
+    },
+    {
+      "name": "standardize_exchange_id",
+      "purpose": "Standardize exchange reaction IDs to EX_cpd<ID> format across models",
+      "added_to_util_py": true
+    },
+    {
+      "name": "get_exchange_map",
+      "purpose": "Build map from standardized exchange ID to original reaction ID",
+      "added_to_util_py": true
+    },
+    {
+      "name": "compare_reaction_stoichiometry",
+      "purpose": "Compare stoichiometry and compartment between two reactions",
+      "added_to_util_py": true
+    },
+    {
+      "name": "get_reaction_directionality",
+      "purpose": "Return directionality string (forward/reverse/reversible) for a reaction",
+      "added_to_util_py": true
+    },
+    {
+      "name": "build_gene_reaction_map",
+      "purpose": "Build gene-to-reaction-list map, filtering mRNA_ genes",
+      "added_to_util_py": true
+    }
+  ],
+
+  "files": {
+    "created": [
+      {
+        "path": "notebooks/ModelReconciliation.ipynb",
+        "purpose": "Notebook comparing published vs ModelSEED ADP1 models",
+        "type": "code"
+      }
+    ],
+    "modified": [
+      {
+        "path": "notebooks/util.py",
+        "changes": "Added 6 utility methods: classify_fva_flux, standardize_exchange_id, get_exchange_map, compare_reaction_stoichiometry, get_reaction_directionality, build_gene_reaction_map"
+      }
+    ],
+    "deleted": []
+  },
+
+  "artifacts": {
+    "notebook_filename": "notebooks/ModelReconciliation.ipynb",
+    "util_py_path": "notebooks/util.py",
+    "cell_count": 7,
+    "utility_function_count": 6
+  },
+
+  "validation": {
+    "all_cells_have_markdown": true,
+    "all_cells_start_with_run_util": true,
+    "data_loading_uses_util_load": true,
+    "data_saving_uses_util_save": true,
+    "cells_independent": true,
+    "files_in_correct_directories": true
+  },
+
+  "comments": [
+    "Published model uses GROWTH_DASH_RXN as biomass; ModelSEED uses bio1",
+    "Published model exchanges use EXF_DASH_*_LBRACKET_Extraorganism_RBRACKET_ format; ModelSEED uses EX_cpd*_e0",
+    "Exchange IDs are standardized to EX_cpd<ID> format for consistent comparison",
+    "FVA runs at 50% optimum as requested",
+    "Cell 2 reloads models fresh (no cached model objects) to ensure media/objective are cleanly set",
+    "Cell 3 loads only cached flux/FVA results but reloads models for structure comparison",
+    "Output TSV saved to nboutput/model_reconciliation.tsv"
+  ],
+
+  "queries_for_user": [],
+  "errors": []
+}
