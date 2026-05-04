@@ -21,3 +21,7 @@ notebooks/nboutput/
 
 # Office temp files
 ~$*
+
+# Large data inputs (kept locally / on Dropbox; uploaded to DocDB if archival)
+notebooks/data/berdl_tables.db
+notebooks/data/Paper Planning for AI-ALE Project.docx
