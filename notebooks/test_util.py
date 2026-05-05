@@ -36,6 +36,21 @@ class TestSessionFor:
         assert hasattr(session, "cache")
         assert session._project_name == "ADP1Notebooks"
 
+    def test_session_for_fitness_flux_fitting(self):
+        session = session_for("ADP1BERDLFitnessFluxFitting.ipynb")
+        assert hasattr(session, "cache")
+        assert session._project_name == "ADP1Notebooks"
+
+    def test_session_for_berdl_analysis(self):
+        session = session_for("ADP1BERDLAnalysis.ipynb")
+        assert hasattr(session, "cache")
+        assert session._project_name == "ADP1Notebooks"
+
+    def test_session_for_cross_sample(self):
+        session = session_for("ADP1BERDLCrossSampleAnalysis.ipynb")
+        assert hasattr(session, "cache")
+        assert session._project_name == "ADP1Notebooks"
+
 
 # ---------------------------------------------------------------------------
 # Compartment utilities
