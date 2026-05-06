@@ -1,33 +1,64 @@
-"""ADP1 Notebook utilities — thin helpers over kbutillib.notebook.NotebookSession."""
+"""adp1notebooks util -- runs as %run util.py at the top of every cell.
+
+Provides: common imports, project NotebookSession (named `session`), and
+project-specific helper functions (added below the marker by migration tasks).
+"""
 from __future__ import annotations
 
-import json
-import math
-import re
-from pathlib import Path
-from typing import Any
+# === System path bootstrap =================================================
+# Prepend machine-specific Python paths from KBUtilLib/machine_configs/<alias>.yaml
+# (sys_paths: field) before any heavy imports. Lets each machine declare extra
+# paths needed for binary-bundled libs (e.g., CPLEX, modelseed_cplex) without
+# per-project hardcoding. Silent no-op if not resolvable.
+import sys as _sys
+from pathlib import Path as _Path
+def _bootstrap_sys_paths() -> None:
+    try:
+        from kbutillib.cli.machine import resolve_alias, load_machine_config
+        alias = resolve_alias(prompt_fallback=False)
+        if alias is None:
+            return
+        cfg = load_machine_config(alias)
+        for p in cfg.get("sys_paths", []) or []:
+            expanded = str(_Path(p).expanduser())
+            if expanded and expanded not in _sys.path:
+                _sys.path.insert(0, expanded)
+    except Exception:
+        pass
+_bootstrap_sys_paths()
+# ===========================================================================
 
-import cobra
+import json, math, os, re
+from pathlib import Path
+from typing import Any, Optional
+
 import numpy as np
 import pandas as pd
+try:
+    import cobra
+    from cobra import Reaction, Metabolite
+except ImportError:
+    cobra = None  # type: ignore
 
 from kbutillib.notebook import NotebookSession
+from kbutillib.notebook.schema import (
+    Sample, Computation, ExternalDataset, Experiment,
+    Strain, Mutation, Media,
+    Vector, VectorType, EntityKind, EntityRef,
+)
+
+# Auto-detect notebook name from IPython runtime.
+session: NotebookSession = NotebookSession.for_notebook(
+    None, project_name="adp1notebooks"
+)
 
 
-# ---------------------------------------------------------------------------
-# Session helper
-# ---------------------------------------------------------------------------
+def session_for(notebook_file: Optional[str] = None) -> NotebookSession:
+    """Back-compat shim. Prefer the module-level `session`."""
+    return NotebookSession.for_notebook(notebook_file, project_name="adp1notebooks")
 
-def session_for(notebook_file: str | None = None) -> NotebookSession:
-    """Return a configured NotebookSession for the calling notebook.
 
-    Parameters
-    ----------
-    notebook_file : str, optional
-        Explicit path to the .ipynb file. If *None*, auto-detection is used.
-    """
-    return NotebookSession.for_notebook(notebook_file, project_name="ADP1Notebooks")
-
+# === project-specific helpers below ===
 
 # ---------------------------------------------------------------------------
 # Compartment utilities
@@ -291,7 +322,23 @@ def translate_expression_gene_ids(
 
 
 # ---------------------------------------------------------------------------
-# Fold-change flux simulation (ported from util_legacy.process_strain_with_expression)
+# Fold-change flux simulation
+# ---------------------------------------------------------------------------
+# DEPRECATED 2026-05-05: this function reimplemented fold-change FBA with a
+# naive bound-nudging heuristic that does NOT match the legacy algorithm.
+# The legacy code (util_legacy.process_strain_with_expression) and the cell-1
+# documentation both call MSExpression.fit_flux_to_proteomics_fold_change_data
+# (modelseedpy.multiomics.msexpression). Use that directly:
+#
+#   from modelseedpy import MSExpression, MSModelUtil
+#   expression = MSExpression.from_dataframe(df, ...)
+#   result = expression.fit_flux_to_proteomics_fold_change_data(
+#       model=MSModelUtil.get(model_copy),
+#       reference_condition=ref, target_condition=tgt,
+#       reference_flux=reference_flux,
+#   )
+#
+# Kept here only to avoid breaking imports; will be removed in Phase 4d.
 # ---------------------------------------------------------------------------
 
 def run_fold_change_simulation(
@@ -301,11 +348,13 @@ def run_fold_change_simulation(
     reference_flux: dict[str, float],
     max_fold_change: float = 3.0,
     max_flux: float = 20.0,
-    biomass_reaction: str = "GROWTH_DASH_RXN",
+    biomass_reaction: str = "bio1",  # ModelSEED convention; was "GROWTH_DASH_RXN" (legacy id, not in current models)
     biomass_fraction: float = 0.25,
     zero_flux: float = 0.001,
 ) -> dict[str, Any]:
-    """Run fold-change-constrained FBA on a cobra model.
+    """DEPRECATED: bound-nudging heuristic; use MSExpression.fit_flux_to_proteomics_fold_change_data instead.
+
+    Run fold-change-constrained FBA on a cobra model.
 
     Takes explicit arguments (no hidden state). Returns a dict with:
         - fluxes: dict[str, float]  (only non-zero)
@@ -334,6 +383,14 @@ def run_fold_change_simulation(
     zero_flux : float
         Small flux value for reactions with zero reference flux.
     """
+    import warnings
+    warnings.warn(
+        "run_fold_change_simulation is a deprecated bound-nudging heuristic; "
+        "use MSExpression.fit_flux_to_proteomics_fold_change_data() instead. "
+        "Will be removed in Phase 4d.",
+        DeprecationWarning,
+        stacklevel=2,
+    )
     from cobra.flux_analysis import pfba
 
     log2_fc_cap = math.log2(max_fold_change)
