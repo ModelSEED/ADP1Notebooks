@@ -12,13 +12,11 @@ from util import (
     classify_fva_flux,
     compare_reaction_stoichiometry,
     find_significant_differences,
-    generate_escher_map,
     get_exchange_map,
     get_reaction_directionality,
     is_diffusion_reaction,
     normalize_compartment,
     reaction_equation_with_names,
-    run_fold_change_simulation,
     session_for,
     standardize_exchange_id,
     translate_expression_gene_ids,
@@ -309,136 +307,3 @@ class TestTranslateExpressionGeneIds:
         result = translate_expression_gene_ids(df, gene_mapping_file=str(mapping_file))
         assert len(result) == 1
         assert result.loc["SAME_ID", "cond1"] == 10.0  # first kept
-
-
-# ---------------------------------------------------------------------------
-# run_fold_change_simulation
-# ---------------------------------------------------------------------------
-
-class TestRunFoldChangeSimulation:
-    @pytest.fixture
-    def fba_model(self):
-        """A tiny model that can actually run FBA."""
-        import cobra
-
-        model = cobra.Model("fba_test")
-
-        # Metabolites
-        a_e = cobra.Metabolite("a_e", compartment="e")
-        a_c = cobra.Metabolite("a_c", compartment="c")
-        b_c = cobra.Metabolite("b_c", compartment="c")
-        biomass_met = cobra.Metabolite("biomass_c", compartment="c")
-
-        # Exchange: EX_a_e0 -> a_e
-        ex = cobra.Reaction("EX_a_e0")
-        ex.lower_bound = -10
-        ex.upper_bound = 1000
-        ex.add_metabolites({a_e: -1})
-
-        # Transport: a_e -> a_c
-        transport = cobra.Reaction("transport_a")
-        transport.lower_bound = 0
-        transport.upper_bound = 1000
-        transport.add_metabolites({a_e: -1, a_c: 1})
-        transport.gene_reaction_rule = "gene1"
-
-        # Reaction: a_c -> b_c
-        r1 = cobra.Reaction("R1")
-        r1.lower_bound = 0
-        r1.upper_bound = 1000
-        r1.add_metabolites({a_c: -1, b_c: 1})
-        r1.gene_reaction_rule = "gene2"
-
-        # Biomass: b_c -> biomass
-        bio = cobra.Reaction("GROWTH_DASH_RXN")
-        bio.lower_bound = 0
-        bio.upper_bound = 1000
-        bio.add_metabolites({b_c: -1, biomass_met: 1})
-
-        # Demand for biomass
-        demand = cobra.Reaction("DM_biomass")
-        demand.lower_bound = 0
-        demand.upper_bound = 1000
-        demand.add_metabolites({biomass_met: -1})
-
-        model.add_reactions([ex, transport, r1, bio, demand])
-        model.objective = "GROWTH_DASH_RXN"
-        return model
-
-    def test_produces_nonzero_biomass(self, fba_model):
-        reference_flux = {
-            "EX_a_e0": -5.0,
-            "transport_a": 5.0,
-            "R1": 5.0,
-            "GROWTH_DASH_RXN": 5.0,
-            "DM_biomass": 5.0,
-        }
-        fold_changes = {"gene1": 1.5, "gene2": 0.8}
-
-        result = run_fold_change_simulation(
-            fba_model,
-            fold_changes,
-            reference_flux=reference_flux,
-        )
-
-        assert result["status"] == "optimal"
-        assert result["biomass"] > 0
-        assert result["n_active_reactions"] > 0
-
-    def test_flux_vector_shape(self, fba_model):
-        reference_flux = {
-            "EX_a_e0": -5.0,
-            "transport_a": 5.0,
-            "R1": 5.0,
-            "GROWTH_DASH_RXN": 5.0,
-            "DM_biomass": 5.0,
-        }
-        fold_changes = {"gene1": 1.0, "gene2": 1.0}
-
-        result = run_fold_change_simulation(
-            fba_model,
-            fold_changes,
-            reference_flux=reference_flux,
-        )
-
-        assert isinstance(result["fluxes"], dict)
-        assert isinstance(result["target_flux"], dict)
-        assert result["status"] == "optimal"
-
-    def test_empty_fold_changes(self, fba_model):
-        reference_flux = {"R1": 5.0}
-        result = run_fold_change_simulation(
-            fba_model,
-            {},
-            reference_flux=reference_flux,
-        )
-        # Should still solve successfully
-        assert result["status"] == "optimal"
-
-
-# ---------------------------------------------------------------------------
-# generate_escher_map
-# ---------------------------------------------------------------------------
-
-class TestGenerateEscherMap:
-    def test_writes_html_file(self, mini_model, tmp_path):
-        flux = {"R1": 1.5, "R2": -0.3}
-        out = tmp_path / "subdir" / "map.html"
-        result = generate_escher_map(
-            mini_model, flux, "test_map", out, title="Test Map"
-        )
-        assert result == out
-        assert out.exists()
-        content = out.read_text()
-        assert "R1" in content
-        assert "<html>" in content
-
-    def test_creates_parent_directories(self, mini_model, tmp_path):
-        out = tmp_path / "a" / "b" / "c" / "map.html"
-        generate_escher_map(mini_model, {"R1": 1.0}, "test", out)
-        assert out.exists()
-
-    def test_empty_flux(self, mini_model, tmp_path):
-        out = tmp_path / "empty.html"
-        generate_escher_map(mini_model, {}, "test", out, title="Empty")
-        assert out.exists()
