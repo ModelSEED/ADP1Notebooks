@@ -4,7 +4,7 @@ This replaces the original 1132-line god-class with a minimal wrapper that
 inherits from KBUtilLib's mixin classes (the same hierarchy the old class used)
 and preserves the custom helper methods notebooks depend on.
 
-Phase 4d will eventually remove all `_legacy` shim cells from notebooks, at
+Phase 5 will eventually remove all `_legacy` shim cells from notebooks, at
 which point this file can be deleted entirely.
 """
 import sys
@@ -430,6 +430,325 @@ class NotebookUtil(MSFBAUtils, AICurationUtils, NotebookUtils, KBPLMUtils, Esche
             summary[strain][dgoa_status] = condition_summary
         self.logger.info(f"Created summary for {len(summary)} strains")
         return summary
+
+    def run_expression_flux_analysis(self, strains, proteomics_file, model_file, media_id,
+                                     knockout_dahp=True, biomass_fraction=0.25,
+                                     default_coef=0.01, activation_threshold=None,
+                                     deactivation_threshold=0.000001, minimal_flux=0.001):
+        """Main orchestrator for expression-constrained flux analysis pipeline.
+
+        Runs complete analysis: loads data, averages replicates, processes all conditions,
+        caches intermediate results, and returns comprehensive results.
+
+        Args:
+            strains (list): List of strain names (e.g., ["ACN2586", "ACN2821", ...])
+            proteomics_file (str): Path to proteomics Excel file
+            model_file (str): Path to metabolic model JSON file
+            media_id (str): KBase media ID (e.g., "KBaseMedia/Carbon-Pyruvic-Acid")
+            knockout_dahp (bool): Whether to knock out DAHP synthase (default: True)
+            biomass_fraction (float): Minimum fraction of optimal biomass (default: 0.25)
+            default_coef (float): Default coefficient for expression fitting (default: 0.01)
+            activation_threshold (float): Threshold for activation (default: None)
+            deactivation_threshold (float): Threshold for deactivation (default: 0.000001)
+            minimal_flux (float): Minimal flux for on_on reactions (default: 0.001)
+
+        Returns:
+            dict: Complete results dictionary with keys for each condition (strain_dgoa_status)
+        """
+        from modelseedpy import MSModelUtil
+
+        self.logger.info("=" * 80)
+        self.logger.info("Starting Expression-Constrained Flux Analysis Pipeline")
+        self.logger.info("=" * 80)
+
+        # Step 1: Load base model
+        self.logger.info(f"Step 1: Loading metabolic model from {model_file}")
+        base_model = MSModelUtil.from_cobrapy(model_file)
+        base_model.util = self
+        self.logger.info(f"  Model loaded: {len(base_model.model.reactions)} reactions, {len(base_model.model.metabolites)} metabolites")
+
+        # Step 2: Load media
+        self.logger.info(f"Step 2: Loading media: {media_id}")
+        media = self.get_media(media_id)
+        self.logger.info("  Media loaded")
+
+        # Cache averaged expression
+
+        # Step 5: Process all strain x DGOA conditions
+        self.logger.info(f"Step 5: Processing {len(strains)} strains x 2 DGOA variants = {len(strains) * 2} conditions")
+        results = {}
+        models_dict = {}
+
+        dgoa_variants = [True, False]  # with_dgoa, without_dgoa
+
+        for i, strain in enumerate(strains, 1):
+            self.logger.info(f"\n  [{i}/{len(strains)}] Processing strain: {strain}")
+
+            for with_dgoa in dgoa_variants:
+                dgoa_status = "with_dgoa" if with_dgoa else "without_dgoa"
+                condition_key = f"{strain}_{dgoa_status}"
+
+                self.logger.info(f"    Processing {condition_key}...")
+
+                try:
+                    result = self.process_strain_with_expression(
+                        strain=strain,
+                        expression_data=averaged_expression,
+                        base_model=base_model,
+                        media=media,
+                        with_dgoa=with_dgoa,
+                        knockout_dahp=knockout_dahp,
+                        biomass_fraction=biomass_fraction,
+                        default_coef=default_coef,
+                        activation_threshold=activation_threshold,
+                        deactivation_threshold=deactivation_threshold,
+                        minimal_flux=minimal_flux,
+                    )
+
+                    results[condition_key] = result
+
+                    if result.get("solution_status") == "optimal":
+                        self.logger.info(f"      OK Biomass={result['biomass']:.4f}, Active={result['active_reactions']}, Status={result['solution_status']}")
+                    else:
+                        self.logger.warning(f"      FAIL Status={result['solution_status']}, Biomass={result['biomass']:.4f}")
+
+                    self.save(f"expr_flux_{condition_key}", result)
+
+                except Exception as e:
+                    self.logger.error(f"      FAIL Error: {str(e)}")
+                    results[condition_key] = {
+                        "fluxes": {},
+                        "biomass": 0,
+                        "active_reactions": 0,
+                        "off_reactions": [],
+                        "on_reactions": [],
+                        "dgoa_flux": None,
+                        "solution_status": "error",
+                        "error": str(e),
+                    }
+
+        # Step 6: Create summary
+        self.logger.info("\nStep 6: Creating analysis summary")
+        summary = self.create_expression_flux_summary(results)
+        self.save("expression_flux_summary", summary)
+        self.logger.info("  Summary created and cached")
+
+        # Step 7: Cache complete results
+        self.logger.info("Step 7: Caching complete results")
+        results_metadata = {}
+        for key, val in results.items():
+            results_metadata[key] = {k: v for k, v in val.items() if k != "fluxes"}
+        self.save("expression_flux_results_metadata", results_metadata)
+        self.logger.info("  Results metadata cached")
+
+        # Final summary
+        self.logger.info("\n" + "=" * 80)
+        self.logger.info("Pipeline Complete!")
+        self.logger.info(f"  Total conditions processed: {len(results)}")
+        successful = sum(1 for r in results.values() if r.get("solution_status") == "optimal")
+        self.logger.info(f"  Successful optimizations: {successful}/{len(results)}")
+        self.logger.info(f"  Failed optimizations: {len(results) - successful}/{len(results)}")
+        self.logger.info("=" * 80)
+
+        return results
+
+    def export_expression_flux_to_excel(self, results_dict, output_file, base_model):
+        """Export expression flux analysis results to multi-sheet Excel workbook.
+
+        Creates a summary sheet with overview statistics and individual sheets
+        for each condition with detailed flux data.
+
+        Args:
+            results_dict (dict): Results dictionary with keys like "ACN2586_with_dgoa"
+            output_file (str): Output filename (relative to notebook folder or absolute path)
+            base_model (MSModelUtil): Base metabolic model for extracting reaction metadata
+
+        Returns:
+            str: Full path to created Excel file
+        """
+        try:
+            # Ensure output is in nboutput directory
+            if not output_file.startswith("/"):
+                output_file = f"{self.notebook_folder}/nboutput/{output_file}"
+
+            # Create summary data for the Summary sheet
+            summary_rows = []
+            for condition_key, result_data in results_dict.items():
+                if "_with_dgoa" in condition_key:
+                    strain = condition_key.replace("_with_dgoa", "")
+                    dgoa_status = "with_dgoa"
+                elif "_without_dgoa" in condition_key:
+                    strain = condition_key.replace("_without_dgoa", "")
+                    dgoa_status = "without_dgoa"
+                else:
+                    continue
+
+                row = {
+                    "Strain": strain,
+                    "DGOA_Status": dgoa_status,
+                    "Biomass_Flux": result_data.get("biomass", 0),
+                    "Active_Reactions_Count": result_data.get("active_reactions", 0),
+                    "Off_Reactions_Count": len(result_data.get("off_reactions", [])),
+                    "On_Reactions_Count": len(result_data.get("on_reactions", [])),
+                    "DGOA_Flux": result_data.get("dgoa_flux", "N/A"),
+                    "Solution_Status": result_data.get("solution_status", "unknown"),
+                }
+                summary_rows.append(row)
+
+            summary_df = pd.DataFrame(summary_rows)
+
+            # Create Excel writer
+            with pd.ExcelWriter(output_file, engine="openpyxl") as writer:
+                summary_df.to_excel(writer, sheet_name="Summary", index=False)
+                self.logger.info(f"Wrote Summary sheet with {len(summary_rows)} rows")
+
+                for condition_key, result_data in results_dict.items():
+                    fluxes = result_data.get("fluxes", {})
+                    if not fluxes:
+                        self.logger.warning(f"No fluxes for {condition_key}, skipping sheet")
+                        continue
+
+                    sheet_name = condition_key.replace("_", " ").title()
+                    if len(sheet_name) > 31:
+                        sheet_name = sheet_name.replace("With Dgoa", "W_DGOA").replace("Without Dgoa", "WO_DGOA")
+                    if len(sheet_name) > 31:
+                        sheet_name = sheet_name[:31]
+
+                    condition_rows = []
+                    for rxn_id, flux_value in fluxes.items():
+                        rxn_name = "N/A"
+                        gene_association = "N/A"
+                        try:
+                            rxn = base_model.model.reactions.get_by_id(rxn_id)
+                            rxn_name = rxn.name if rxn.name else rxn_id
+                            genes = [str(g) for g in rxn.genes if not str(g).startswith("mRNA_")]
+                            gene_association = "; ".join(genes) if genes else "spontaneous"
+                        except Exception:
+                            pass
+
+                        condition_rows.append({
+                            "Reaction_ID": rxn_id,
+                            "Reaction_Name": rxn_name,
+                            "Flux": flux_value,
+                            "Gene_Association": gene_association,
+                        })
+
+                    condition_rows.sort(key=lambda x: abs(x["Flux"]), reverse=True)
+                    condition_df = pd.DataFrame(condition_rows)
+                    condition_df.to_excel(writer, sheet_name=sheet_name, index=False)
+                    self.logger.info(f"Wrote sheet '{sheet_name}' with {len(condition_rows)} reactions")
+
+            self.logger.info(f"Excel file created: {output_file}")
+            return output_file
+
+        except Exception as e:
+            self.logger.error(f"Error creating Excel file: {str(e)}")
+            raise
+
+    def generate_all_escher_maps(self, results_dict, models_dict, map_name="Core", base_model_file=None):
+        """Generate Escher metabolic maps for all conditions.
+
+        Creates interactive HTML visualizations showing flux distributions
+        for each strain and DGOA condition.
+
+        Args:
+            results_dict (dict): Results dictionary with keys like "ACN2586_with_dgoa"
+            models_dict (dict): Dictionary mapping condition keys to model objects
+                (used to extract reaction metadata for the maps)
+            map_name (str): Name of Escher map to use (default: "Core")
+            base_model_file (str): Path to base model file to use when models_dict is None
+
+        Returns:
+            list: List of successfully created file paths
+        """
+        from modelseedpy import MSModelUtil
+
+        created_files = []
+        failed_conditions = []
+
+        # Load base model if models_dict is None and base_model_file is provided
+        base_model = None
+        if models_dict is None:
+            if base_model_file is None:
+                default_model_file = "data/FullyTranslatedPublishedModel.json"
+                if os.path.exists(default_model_file):
+                    base_model_file = default_model_file
+                else:
+                    alt_model_file = "data/TranslatedPublishedModel.json"
+                    if os.path.exists(alt_model_file):
+                        base_model_file = alt_model_file
+
+            if base_model_file and os.path.exists(base_model_file):
+                try:
+                    base_model = MSModelUtil.from_cobrapy(base_model_file)
+                    self.logger.info(f"Loaded base model from {base_model_file} for Escher maps")
+                except Exception as e:
+                    self.logger.warning(f"Could not load base model from {base_model_file}: {e}")
+
+        for condition_key, result_data in results_dict.items():
+            try:
+                fluxes = result_data.get("fluxes", {})
+                if not fluxes:
+                    self.logger.warning(f"No fluxes for {condition_key}, skipping Escher map")
+                    failed_conditions.append((condition_key, "No flux data"))
+                    continue
+
+                if "_with_dgoa" in condition_key:
+                    strain = condition_key.replace("_with_dgoa", "")
+                    dgoa_status = "with_dgoa"
+                    title = f"{strain} - With DGOA - Pyruvate Media"
+                elif "_without_dgoa" in condition_key:
+                    strain = condition_key.replace("_without_dgoa", "")
+                    dgoa_status = "without_dgoa"
+                    title = f"{strain} - Without DGOA - Pyruvate Media"
+                else:
+                    self.logger.warning(f"Unexpected condition key format: {condition_key}")
+                    failed_conditions.append((condition_key, "Invalid key format"))
+                    continue
+
+                output_file = f"nboutput/escher_{strain}_{dgoa_status}.html"
+                model = models_dict.get(condition_key) if models_dict else base_model
+
+                if model:
+                    cobra_model = model.model if hasattr(model, "model") else model
+                    result_path = self.create_map_html(
+                        model=cobra_model,
+                        flux_solution=fluxes,
+                        map_name=map_name,
+                        output_file=output_file,
+                        title=title,
+                    )
+                else:
+                    try:
+                        result_path = self.create_map_html(
+                            model=None,
+                            flux_solution=fluxes,
+                            map_name=map_name,
+                            output_file=output_file,
+                            title=title,
+                        )
+                    except Exception as e:
+                        error_msg = f"Cannot create map without model: {str(e)}"
+                        self.logger.error(error_msg)
+                        failed_conditions.append((condition_key, error_msg))
+                        continue
+
+                created_files.append(result_path)
+                self.logger.info(f"Created Escher map: {output_file}")
+
+            except Exception as e:
+                error_msg = f"Error creating Escher map for {condition_key}: {str(e)}"
+                self.logger.error(error_msg)
+                failed_conditions.append((condition_key, str(e)))
+                continue
+
+        self.logger.info(f"Successfully created {len(created_files)} Escher maps")
+        if failed_conditions:
+            self.logger.warning(f"Failed to create maps for {len(failed_conditions)} conditions:")
+            for cond, reason in failed_conditions:
+                self.logger.warning(f"  - {cond}: {reason}")
+
+        return created_files
 
     def classify_fva_flux(self, fva_result, flux_value, zero_tol=1e-5):
         """Classify a reaction based on FVA min/max and pFBA flux."""
